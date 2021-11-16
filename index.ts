@@ -26,8 +26,6 @@ Client.once("ready", () => {
 })
 
 Client.on("messageCreate", async (message) => {
-    console.log(message.content)
-
     if (message.author.bot || message.channel.type != "GUILD_TEXT") return
 
     if(!message.content.startsWith("-")) return
@@ -41,8 +39,17 @@ Client.on("messageCreate", async (message) => {
 
         const data = await CYT.getPos(args[0])
 
-        message.reply({embeds:[new MessageEmbed().setTitle(`Position of ${data?.name}`).setDescription(`**World:** ${data?.world}\n**X:** ${data?.x}\n**Z:** ${data?.z}`)]})
+        console.log(data)
 
+        if (data.name == "Error") {
+            message.reply({content: "Error, could not find player"})
+        } else {
+        message.reply({embeds:[new MessageEmbed().setTitle(`Position of ${data?.name}`).setDescription(`**World:** ${data?.world}\n**X:** ${data?.x}\n**Z:** ${data?.z}`)]})
+        }
+    }
+
+    if (command == "online") {
+        message.reply({content: `There are: ${CYT.getOnlineCount()} players online!`})
     }
 
 })

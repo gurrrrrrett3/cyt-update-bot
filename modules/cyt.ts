@@ -6,11 +6,16 @@ const fuzzyset = require("fuzzyset")
 import Player from './cytplayer';
 import Town from "./cytmarker"
 import { MarkerIconData, MarkerPolygonData } from './cytmarker';
+import { Client } from "..";
+import { MessageEmbed } from "discord.js";
+import { startTime } from "./infochannels";
 
 const playerDataFile = "./data/fetchPlayers.json"
 const worldMarkerDataFile = "./data/fetchWorldMarkers.json"
 const earthMarkerDataFile = "./data/fetchEarthMarkers.json"
 const townsDataFile = "./data/towns.json"
+
+const onlineDataFile = "./data/onlineData.json"
 
 const cookieFile = "./data/cookie.json"
 
@@ -35,15 +40,19 @@ export default class cyt {
     public address: string
     public cookie: string
     public townCount: number
+    public oldPlayers: {
+        players?: Player[]
+    }
     public players: {
 
-        players?: [Player]
+        players?: Player[]
 
     } = JSON.parse(fs.readFileSync(playerDataFile).toString())
 
     constructor(address?: string) {
 
-        this.players = {}
+        this.players = {players: []}
+        this.oldPlayers = {players: []}
         this.address = address ?? defaultAddress
 
         this.lastFetch = Date.now()
@@ -54,9 +63,40 @@ export default class cyt {
     }
 
 
-    public async getOnlineCount() {
+    public getOnlineCount() {
 
-        return this.players.players?.length
+        const onlineData = JSON.parse(fs.readFileSync(onlineDataFile).toString())
+        const d = new Date()
+        const playerCount = this.players.players?.length
+
+        if (!onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`]) {onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`] = {}} 
+        onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`][`${d.getHours()}-${d.getMinutes()}-${d.getSeconds()}`] = playerCount
+        fs.writeFileSync(onlineDataFile, JSON.stringify(onlineData, null, 4))
+
+        //Check for join
+
+        if(this.oldPlayers.players?.length == 0) {
+            this.oldPlayers = this.players
+        }
+
+        this.players.players?.forEach((player) => {
+
+        if (!this.oldPlayers.players?.find((oldPlayer) => oldPlayer.name == player.name))
+
+        Client.channels.cache.get("909871500939624449")?.fetch().then((channel) => {
+
+            if(channel.isText()) {
+
+                channel.send({embeds: [new MessageEmbed().setAuthor(`${player.name} Joined.`).setTimestamp().setThumbnail(`https://visage.surgeplay.com/bust/128/${player.uuid}`)]})
+
+            }
+
+        })
+
+        })
+        this.oldPlayers = this.players
+
+        return playerCount
 
     }
 
@@ -68,13 +108,12 @@ export default class cyt {
 
     public async getPos(playerName: string) {
 
-
-        const nameData = this.fuzzy.get(playerName)[0]
+        const playerData = this.fuzzy.get(playerName)
+        if(!playerData) return new Player({armor: 0, health: 0, name: "Error", uuid: "Player not found", world: "null", x: 0, z: 0, yaw: 0})
+        const nameData = playerData[0]
         const name = nameData[1]
         const percentage = nameData[0]
-
         const data: {
-
             players?: [
                 {
                     armor: number,
@@ -88,7 +127,6 @@ export default class cyt {
 
                 }
             ]
-
         } = JSON.parse(fs.readFileSync(playerDataFile).toString())
 
         const player = new Player(data.players?.find((p) => p.name == name))
@@ -102,8 +140,6 @@ export default class cyt {
     private makeFuzzy() {
 
         const playerMap = this.players.players?.map((p) => (p.name))
-
-        console.log(playerMap)
 
         this.fuzzy = fuzzyset(playerMap)
 
@@ -137,6 +173,10 @@ export default class cyt {
             const json: any = await playerRes.json()
 
             this.players = json
+
+            if(Date.now() - startTime > 10000) {
+                this.oldPlayers = this.players
+            }
 
             this.makeFuzzy()
 
@@ -234,8 +274,10 @@ export default class cyt {
             //sort
             newTowns.sort((a, b) => {
 
-                return b.residents.length - a.residents.length
+                const aName = a.name.toUpperCase()
+                const bName = b.name.toUpperCase()
 
+                return (aName < bName) ? -1 : (aName > bName) ? 1 : 0;
             })
 
             //save

@@ -1,7 +1,7 @@
 import { MessageEmbed } from "discord.js";
 import { Client, CYT } from "..";
 
-const startTime = Date.now()
+export const startTime = Date.now()
 
 export async function update() {
 

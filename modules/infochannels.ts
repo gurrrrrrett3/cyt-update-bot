@@ -72,8 +72,13 @@ function p(s: number) {
     return s.toString().length == 1 ? `0${s}` : s
 };
 
-export function makeMapLink(world: "earth" | "world", x: number, z: number, zoom?: 1 | 2 | 3 | 4 | 5) {
+export function makeMapLink(world: string, x: number, z: number, zoom?: 1 | 2 | 3 | 4 | 5) {
 
-    return `https://zion.craftyourtown.com/?world=${world}&zoom=${zoom??4}&x=${x}&z=${z}`
+    if (world == "world" || world == "earth") {
+
+        return `https://zion.craftyourtown.com/?world=${world}&zoom=${zoom??4}&x=${x}&z=${z}`
+    } else {
+        return "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
 
 }

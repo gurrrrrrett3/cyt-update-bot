@@ -35,7 +35,7 @@
             }
         ],
         "order": 1,
-        "timestamp": 1637237173906
+        "timestamp": 1637328611928
     },
     {
         "hide": false,
@@ -269,28 +269,6 @@
                 "point": {
                     "x": 9784,
                     "z": -4184
-                }
-            },
-            {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">StefanCG </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">StefanCG</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>StefanCG, aN0rmaLy, ShanonN2, Chronix_3</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>StefanCG </bold>\r\n</div>\r\n",
-                "icon": "towny_outpost_icon",
-                "type": "icon",
-                "point": {
-                    "x": -3361,
-                    "z": -8609
                 }
             },
             {
@@ -1489,7 +1467,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">StefanCG </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">StefanCG</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>StefanCG, aN0rmaLy, ShanonN2, Chronix_3</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">StarzyNight </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">KristyQuartz</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>KristyQuartz</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -1498,17 +1476,17 @@
                     "x": 17,
                     "z": 17
                 },
-                "tooltip": "\r\n<div>\r\n    <bold>StefanCG </bold>\r\n</div>\r\n",
+                "tooltip": "\r\n<div>\r\n    <bold>StarzyNight </bold>\r\n</div>\r\n",
                 "icon": "towny_town_icon",
                 "type": "icon",
                 "point": {
-                    "x": -2648,
-                    "z": -9032
+                    "x": -5192,
+                    "z": -7912
                 }
             },
             {
                 "fillColor": "#f5f5dc",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, cillapaige, Eystreem21, fireball105802, NightHawkDB, immariapialol, SnuggieNuggie</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, cillapaige, fireball105802, NightHawkDB, immariapialol, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
                 "color": "#f5f5dc",
                 "tooltip": "\r\n<div>\r\n    <bold>Alabasta </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -1600,24 +1578,24 @@
                                 "z": -7552
                             },
                             {
+                                "x": 4543,
+                                "z": -7553
+                            },
+                            {
+                                "x": 4543,
+                                "z": -7568
+                            },
+                            {
                                 "x": 4528,
-                                "z": -7552
+                                "z": -7568
                             },
                             {
                                 "x": 4527,
-                                "z": -7552
+                                "z": -7568
                             },
                             {
                                 "x": 4512,
-                                "z": -7552
-                            },
-                            {
-                                "x": 4511,
-                                "z": -7552
-                            },
-                            {
-                                "x": 4511,
-                                "z": -7553
+                                "z": -7568
                             },
                             {
                                 "x": 4511,
@@ -12940,44 +12918,52 @@
                     [
                         [
                             {
-                                "x": 5920,
-                                "z": 3135
-                            },
-                            {
-                                "x": 5935,
-                                "z": 3135
-                            },
-                            {
-                                "x": 5935,
-                                "z": 3120
-                            },
-                            {
-                                "x": 5935,
+                                "x": 5952,
                                 "z": 3119
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
+                                "z": 3119
+                            },
+                            {
+                                "x": 5967,
                                 "z": 3104
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
                                 "z": 3103
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
                                 "z": 3088
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
                                 "z": 3087
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
                                 "z": 3072
                             },
                             {
-                                "x": 5935,
+                                "x": 5967,
                                 "z": 3071
+                            },
+                            {
+                                "x": 5967,
+                                "z": 3056
+                            },
+                            {
+                                "x": 5952,
+                                "z": 3056
+                            },
+                            {
+                                "x": 5951,
+                                "z": 3056
+                            },
+                            {
+                                "x": 5936,
+                                "z": 3056
                             },
                             {
                                 "x": 5935,
@@ -12996,12 +12982,28 @@
                                 "z": 3056
                             },
                             {
-                                "x": 5904,
+                                "x": 5903,
+                                "z": 3056
+                            },
+                            {
+                                "x": 5888,
+                                "z": 3056
+                            },
+                            {
+                                "x": 5888,
                                 "z": 3071
                             },
                             {
-                                "x": 5904,
+                                "x": 5888,
                                 "z": 3072
+                            },
+                            {
+                                "x": 5888,
+                                "z": 3087
+                            },
+                            {
+                                "x": 5903,
+                                "z": 3087
                             },
                             {
                                 "x": 5904,
@@ -13034,6 +13036,30 @@
                             {
                                 "x": 5919,
                                 "z": 3135
+                            },
+                            {
+                                "x": 5920,
+                                "z": 3135
+                            },
+                            {
+                                "x": 5935,
+                                "z": 3135
+                            },
+                            {
+                                "x": 5935,
+                                "z": 3120
+                            },
+                            {
+                                "x": 5935,
+                                "z": 3119
+                            },
+                            {
+                                "x": 5936,
+                                "z": 3119
+                            },
+                            {
+                                "x": 5951,
+                                "z": 3119
                             }
                         ]
                     ]
@@ -13044,7 +13070,29 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Desertland (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SmashX101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmashX101, echoingwolf, yumyumchocolate, Promancow, BR__Auberoonie, Edrocket823</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11</span>\r\n</div>",
+                "size": {
+                    "x": 35,
+                    "z": 35
+                },
+                "anchor": {
+                    "x": 17,
+                    "z": 17
+                },
+                "tooltip": "\r\n<div>\r\n    <bold>Phoenix </bold>\r\n</div>\r\n",
+                "icon": "towny_town_icon",
+                "type": "icon",
+                "point": {
+                    "x": 3112,
+                    "z": 1768
+                }
+            },
+            {
+                "tooltip_anchor": {
+                    "x": 0,
+                    "z": -17
+                },
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Desertland (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SmashX101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmashX101, yumyumchocolate, Promancow, BR__Auberoonie, Edrocket823</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -13847,7 +13895,7 @@
             },
             {
                 "fillColor": "#006400",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Vehim, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, aHappyOreo, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
                 "color": "#006400",
                 "tooltip": "\r\n<div>\r\n    <bold>AppleGroves (Harmonia)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -18193,7 +18241,7 @@
             },
             {
                 "fillColor": "#00008b",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, CheeseBeerBoot, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, xEbenx, Mr_French_Frye</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, Mr_French_Frye</span>\r\n</div>",
                 "color": "#00008b",
                 "tooltip": "\r\n<div>\r\n    <bold>Radiance_Reborn (Hot_Boy_Nation)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -19508,7 +19556,7 @@
             },
             {
                 "fillColor": "#8b0000",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">gods_cross </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MadLittleMiss</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MadLittleMiss, CravingFall457, BeefBoss21, LittleMissABD, AxsLeopard, BR__joe12251979, ST0NeD_MoNK, luukvanloo, Bootrapper, DigiMike, GreenEnder12, Wish_official, RandomName1333, Kush_Bush, SkipperThe3rd, PuzzlingBlock38, SillYip29, Escaper197, RedEyedFox, Osprey20, IOUMayonnaise, LodgingTax91851, _yuffy_</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">gods_cross </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MadLittleMiss</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MadLittleMiss, CravingFall457, BeefBoss21, LittleMissABD, AxsLeopard, ST0NeD_MoNK, luukvanloo, Bootrapper, DigiMike, GreenEnder12, Wish_official, RandomName1333, Kush_Bush, SkipperThe3rd, PuzzlingBlock38, SillYip29, Escaper197, RedEyedFox, Osprey20, IOUMayonnaise, LodgingTax91851, _yuffy_</span>\r\n</div>",
                 "color": "#8b0000",
                 "tooltip": "\r\n<div>\r\n    <bold>gods_cross </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -21259,6 +21307,83 @@
                 }
             },
             {
+                "fillColor": "#ff00ff",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">pogtown </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">1Topcat</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>1Topcat, The_Turtle_Lord</span>\r\n</div>",
+                "color": "#ff00ff",
+                "tooltip": "\r\n<div>\r\n    <bold>pogtown </bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": 7424,
+                                "z": 5759
+                            },
+                            {
+                                "x": 7439,
+                                "z": 5759
+                            },
+                            {
+                                "x": 7439,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7424,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7423,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7408,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7407,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7392,
+                                "z": 5744
+                            },
+                            {
+                                "x": 7392,
+                                "z": 5759
+                            },
+                            {
+                                "x": 7392,
+                                "z": 5760
+                            },
+                            {
+                                "x": 7392,
+                                "z": 5775
+                            },
+                            {
+                                "x": 7407,
+                                "z": 5775
+                            },
+                            {
+                                "x": 7408,
+                                "z": 5775
+                            },
+                            {
+                                "x": 7423,
+                                "z": 5775
+                            },
+                            {
+                                "x": 7423,
+                                "z": 5760
+                            },
+                            {
+                                "x": 7423,
+                                "z": 5759
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
                 "tooltip_anchor": {
                     "x": 0,
                     "z": -17
@@ -21278,28 +21403,6 @@
                 "point": {
                     "x": 9496,
                     "z": -4952
-                }
-            },
-            {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Argon_City </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Robby_Rotten</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Robby_Rotten, Ion546, AChubbyUnicorn, Godslayer633, kikiriX, JellyBean97, _antixsocial_, Antigravity59, jcagoncilloo, 0snowy, InsertNam3Here, Ashjamrog, SoulTSC, SuperSmallMidget, M4N4, Corpsis, Evermooree, Island_dude, Gimme_mvp_rank, Sugubat, DemonicAngel9667, ads_gamer_, LowMoeBro, AntiDevilYT, Statikice, Explodia, NuKe_26</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>Argon_City </bold>\r\n</div>\r\n",
-                "icon": "towny_town_icon",
-                "type": "icon",
-                "point": {
-                    "x": -7720,
-                    "z": 2920
                 }
             },
             {
@@ -23235,9 +23338,9 @@
             },
             {
                 "fillColor": "#000000",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedAnger</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedAnger, blgordon, CaliCaliCaliCali, BlakeTheWelf, carjar21321, SlvrPrincess, HoneyHiveBear012, prunu</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedAnger</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedAnger, blgordon, CaliCaliCaliCali, BlakeTheWelf, carjar21321, SlvrPrincess, HoneyHiveBear012, prunu, echoingwolf</span>\r\n</div>",
                 "color": "#000000",
-                "tooltip": "\r\n<div>\r\n    <bold>Red </bold>\r\n</div>\r\n",
+                "tooltip": "\r\n<div>\r\n    <bold>Red (Hot_Boy_Nation)</bold>\r\n</div>\r\n",
                 "type": "polygon",
                 "points": [
                     [
@@ -29525,7 +29628,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, DownSidesh, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -33107,7 +33210,7 @@
             },
             {
                 "fillColor": "#ffffe0",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Osktil (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Moress</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Moress</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Osktil (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Moress</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Moress, fendermitch</span>\r\n</div>",
                 "color": "#ffffe0",
                 "tooltip": "\r\n<div>\r\n    <bold>Osktil (Republic)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -33195,16 +33298,48 @@
                                 "z": 11856
                             },
                             {
-                                "x": 11152,
-                                "z": 11871
-                            },
-                            {
-                                "x": 11152,
-                                "z": 11872
+                                "x": 11151,
+                                "z": 11856
                             },
                             {
                                 "x": 11151,
-                                "z": 11872
+                                "z": 11855
+                            },
+                            {
+                                "x": 11151,
+                                "z": 11840
+                            },
+                            {
+                                "x": 11136,
+                                "z": 11840
+                            },
+                            {
+                                "x": 11135,
+                                "z": 11840
+                            },
+                            {
+                                "x": 11120,
+                                "z": 11840
+                            },
+                            {
+                                "x": 11120,
+                                "z": 11855
+                            },
+                            {
+                                "x": 11120,
+                                "z": 11856
+                            },
+                            {
+                                "x": 11120,
+                                "z": 11871
+                            },
+                            {
+                                "x": 11135,
+                                "z": 11871
+                            },
+                            {
+                                "x": 11136,
+                                "z": 11871
                             },
                             {
                                 "x": 11136,
@@ -33305,340 +33440,6 @@
                             {
                                 "x": 11199,
                                 "z": 11887
-                            }
-                        ]
-                    ]
-                ]
-            },
-            {
-                "fillColor": "#ff00ff",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Derpland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">aDerpling</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>aDerpling</span>\r\n</div>",
-                "color": "#ff00ff",
-                "tooltip": "\r\n<div>\r\n    <bold>Derpland </bold>\r\n</div>\r\n",
-                "type": "polygon",
-                "points": [
-                    [
-                        [
-                            {
-                                "x": 6448,
-                                "z": 2879
-                            },
-                            {
-                                "x": 6463,
-                                "z": 2879
-                            },
-                            {
-                                "x": 6463,
-                                "z": 2864
-                            },
-                            {
-                                "x": 6448,
-                                "z": 2864
-                            }
-                        ]
-                    ]
-                ]
-            },
-            {
-                "fillColor": "#00008b",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">StefanCG </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">StefanCG</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>StefanCG, aN0rmaLy, ShanonN2, Chronix_3</span>\r\n</div>",
-                "color": "#00008b",
-                "tooltip": "\r\n<div>\r\n    <bold>StefanCG </bold>\r\n</div>\r\n",
-                "type": "polygon",
-                "points": [
-                    [
-                        [
-                            {
-                                "x": -2608,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9024
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9025
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9040
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9041
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9056
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9057
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9072
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9073
-                            },
-                            {
-                                "x": -2593,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2608,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2609,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2624,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2625,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2640,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2641,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2656,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2657,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9088
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9073
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9072
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9057
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9056
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9041
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9040
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9025
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9024
-                            },
-                            {
-                                "x": -2672,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2657,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2656,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2641,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2640,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2625,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2624,
-                                "z": -9009
-                            },
-                            {
-                                "x": -2609,
-                                "z": -9009
-                            }
-                        ]
-                    ],
-                    [
-                        [
-                            {
-                                "x": -3328,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8592
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8593
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8608
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8609
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8624
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8625
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8640
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8641
-                            },
-                            {
-                                "x": -3313,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3328,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3329,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3344,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3345,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3360,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3361,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3376,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3377,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8656
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8641
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8640
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8625
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8624
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8609
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8608
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8593
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8592
-                            },
-                            {
-                                "x": -3392,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3377,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3376,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3361,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3360,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3345,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3344,
-                                "z": -8577
-                            },
-                            {
-                                "x": -3329,
-                                "z": -8577
                             }
                         ]
                     ]
@@ -38032,7 +37833,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, cillapaige, Eystreem21, fireball105802, NightHawkDB, immariapialol, SnuggieNuggie</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, cillapaige, fireball105802, NightHawkDB, immariapialol, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -41156,6 +40957,35 @@
                 }
             },
             {
+                "fillColor": "#ff00ff",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Merlins_Beard </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Darth_Weird</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Darth_Weird</span>\r\n</div>",
+                "color": "#ff00ff",
+                "tooltip": "\r\n<div>\r\n    <bold>Merlins_Beard </bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": -9152,
+                                "z": -14161
+                            },
+                            {
+                                "x": -9137,
+                                "z": -14161
+                            },
+                            {
+                                "x": -9137,
+                                "z": -14176
+                            },
+                            {
+                                "x": -9152,
+                                "z": -14176
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
                 "tooltip_anchor": {
                     "x": 0,
                     "z": -17
@@ -42950,6 +42780,22 @@
                                 "z": -10609
                             },
                             {
+                                "x": -7504,
+                                "z": -10609
+                            },
+                            {
+                                "x": -7489,
+                                "z": -10609
+                            },
+                            {
+                                "x": -7489,
+                                "z": -10624
+                            },
+                            {
+                                "x": -7504,
+                                "z": -10624
+                            },
+                            {
                                 "x": -7505,
                                 "z": -10624
                             },
@@ -43258,24 +43104,24 @@
                                 "z": -10481
                             },
                             {
-                                "x": -7585,
-                                "z": -10481
-                            },
-                            {
-                                "x": -7584,
-                                "z": -10481
-                            },
-                            {
-                                "x": -7584,
+                                "x": -7600,
                                 "z": -10480
                             },
                             {
-                                "x": -7584,
+                                "x": -7600,
                                 "z": -10465
                             },
                             {
-                                "x": -7584,
+                                "x": -7600,
                                 "z": -10464
+                            },
+                            {
+                                "x": -7600,
+                                "z": -10449
+                            },
+                            {
+                                "x": -7585,
+                                "z": -10449
                             },
                             {
                                 "x": -7584,
@@ -44403,7 +44249,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz, ItsRe4per</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -45208,7 +45054,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, CheeseBeerBoot, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, xEbenx, Mr_French_Frye</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, Mr_French_Frye</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -45224,51 +45070,6 @@
                     "x": 10808,
                     "z": 4520
                 }
-            },
-            {
-                "fillColor": "#ffff00",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Nosfanatica </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedvelFett</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedvelFett</span>\r\n</div>",
-                "color": "#ffff00",
-                "tooltip": "\r\n<div>\r\n    <bold>Nosfanatica </bold>\r\n</div>\r\n",
-                "type": "polygon",
-                "points": [
-                    [
-                        [
-                            {
-                                "x": -7360,
-                                "z": 8031
-                            },
-                            {
-                                "x": -7345,
-                                "z": 8031
-                            },
-                            {
-                                "x": -7345,
-                                "z": 8016
-                            },
-                            {
-                                "x": -7345,
-                                "z": 8015
-                            },
-                            {
-                                "x": -7345,
-                                "z": 8000
-                            },
-                            {
-                                "x": -7360,
-                                "z": 8000
-                            },
-                            {
-                                "x": -7360,
-                                "z": 8015
-                            },
-                            {
-                                "x": -7360,
-                                "z": 8016
-                            }
-                        ]
-                    ]
-                ]
             },
             {
                 "fillColor": "#000080",
@@ -45422,7 +45223,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">angels </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">winglesskt</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>winglesskt, Aether_222, LoveBry, LaserRedAlex, b0nafiedG, BlaDeZ_9</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">angels </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">winglesskt</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>winglesskt, Aether_222, LoveBry, b0nafiedG, BlaDeZ_9</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -46770,7 +46571,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Vehim, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, aHappyOreo, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -47489,7 +47290,7 @@
             },
             {
                 "fillColor": "#a52a2a",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Desertland (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SmashX101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmashX101, echoingwolf, yumyumchocolate, Promancow, BR__Auberoonie, Edrocket823</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Desertland (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SmashX101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmashX101, yumyumchocolate, Promancow, BR__Auberoonie, Edrocket823</span>\r\n</div>",
                 "color": "#a52a2a",
                 "tooltip": "\r\n<div>\r\n    <bold>Desertland (Harmonia)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -47805,6 +47606,67 @@
                     "x": 376,
                     "z": 8456
                 }
+            },
+            {
+                "fillColor": "#ffd700",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11</span>\r\n</div>",
+                "color": "#ffd700",
+                "tooltip": "\r\n<div>\r\n    <bold>Phoenix </bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": 3120,
+                                "z": 1775
+                            },
+                            {
+                                "x": 3135,
+                                "z": 1775
+                            },
+                            {
+                                "x": 3135,
+                                "z": 1760
+                            },
+                            {
+                                "x": 3120,
+                                "z": 1760
+                            },
+                            {
+                                "x": 3119,
+                                "z": 1760
+                            },
+                            {
+                                "x": 3119,
+                                "z": 1759
+                            },
+                            {
+                                "x": 3119,
+                                "z": 1744
+                            },
+                            {
+                                "x": 3104,
+                                "z": 1744
+                            },
+                            {
+                                "x": 3104,
+                                "z": 1759
+                            },
+                            {
+                                "x": 3104,
+                                "z": 1760
+                            },
+                            {
+                                "x": 3104,
+                                "z": 1775
+                            },
+                            {
+                                "x": 3119,
+                                "z": 1775
+                            }
+                        ]
+                    ]
+                ]
             },
             {
                 "fillColor": "#f5f5dc",
@@ -54183,7 +54045,7 @@
             },
             {
                 "fillColor": "#ffff00",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">athiestman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">athiestman, Xiuhcoutl, _Hawk_Gaming_, YifanPires, Sassy404</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, Xiuhcoutl, Hairy_Stylez, ariskap7, Buy_Me_A_Rank, soxfan1998, Tavusek, _Hawk_Gaming_, YifanPires, italain_vinny, Gal_Hectic, PrincessRaiders, Sassy404, Fluuufie, EpicGamerYT5846, GabRivard, TheProdxJumper, Bobby_Boy_301, hank_levinski, Ataraxia_, faboom, yumichai, OverExtendedd, danykub77</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">athiestman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">athiestman, Xiuhcoutl, _Hawk_Gaming_, YifanPires, Sassy404</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, Xiuhcoutl, Hairy_Stylez, ariskap7, Buy_Me_A_Rank, soxfan1998, _Hawk_Gaming_, YifanPires, italain_vinny, Gal_Hectic, PrincessRaiders, Sassy404, EpicGamerYT5846, GabRivard, TheProdxJumper, Bobby_Boy_301, hank_levinski, Ataraxia_, faboom, yumichai, OverExtendedd, danykub77</span>\r\n</div>",
                 "color": "#ffff00",
                 "tooltip": "\r\n<div>\r\n    <bold>Riverwood (Skyrim)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -54639,28 +54501,76 @@
                                 "z": 3424
                             },
                             {
-                                "x": 5760,
+                                "x": 5759,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5744,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5743,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5728,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5727,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5712,
+                                "z": 3424
+                            },
+                            {
+                                "x": 5712,
                                 "z": 3439
                             },
                             {
-                                "x": 5760,
+                                "x": 5712,
                                 "z": 3440
                             },
                             {
-                                "x": 5760,
+                                "x": 5712,
                                 "z": 3455
                             },
                             {
-                                "x": 5760,
+                                "x": 5712,
                                 "z": 3456
                             },
                             {
-                                "x": 5760,
+                                "x": 5712,
                                 "z": 3471
                             },
                             {
-                                "x": 5760,
+                                "x": 5712,
                                 "z": 3472
+                            },
+                            {
+                                "x": 5712,
+                                "z": 3487
+                            },
+                            {
+                                "x": 5727,
+                                "z": 3487
+                            },
+                            {
+                                "x": 5728,
+                                "z": 3487
+                            },
+                            {
+                                "x": 5743,
+                                "z": 3487
+                            },
+                            {
+                                "x": 5744,
+                                "z": 3487
+                            },
+                            {
+                                "x": 5759,
+                                "z": 3487
                             },
                             {
                                 "x": 5760,
@@ -57289,1571 +57199,6 @@
                 }
             },
             {
-                "fillColor": "#ff00ff",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Argon_City </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Robby_Rotten</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Robby_Rotten, Ion546, AChubbyUnicorn, Godslayer633, kikiriX, JellyBean97, _antixsocial_, Antigravity59, jcagoncilloo, 0snowy, InsertNam3Here, Ashjamrog, SoulTSC, SuperSmallMidget, M4N4, Corpsis, Evermooree, Island_dude, Gimme_mvp_rank, Sugubat, DemonicAngel9667, ads_gamer_, LowMoeBro, AntiDevilYT, Statikice, Explodia, NuKe_26</span>\r\n</div>",
-                "color": "#ff00ff",
-                "tooltip": "\r\n<div>\r\n    <bold>Argon_City </bold>\r\n</div>\r\n",
-                "type": "polygon",
-                "points": [
-                    [
-                        [
-                            {
-                                "x": -6608,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2864
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2847
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2832
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2831
-                            },
-                            {
-                                "x": -6593,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6608,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6609,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6624,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6625,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6640,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6641,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2816
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2831
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2832
-                            },
-                            {
-                                "x": -6657,
-                                "z": 2832
-                            },
-                            {
-                                "x": -6672,
-                                "z": 2832
-                            },
-                            {
-                                "x": -6672,
-                                "z": 2847
-                            },
-                            {
-                                "x": -6672,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6673,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6688,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6689,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6704,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6705,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6720,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6721,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6736,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6737,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6752,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6753,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6768,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6769,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6784,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6785,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6800,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6801,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6816,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6817,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6832,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6833,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6848,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6849,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6864,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6865,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6880,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6881,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6896,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6897,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6912,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6913,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6928,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6929,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6944,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6945,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6960,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6961,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6976,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6977,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6992,
-                                "z": 2848
-                            },
-                            {
-                                "x": -6993,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7008,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7009,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7024,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7025,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7040,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7041,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7056,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7057,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7072,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7073,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7088,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7089,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7104,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7105,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7120,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7121,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7136,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7137,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7152,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7153,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7168,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7169,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7184,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7185,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7200,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7201,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7216,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7217,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7232,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7233,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7248,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7249,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7264,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7265,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7280,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7281,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7296,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7297,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7312,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7313,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7328,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7329,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7344,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7345,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7360,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7361,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7376,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7377,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7392,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7393,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7408,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7409,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7424,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7425,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7440,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7441,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7456,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7457,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7472,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7473,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7488,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7489,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7504,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7505,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7520,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7521,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7536,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7537,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7552,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7553,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7568,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7569,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7584,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7585,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7600,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7601,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7616,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7632,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2847
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2832
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2831
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2816
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2815
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2815
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2815
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2800
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2799
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2784
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2783
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7664,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7680,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7681,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7696,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7697,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7712,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7713,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2768
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2783
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2784
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2799
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2800
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2815
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2816
-                            },
-                            {
-                                "x": -7729,
-                                "z": 2816
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2816
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2831
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2832
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2847
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2848
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7729,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2864
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2879
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7729,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2895
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2911
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2912
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2927
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2928
-                            },
-                            {
-                                "x": -7744,
-                                "z": 2943
-                            },
-                            {
-                                "x": -7729,
-                                "z": 2943
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2943
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2944
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2960
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2975
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2976
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2991
-                            },
-                            {
-                                "x": -7728,
-                                "z": 2992
-                            },
-                            {
-                                "x": -7728,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7728,
-                                "z": 3008
-                            },
-                            {
-                                "x": -7728,
-                                "z": 3023
-                            },
-                            {
-                                "x": -7713,
-                                "z": 3023
-                            },
-                            {
-                                "x": -7712,
-                                "z": 3023
-                            },
-                            {
-                                "x": -7712,
-                                "z": 3024
-                            },
-                            {
-                                "x": -7712,
-                                "z": 3039
-                            },
-                            {
-                                "x": -7697,
-                                "z": 3039
-                            },
-                            {
-                                "x": -7697,
-                                "z": 3024
-                            },
-                            {
-                                "x": -7697,
-                                "z": 3023
-                            },
-                            {
-                                "x": -7697,
-                                "z": 3008
-                            },
-                            {
-                                "x": -7697,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7696,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7681,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7680,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7665,
-                                "z": 3007
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2992
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2991
-                            },
-                            {
-                                "x": -7664,
-                                "z": 2991
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2991
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2976
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2975
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2960
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7632,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2959
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2944
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2943
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2928
-                            },
-                            {
-                                "x": -7632,
-                                "z": 2928
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2928
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2927
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2912
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2911
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7664,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2896
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2895
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7680,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7681,
-                                "z": 2880
-                            },
-                            {
-                                "x": -7681,
-                                "z": 2879
-                            },
-                            {
-                                "x": -7681,
-                                "z": 2864
-                            },
-                            {
-                                "x": -7681,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7680,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7665,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7664,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7649,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7648,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7633,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7632,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7617,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7616,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7601,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7600,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7585,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7584,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7569,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7568,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7553,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7552,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7537,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7536,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7521,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7520,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7505,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7504,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7489,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7488,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7473,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7472,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7457,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7456,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7441,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7440,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7425,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7424,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7409,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7408,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7393,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7392,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7377,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7376,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7361,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7360,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7345,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7344,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7329,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7328,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7313,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7312,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7297,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7296,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7281,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7280,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7265,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7264,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7249,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7248,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7233,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7232,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7217,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7216,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7201,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7200,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7185,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7184,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7169,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7168,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7153,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7152,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7137,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7136,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7121,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7120,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7105,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7104,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7089,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7088,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7073,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7072,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7057,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7056,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7041,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7040,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7025,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7024,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7009,
-                                "z": 2863
-                            },
-                            {
-                                "x": -7008,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6993,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6992,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6977,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6976,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6961,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6960,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6945,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6944,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6929,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6928,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6913,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6912,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6897,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6896,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6881,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6880,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6865,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6864,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6849,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6848,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6833,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6832,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6817,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6816,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6801,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6800,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6785,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6784,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6769,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6768,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6753,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6752,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6737,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6736,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6721,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6720,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6705,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6704,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6689,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6688,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6673,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6672,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6657,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2863
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2864
-                            },
-                            {
-                                "x": -6656,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6641,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6640,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6625,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6624,
-                                "z": 2879
-                            },
-                            {
-                                "x": -6609,
-                                "z": 2879
-                            }
-                        ]
-                    ]
-                ]
-            },
-            {
                 "tooltip_anchor": {
                     "x": 0,
                     "z": -17
@@ -58873,6 +57218,28 @@
                 "point": {
                     "x": 9528,
                     "z": -8376
+                }
+            },
+            {
+                "tooltip_anchor": {
+                    "x": 0,
+                    "z": -17
+                },
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21</span>\r\n</div>",
+                "size": {
+                    "x": 35,
+                    "z": 35
+                },
+                "anchor": {
+                    "x": 17,
+                    "z": 17
+                },
+                "tooltip": "\r\n<div>\r\n    <bold>Eytown (Harmonia)</bold>\r\n</div>\r\n",
+                "icon": "towny_town_icon",
+                "type": "icon",
+                "point": {
+                    "x": 5320,
+                    "z": -9944
                 }
             },
             {
@@ -60248,12 +58615,28 @@
                                 "z": -11024
                             },
                             {
-                                "x": -2800,
+                                "x": -2801,
+                                "z": -11024
+                            },
+                            {
+                                "x": -2816,
+                                "z": -11024
+                            },
+                            {
+                                "x": -2816,
                                 "z": -11009
                             },
                             {
-                                "x": -2800,
+                                "x": -2816,
                                 "z": -11008
+                            },
+                            {
+                                "x": -2816,
+                                "z": -10993
+                            },
+                            {
+                                "x": -2801,
+                                "z": -10993
                             },
                             {
                                 "x": -2800,
@@ -60322,6 +58705,28 @@
                         ]
                     ]
                 ]
+            },
+            {
+                "tooltip_anchor": {
+                    "x": 0,
+                    "z": -17
+                },
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Merlins_Beard </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Darth_Weird</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Darth_Weird</span>\r\n</div>",
+                "size": {
+                    "x": 35,
+                    "z": 35
+                },
+                "anchor": {
+                    "x": 17,
+                    "z": 17
+                },
+                "tooltip": "\r\n<div>\r\n    <bold>Merlins_Beard </bold>\r\n</div>\r\n",
+                "icon": "towny_town_icon",
+                "type": "icon",
+                "point": {
+                    "x": -9144,
+                    "z": -14168
+                }
             },
             {
                 "fillColor": "#ffff00",
@@ -61111,7 +59516,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Osktil (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Moress</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Moress</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Osktil (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Moress</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Moress, fendermitch</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -61125,7 +59530,7 @@
                 "type": "icon",
                 "point": {
                     "x": 11192,
-                    "z": 11848
+                    "z": 11864
                 }
             },
             {
@@ -63176,7 +61581,7 @@
             },
             {
                 "fillColor": "#9932cc",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">angels </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">winglesskt</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>winglesskt, Aether_222, LoveBry, LaserRedAlex, b0nafiedG, BlaDeZ_9</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">angels </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">winglesskt</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>winglesskt, Aether_222, LoveBry, b0nafiedG, BlaDeZ_9</span>\r\n</div>",
                 "color": "#9932cc",
                 "tooltip": "\r\n<div>\r\n    <bold>angels </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -63582,330 +61987,6 @@
                     "x": -5876,
                     "z": 2767
                 }
-            },
-            {
-                "fillColor": "#0000ff",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Calcherth </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">HalfLamb</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>HalfLamb</span>\r\n</div>",
-                "tooltip": "\r\n<div>\r\n    <bold>Calcherth </bold>\r\n</div>\r\n",
-                "type": "polygon",
-                "points": [
-                    [
-                        [
-                            {
-                                "x": -9008,
-                                "z": 3039
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3039
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3024
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3023
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3008
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3007
-                            },
-                            {
-                                "x": -8993,
-                                "z": 2992
-                            },
-                            {
-                                "x": -8993,
-                                "z": 2991
-                            },
-                            {
-                                "x": -8993,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9008,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9009,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9024,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9025,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9040,
-                                "z": 2976
-                            },
-                            {
-                                "x": -9040,
-                                "z": 2991
-                            },
-                            {
-                                "x": -9040,
-                                "z": 2992
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3007
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3008
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3023
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3024
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3039
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3040
-                            },
-                            {
-                                "x": -9040,
-                                "z": 3055
-                            },
-                            {
-                                "x": -9025,
-                                "z": 3055
-                            },
-                            {
-                                "x": -9025,
-                                "z": 3040
-                            },
-                            {
-                                "x": -9025,
-                                "z": 3039
-                            },
-                            {
-                                "x": -9024,
-                                "z": 3039
-                            },
-                            {
-                                "x": -9009,
-                                "z": 3039
-                            }
-                        ]
-                    ],
-                    [
-                        [
-                            {
-                                "x": -9008,
-                                "z": 3071
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3071
-                            },
-                            {
-                                "x": -8993,
-                                "z": 3056
-                            },
-                            {
-                                "x": -9008,
-                                "z": 3056
-                            },
-                            {
-                                "x": -9009,
-                                "z": 3056
-                            },
-                            {
-                                "x": -9024,
-                                "z": 3056
-                            },
-                            {
-                                "x": -9024,
-                                "z": 3071
-                            },
-                            {
-                                "x": -9009,
-                                "z": 3071
-                            }
-                        ]
-                    ],
-                    [
-                        [
-                            {
-                                "x": 1440,
-                                "z": -9185
-                            },
-                            {
-                                "x": 1455,
-                                "z": -9185
-                            },
-                            {
-                                "x": 1455,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1455,
-                                "z": -9201
-                            },
-                            {
-                                "x": 1455,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1440,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9201
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1423,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1408,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1407,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1407,
-                                "z": -9201
-                            },
-                            {
-                                "x": 1407,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1392,
-                                "z": -9216
-                            },
-                            {
-                                "x": 1392,
-                                "z": -9201
-                            },
-                            {
-                                "x": 1392,
-                                "z": -9200
-                            },
-                            {
-                                "x": 1392,
-                                "z": -9185
-                            },
-                            {
-                                "x": 1407,
-                                "z": -9185
-                            },
-                            {
-                                "x": 1408,
-                                "z": -9185
-                            },
-                            {
-                                "x": 1408,
-                                "z": -9184
-                            },
-                            {
-                                "x": 1408,
-                                "z": -9169
-                            },
-                            {
-                                "x": 1423,
-                                "z": -9169
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9169
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9168
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9153
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9152
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9137
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9136
-                            },
-                            {
-                                "x": 1424,
-                                "z": -9121
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9121
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9136
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9137
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9152
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9153
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9168
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9169
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9184
-                            },
-                            {
-                                "x": 1439,
-                                "z": -9185
-                            }
-                        ]
-                    ]
-                ]
             },
             {
                 "tooltip_anchor": {
@@ -64709,28 +62790,6 @@
                         ]
                     ]
                 ]
-            },
-            {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Nosfanatica </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedvelFett</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedvelFett</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>Nosfanatica </bold>\r\n</div>\r\n",
-                "icon": "towny_town_icon",
-                "type": "icon",
-                "point": {
-                    "x": -7352,
-                    "z": 8008
-                }
             },
             {
                 "fillColor": "#f5f5dc",
@@ -68611,6 +66670,28 @@
                     "x": 0,
                     "z": -17
                 },
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Kyles </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TheOnlyWeeWoo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TheOnlyWeeWoo, SuPeRxDuCk277</span>\r\n</div>",
+                "size": {
+                    "x": 35,
+                    "z": 35
+                },
+                "anchor": {
+                    "x": 17,
+                    "z": 17
+                },
+                "tooltip": "\r\n<div>\r\n    <bold>Kyles </bold>\r\n</div>\r\n",
+                "icon": "towny_town_icon",
+                "type": "icon",
+                "point": {
+                    "x": -2872,
+                    "z": -6088
+                }
+            },
+            {
+                "tooltip_anchor": {
+                    "x": 0,
+                    "z": -17
+                },
                 "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Denmark (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Qarthar</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Qarthar, TerkelMusen</span>\r\n</div>",
                 "size": {
                     "x": 35,
@@ -68758,7 +66839,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, CheeseBeerBoot, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, xEbenx, Mr_French_Frye</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Radiance_Reborn (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Bruuunooo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Bruuunooo, glitchedsteve, T1p, Motasforae, luciferzbaby, BR__LeStrategist, CryptoMon, Stetson_Newsie, Slapacookie, SilasLovesDonuts, YunaIai, College_Boi, BlossomBloo, SirAwesomeness4, HIGHF9S_200, Icycom, LOWF9S_20, Freshewok101, Mr_French_Frye</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -73068,7 +71149,7 @@
             },
             {
                 "fillColor": "#4b0082",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, Tobeyzilla, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3, SoulTSC, M4N4</span>\r\n</div>",
                 "color": "#4b0082",
                 "tooltip": "\r\n<div>\r\n    <bold>The_Islands (Imperium)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -74635,7 +72716,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">athiestman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">athiestman, Xiuhcoutl, _Hawk_Gaming_, YifanPires, Sassy404</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, Xiuhcoutl, Hairy_Stylez, ariskap7, Buy_Me_A_Rank, soxfan1998, Tavusek, _Hawk_Gaming_, YifanPires, italain_vinny, Gal_Hectic, PrincessRaiders, Sassy404, Fluuufie, EpicGamerYT5846, GabRivard, TheProdxJumper, Bobby_Boy_301, hank_levinski, Ataraxia_, faboom, yumichai, OverExtendedd, danykub77</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">athiestman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">athiestman, Xiuhcoutl, _Hawk_Gaming_, YifanPires, Sassy404</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, Xiuhcoutl, Hairy_Stylez, ariskap7, Buy_Me_A_Rank, soxfan1998, _Hawk_Gaming_, YifanPires, italain_vinny, Gal_Hectic, PrincessRaiders, Sassy404, EpicGamerYT5846, GabRivard, TheProdxJumper, Bobby_Boy_301, hank_levinski, Ataraxia_, faboom, yumichai, OverExtendedd, danykub77</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -76936,7 +75017,7 @@
             },
             {
                 "fillColor": "#ff0000",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz, ItsRe4per</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz</span>\r\n</div>",
                 "color": "#ff0000",
                 "tooltip": "\r\n<div>\r\n    <bold>Macedonia </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -80434,7 +78515,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz, ItsRe4per</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Macedonia </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TrumpVMRO</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TrumpVMRO, Ognenz</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -80637,7 +78718,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, DownSidesh, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -81509,7 +79590,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Vehim, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, aHappyOreo, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -81531,7 +79612,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Awesomeville </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">EpikEvan</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>EpikEvan, Plannah_Hath, TheEG, EpikGoat8878</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Awesomeville </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">EpikEvan</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>EpikEvan, Plannah_Hath, TheEG</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -83205,6 +81286,67 @@
                 }
             },
             {
+                "fillColor": "#808000",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Kyles </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TheOnlyWeeWoo</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TheOnlyWeeWoo, SuPeRxDuCk277</span>\r\n</div>",
+                "color": "#808000",
+                "tooltip": "\r\n<div>\r\n    <bold>Kyles </bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": -2880,
+                                "z": -6065
+                            },
+                            {
+                                "x": -2865,
+                                "z": -6065
+                            },
+                            {
+                                "x": -2865,
+                                "z": -6080
+                            },
+                            {
+                                "x": -2865,
+                                "z": -6081
+                            },
+                            {
+                                "x": -2865,
+                                "z": -6096
+                            },
+                            {
+                                "x": -2880,
+                                "z": -6096
+                            },
+                            {
+                                "x": -2881,
+                                "z": -6096
+                            },
+                            {
+                                "x": -2896,
+                                "z": -6096
+                            },
+                            {
+                                "x": -2896,
+                                "z": -6081
+                            },
+                            {
+                                "x": -2896,
+                                "z": -6080
+                            },
+                            {
+                                "x": -2896,
+                                "z": -6065
+                            },
+                            {
+                                "x": -2881,
+                                "z": -6065
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
                 "tooltip_anchor": {
                     "x": 0,
                     "z": -17
@@ -83327,7 +81469,7 @@
             },
             {
                 "fillColor": "#a52a2a",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Awesomeville </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">EpikEvan</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>EpikEvan, Plannah_Hath, TheEG, EpikGoat8878</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Awesomeville </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">EpikEvan</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>EpikEvan, Plannah_Hath, TheEG</span>\r\n</div>",
                 "color": "#a52a2a",
                 "tooltip": "\r\n<div>\r\n    <bold>Awesomeville </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -85611,7 +83753,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, Tobeyzilla, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3, SoulTSC, M4N4</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -86762,7 +84904,7 @@
             },
             {
                 "fillColor": "#e0ffff",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, DownSidesh, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Purple_Hamlet (Woodside)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Praetoriann</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">LtMandy</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Matcha__, Praetoriann, kammisutra, LtMandy, Clqtched, SuoxenZ, Mehdy__, DonOmer, Krimshu, yeet1215, Hrag, SuperZimo18, Glazsy1, BunnyGamer22, Kriak_Bloodbane, SlowingMuffin24, dcfcfan1, SoNotAWeeb, xXCB54Xx, Dead__Wolf, Steffah, Wilv, Asiliah, DuckMouth, saulius20, Orionrein, HittingABong, sickofpeaches, xZom, fren, xTheOutpost, VirtualJelly69, Benjamin2014, Yunishiki6988, busterjo777, eyalgi11, lord30pogo, Yelnifnna, Dizoriented, Zargario, DrearZulu728516</span>\r\n</div>",
                 "color": "#e0ffff",
                 "tooltip": "\r\n<div>\r\n    <bold>Purple_Hamlet (Woodside)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -89385,7 +87527,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedAnger</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedAnger, blgordon, CaliCaliCaliCali, BlakeTheWelf, carjar21321, SlvrPrincess, HoneyHiveBear012, prunu</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">RedAnger</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>RedAnger, blgordon, CaliCaliCaliCali, BlakeTheWelf, carjar21321, SlvrPrincess, HoneyHiveBear012, prunu, echoingwolf</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -89394,7 +87536,7 @@
                     "x": 17,
                     "z": 17
                 },
-                "tooltip": "\r\n<div>\r\n    <bold>Red </bold>\r\n</div>\r\n",
+                "tooltip": "\r\n<div>\r\n    <bold>Red (Hot_Boy_Nation)</bold>\r\n</div>\r\n",
                 "icon": "towny_town_icon",
                 "type": "icon",
                 "point": {
@@ -94009,6 +92151,83 @@
                 ]
             },
             {
+                "fillColor": "#a52a2a",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21</span>\r\n</div>",
+                "color": "#a52a2a",
+                "tooltip": "\r\n<div>\r\n    <bold>Eytown (Harmonia)</bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": 5312,
+                                "z": -9937
+                            },
+                            {
+                                "x": 5327,
+                                "z": -9937
+                            },
+                            {
+                                "x": 5327,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5327,
+                                "z": -9953
+                            },
+                            {
+                                "x": 5327,
+                                "z": -9968
+                            },
+                            {
+                                "x": 5312,
+                                "z": -9968
+                            },
+                            {
+                                "x": 5312,
+                                "z": -9953
+                            },
+                            {
+                                "x": 5312,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5311,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5296,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5295,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5280,
+                                "z": -9952
+                            },
+                            {
+                                "x": 5280,
+                                "z": -9937
+                            },
+                            {
+                                "x": 5295,
+                                "z": -9937
+                            },
+                            {
+                                "x": 5296,
+                                "z": -9937
+                            },
+                            {
+                                "x": 5311,
+                                "z": -9937
+                            }
+                        ]
+                    ]
+                ]
+            },
+            {
                 "tooltip_anchor": {
                     "x": 0,
                     "z": -17
@@ -94035,7 +92254,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">gods_cross </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MadLittleMiss</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MadLittleMiss, CravingFall457, BeefBoss21, LittleMissABD, AxsLeopard, BR__joe12251979, ST0NeD_MoNK, luukvanloo, Bootrapper, DigiMike, GreenEnder12, Wish_official, RandomName1333, Kush_Bush, SkipperThe3rd, PuzzlingBlock38, SillYip29, Escaper197, RedEyedFox, Osprey20, IOUMayonnaise, LodgingTax91851, _yuffy_</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">gods_cross </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MadLittleMiss</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MadLittleMiss, CravingFall457, BeefBoss21, LittleMissABD, AxsLeopard, ST0NeD_MoNK, luukvanloo, Bootrapper, DigiMike, GreenEnder12, Wish_official, RandomName1333, Kush_Bush, SkipperThe3rd, PuzzlingBlock38, SillYip29, Escaper197, RedEyedFox, Osprey20, IOUMayonnaise, LodgingTax91851, _yuffy_</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -94479,6 +92698,83 @@
                     "x": -3976,
                     "z": 8696
                 }
+            },
+            {
+                "fillColor": "#000080",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">StarzyNight </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">KristyQuartz</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>KristyQuartz</span>\r\n</div>",
+                "color": "#000080",
+                "tooltip": "\r\n<div>\r\n    <bold>StarzyNight </bold>\r\n</div>\r\n",
+                "type": "polygon",
+                "points": [
+                    [
+                        [
+                            {
+                                "x": -5184,
+                                "z": -7889
+                            },
+                            {
+                                "x": -5169,
+                                "z": -7889
+                            },
+                            {
+                                "x": -5169,
+                                "z": -7904
+                            },
+                            {
+                                "x": -5169,
+                                "z": -7905
+                            },
+                            {
+                                "x": -5169,
+                                "z": -7920
+                            },
+                            {
+                                "x": -5184,
+                                "z": -7920
+                            },
+                            {
+                                "x": -5185,
+                                "z": -7920
+                            },
+                            {
+                                "x": -5200,
+                                "z": -7920
+                            },
+                            {
+                                "x": -5200,
+                                "z": -7905
+                            },
+                            {
+                                "x": -5200,
+                                "z": -7904
+                            },
+                            {
+                                "x": -5201,
+                                "z": -7904
+                            },
+                            {
+                                "x": -5216,
+                                "z": -7904
+                            },
+                            {
+                                "x": -5216,
+                                "z": -7889
+                            },
+                            {
+                                "x": -5201,
+                                "z": -7889
+                            },
+                            {
+                                "x": -5200,
+                                "z": -7889
+                            },
+                            {
+                                "x": -5185,
+                                "z": -7889
+                            }
+                        ]
+                    ]
+                ]
             },
             {
                 "fillColor": "#a52a2a",
@@ -97166,6 +95462,28 @@
                     "x": 0,
                     "z": -17
                 },
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">pogtown </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">1Topcat</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>1Topcat, The_Turtle_Lord</span>\r\n</div>",
+                "size": {
+                    "x": 35,
+                    "z": 35
+                },
+                "anchor": {
+                    "x": 17,
+                    "z": 17
+                },
+                "tooltip": "\r\n<div>\r\n    <bold>pogtown </bold>\r\n</div>\r\n",
+                "icon": "towny_town_icon",
+                "type": "icon",
+                "point": {
+                    "x": 7400,
+                    "z": 5768
+                }
+            },
+            {
+                "tooltip_anchor": {
+                    "x": 0,
+                    "z": -17
+                },
                 "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Hillwood (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">wxtnessed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>wxtnessed, RealMurai, HonestLyar, Suniey, StepMommy, Wreckless, Coldzxas, Wobbeltje, DampMoop, CloudBuni, Restless_, CannablissKomaz, DiamondMiner8298, kishie_, Masterfuzja, Gucci_Garrett, hampies</span>\r\n</div>",
                 "size": {
                     "x": 35,
@@ -97188,7 +95506,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, Tobeyzilla, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Islands (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Music_Reed</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">batman3212009</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BalletBoyBot, Hack_Attack_02, crimsonphoenix46, ItzHalo_0, curefoot, BR__KaylaDaniell, BR__mkm16, Ken_TheIsThe, batman3212009, Music_Reed, BR__Shonengump, e_b0y, Benestroyer, Bloubo, Ars0nist__, iRoa_, Amandalynn52, CalderaTheArcane, RedJuice_MC, musicul, Rps96, TheNutofSac, Joysin1010, EmmaEquestrian, Dman201001, samarahbuckley, S1lentKn1ght, General_SilverYT, e_chiz3, SoulTSC, M4N4</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -102002,28 +100320,6 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Derpland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">aDerpling</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>aDerpling</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>Derpland </bold>\r\n</div>\r\n",
-                "icon": "towny_town_icon",
-                "type": "icon",
-                "point": {
-                    "x": 6456,
-                    "z": 2872
-                }
-            },
-            {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
                 "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Engineers (Imperium)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">CyberBeRG</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">MR510</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>terre_de_pomme, MR510, Snowy1209, CyberBeRG, bkrog, JasonKrog, 8BitDonut, Asphyrus, xChongy, charzmander, BR__sleepyboiy, SNEEZETheAxolotl, Allayyyy, LeElohim, alanappleseed, Malacodae</span>\r\n</div>",
                 "size": {
                     "x": 35,
@@ -104668,28 +102964,6 @@
                         ]
                     ]
                 ]
-            },
-            {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Calcherth </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">HalfLamb</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>HalfLamb</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>Calcherth </bold>\r\n</div>\r\n",
-                "icon": "towny_town_icon",
-                "type": "icon",
-                "point": {
-                    "x": -9032,
-                    "z": 3016
-                }
             },
             {
                 "tooltip_anchor": {
@@ -108210,28 +106484,6 @@
                 }
             },
             {
-                "tooltip_anchor": {
-                    "x": 0,
-                    "z": -17
-                },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Calcherth </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">HalfLamb</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>HalfLamb</span>\r\n</div>",
-                "size": {
-                    "x": 35,
-                    "z": 35
-                },
-                "anchor": {
-                    "x": 17,
-                    "z": 17
-                },
-                "tooltip": "\r\n<div>\r\n    <bold>Calcherth </bold>\r\n</div>\r\n",
-                "icon": "towny_outpost_icon",
-                "type": "icon",
-                "point": {
-                    "x": 1430,
-                    "z": -9165
-                }
-            },
-            {
                 "fillColor": "#8b008b",
                 "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Pandemonium </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Karethos</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Karethos, NoctusMuse</span>\r\n</div>",
                 "color": "#8b008b",
@@ -108358,7 +106610,7 @@
             }
         ],
         "order": 5,
-        "timestamp": 1637257869951
+        "timestamp": 1637344999056
     },
     {
         "hide": false,
@@ -108390,6 +106642,6 @@
             }
         ],
         "order": 0,
-        "timestamp": 1637237173919
+        "timestamp": 1637328611937
     }
 ]

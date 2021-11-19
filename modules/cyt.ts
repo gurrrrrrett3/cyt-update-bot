@@ -8,7 +8,8 @@ import Town from "./cytmarker"
 import { MarkerIconData, MarkerPolygonData } from './cytmarker';
 import { Client } from "..";
 import { MessageEmbed } from "discord.js";
-import { startTime } from "./infochannels";
+import { startTime, townUpdate } from "./infochannels";
+import dailyUpdate from "./dailyupdate";
 
 const playerDataFile = "./data/fetchPlayers.json"
 const worldMarkerDataFile = "./data/fetchWorldMarkers.json"
@@ -29,13 +30,9 @@ export default class cyt {
 
     private lastFetch: number
     private fuzzy: any
-    private interval = setInterval(() => {
-
-        this.fetch()
-
+    private interval = setInterval(async () => {
+       await this.fetch()
     }, 5000)
-
-
 
     public address: string
     public cookie: string
@@ -238,18 +235,17 @@ export default class cyt {
 
             //Create list of town data
 
+            //find the order of the towns/worldborder markers, it seems to be random lmao
+
+            const markerOrder =  worldMarkerJSON[0].id == "towny" ? 0 : 1
+
             //process overworld towns
-            worldMarkerJSON[1].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
+            worldMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
 
                 let t = new Town("world")
                 if (marker.type == "icon") {
                     t = t.fromIcon(marker, "world")
-                    if(!newTowns.find((town) => {
-                        town.name == t.name
-                    })) {
                         newTowns.push(t)
-                    }
-                    
                     //console.log(`Processing Overworld towns... ${count} towns processed`)
                     count++
                 }
@@ -257,16 +253,12 @@ export default class cyt {
 
             //process earth towns
 
-            earthMarkerJSON[1].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
+            earthMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
 
                 let t = new Town("earth")
                 if (marker.type == "icon") {
                     t = t.fromIcon(marker, "earth")
-                    if(!newTowns.find((town) => {
-                        town.name == t.name
-                    })) {
-                        newTowns.push(t)
-                    }
+                     newTowns.push(t)
                     //console.log(`Processing Earth towns... ${count} towns processed`)
                     count++
                 }
@@ -279,6 +271,33 @@ export default class cyt {
 
                 return (aName < bName) ? -1 : (aName > bName) ? 1 : 0;
             })
+
+            //Compare
+
+            //Check for new towns
+
+            newTowns.forEach((nt) => {
+                const ret = towns.find((ot) => {
+                return ot.name == nt.name
+            })
+
+            if (!ret) {
+                //town is new, announce it
+                townUpdate(nt, "CREATE")
+            }
+        })
+
+         //Check for fallen towns
+
+         towns.forEach((ot) => {
+             const ret = newTowns.find((nt) => {
+                 return nt.name == ot.name
+             })
+             if (!ret) {
+                //town has fallen, announce it
+                townUpdate(ot, "DELETE")
+             }
+         })
 
             //save
            fs.writeFileSync(townsDataFile, JSON.stringify(newTowns, null, 4))

@@ -72,7 +72,7 @@ function p(s: number) {
     return s.toString().length == 1 ? `0${s}` : s
 };
 
-function makeMapLink(world: "earth" | "world", x: number, z: number, zoom?: 1 | 2 | 3 | 4 | 5) {
+export function makeMapLink(world: "earth" | "world", x: number, z: number, zoom?: 1 | 2 | 3 | 4 | 5) {
 
     return `https://zion.craftyourtown.com/?world=${world}&zoom=${zoom??4}&x=${x}&z=${z}`
 

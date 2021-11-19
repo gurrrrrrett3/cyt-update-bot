@@ -13070,7 +13070,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11, MicrosoftDuHund</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -13895,7 +13895,7 @@
             },
             {
                 "fillColor": "#006400",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ, the_hidden_moo, Egexx25, Dakonait, Matthew_Bug</span>\r\n</div>",
                 "color": "#006400",
                 "tooltip": "\r\n<div>\r\n    <bold>AppleGroves (Harmonia)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -22766,56 +22766,120 @@
                                 "z": -5088
                             },
                             {
-                                "x": 3056,
+                                "x": 3055,
+                                "z": -5088
+                            },
+                            {
+                                "x": 3040,
+                                "z": -5088
+                            },
+                            {
+                                "x": 3039,
+                                "z": -5088
+                            },
+                            {
+                                "x": 3024,
+                                "z": -5088
+                            },
+                            {
+                                "x": 3024,
                                 "z": -5073
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5072
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5057
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5056
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5041
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5040
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5025
                             },
                             {
-                                "x": 3056,
+                                "x": 3024,
                                 "z": -5024
                             },
                             {
+                                "x": 3024,
+                                "z": -5009
+                            },
+                            {
+                                "x": 3039,
+                                "z": -5009
+                            },
+                            {
+                                "x": 3040,
+                                "z": -5009
+                            },
+                            {
+                                "x": 3055,
+                                "z": -5009
+                            },
+                            {
                                 "x": 3056,
                                 "z": -5009
                             },
                             {
+                                "x": 3056,
+                                "z": -5008
+                            },
+                            {
+                                "x": 3056,
+                                "z": -4993
+                            },
+                            {
+                                "x": 3056,
+                                "z": -4992
+                            },
+                            {
+                                "x": 3056,
+                                "z": -4977
+                            },
+                            {
                                 "x": 3071,
-                                "z": -5009
+                                "z": -4977
+                            },
+                            {
+                                "x": 3071,
+                                "z": -4992
+                            },
+                            {
+                                "x": 3071,
+                                "z": -4993
                             },
                             {
                                 "x": 3072,
-                                "z": -5009
+                                "z": -4993
                             },
                             {
                                 "x": 3087,
-                                "z": -5009
+                                "z": -4993
                             },
                             {
                                 "x": 3088,
-                                "z": -5009
+                                "z": -4993
+                            },
+                            {
+                                "x": 3103,
+                                "z": -4993
+                            },
+                            {
+                                "x": 3103,
+                                "z": -5008
                             },
                             {
                                 "x": 3103,
@@ -46571,7 +46635,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ, the_hidden_moo, Egexx25, Dakonait, Matthew_Bug</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -47609,7 +47673,7 @@
             },
             {
                 "fillColor": "#ffd700",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Phoenix </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zephiao</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Zephiao, Boykins11, MicrosoftDuHund</span>\r\n</div>",
                 "color": "#ffd700",
                 "tooltip": "\r\n<div>\r\n    <bold>Phoenix </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -79590,7 +79654,7 @@
                     "x": 0,
                     "z": -17
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrGravy1110</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, Billstrom, firedragonlady57, Salfalasi1, Solzsiccia, Rallee1949, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, Alkerion_, Bebalicious305, SkyFallLegends, TriniumJP, PaganAthiest, Squirt34, SuperTC02, ArmoredPlate2, DrasticVoyage, BigCheesy, Milamba, XP_PD, troublemaker2006, TonyTheTiger116, _Boring, Leo95, Chamini1, BalmierBear6628, Storm_Singer, MrFranMC, MadKattheBest, MichalSan2010, Durgin_, teenti11, Exile_Live, NeonMagma, BR__fru182, BenevolentTrash, LordSparda13, Quackbeard, littlepurrmaid, JustMochi, DillPicklesss, Drominar, enderbrave100, Merodactus, StraightCash, NotRumi, reevoe, _WhatsHisName_, BR__RiotousElm34, Van__, Adauchi74, Sharinaira, Jomppu, TinyTim2914, EwItsDasher, JayRasta, CookieTheBunny, selimgunhan, SirElite360, cheesyflake1, Lola_and_Nicola, TPrincess101, Bamb0zo, BR__coderchris84, ThunderC, WuffDawg, Daven77449, democraz, MURTVECAJIVIQ, the_hidden_moo, Egexx25, Dakonait, Matthew_Bug</span>\r\n</div>",
                 "size": {
                     "x": 35,
                     "z": 35
@@ -106610,7 +106674,7 @@
             }
         ],
         "order": 5,
-        "timestamp": 1637344999056
+        "timestamp": 1637352933005
     },
     {
         "hide": false,

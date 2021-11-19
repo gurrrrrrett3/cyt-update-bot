@@ -64,7 +64,7 @@ Client.on("messageCreate", async (message) => {
 						.setTitle(`Position of ${data?.name}`)
 						.setDescription(
 							`**World:** ${data?.world}\n**X:** ${data?.x}\n**Z:** ${data?.z}`
-						).setURL(makeMapLink(data?.world == "earth" ? "earth" : "world", data.x,data.z)),
+						).setURL(makeMapLink(data?.world == "earth" ? "earth" : "world", data?.x,data?.z)),
 				],
 			});
 		}

@@ -9,10 +9,10 @@ export default class Town {
     public residents: string[]
     public pvp: boolean
     public chunks: number
-    public world: "earth" | "world"
+    public world: World
     public coords: Coords
 
-    constructor(world: "earth" | "world") { 
+    constructor(world: World) { 
 
         this.world = world
         this.name = ""
@@ -90,7 +90,7 @@ export type MarkerIconData = {
     }
 }
 
-type World = "world" | "earth"
+export type World = "world" | "earth" | "world_nether" | "world_the_end"
 
 type Coords = {
     x: number

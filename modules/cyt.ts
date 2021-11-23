@@ -4,7 +4,7 @@ import fs from "fs"
 const fuzzyset = require("fuzzyset")
 
 import Player from './cytplayer';
-import Town from "./cytmarker"
+import Town, { World } from "./cytmarker"
 import { MarkerIconData, MarkerPolygonData } from './cytmarker';
 import { Client } from "..";
 import { MessageEmbed } from "discord.js";
@@ -25,10 +25,12 @@ const playerEndpoint: string = "/tiles/players.json"
 const worldMarkerEndpoint: string = "/tiles/world/markers.json"
 const earthMarkerEndpoint: string = "/tiles/earth/markers.json"
 
+const worldList: World[] = ["world", "earth", "world_nether", "world_the_end"]
+
 
 export default class cyt {
 
-    private lastFetch: number
+    private newTowns: Town[]
     private fuzzy: any
     private interval = setInterval(async () => {
        await this.fetch()
@@ -48,11 +50,11 @@ export default class cyt {
 
     constructor(address?: string) {
 
+        this.newTowns = []
         this.players = {players: []}
         this.oldPlayers = {players: []}
         this.address = address ?? defaultAddress
 
-        this.lastFetch = Date.now()
         this.fuzzy = null
         this.cookie = JSON.parse(fs.readFileSync(cookieFile).toString()).cookie
 
@@ -179,92 +181,21 @@ export default class cyt {
 
             fs.writeFileSync(playerDataFile, JSON.stringify(this.players, null, 4))
 
-            //fetch world towns
+            worldList.forEach(async (world) => {
 
-            let worldRes = await fetch(defaultAddress + worldMarkerEndpoint, {
-                "headers": {
-                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                    "accept-language": "en-US,en;q=0.9",
-                    "cache-control": "max-age=0",
-                    "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
-                    "if-none-match": "\"1636899523701\"",
-                    "sec-fetch-dest": "document",
-                    "sec-fetch-mode": "navigate",
-                    "sec-fetch-site": "none",
-                    "sec-fetch-user": "?1",
-                    "sec-gpc": "1",
-                    "upgrade-insecure-requests": "1",
-                    "cookie": this.cookie
-                },
-                "method": "GET"
-            });
+                await this.getMarkers(world)
 
-            const worldMarkerJSON: any = await worldRes.json()
-
-            fs.writeFileSync(worldMarkerDataFile, JSON.stringify(worldMarkerJSON, null, 4))
-
-            //fetch earth towns
-
-            let earthRes = await fetch(defaultAddress + earthMarkerEndpoint, {
-                "headers": {
-                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                    "accept-language": "en-US,en;q=0.9",
-                    "cache-control": "max-age=0",
-                    "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
-                    "if-none-match": "\"1636899523701\"",
-                    "sec-fetch-dest": "document",
-                    "sec-fetch-mode": "navigate",
-                    "sec-fetch-site": "none",
-                    "sec-fetch-user": "?1",
-                    "sec-gpc": "1",
-                    "upgrade-insecure-requests": "1",
-                    "cookie": this.cookie
-                },
-                "method": "GET"
-            });
-
-            const earthMarkerJSON: any = await earthRes.json()
-
-            fs.writeFileSync(earthMarkerDataFile, JSON.stringify(earthMarkerJSON, null, 4))
-
+            })
+         
             //Get saved towns
 
             let towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString())
-            let newTowns: Town[] = []
-            let count = 0
+            this.newTowns = []
 
             //Create list of town data
 
-            //find the order of the towns/worldborder markers, it seems to be random lmao
-
-            const markerOrder =  worldMarkerJSON[0].id == "towny" ? 0 : 1
-
-            //process overworld towns
-            worldMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
-
-                let t = new Town("world")
-                if (marker.type == "icon") {
-                    t = t.fromIcon(marker, "world")
-                        newTowns.push(t)
-                    //console.log(`Processing Overworld towns... ${count} towns processed`)
-                    count++
-                }
-            })
-
-            //process earth towns
-
-            earthMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
-
-                let t = new Town("earth")
-                if (marker.type == "icon") {
-                    t = t.fromIcon(marker, "earth")
-                     newTowns.push(t)
-                    //console.log(`Processing Earth towns... ${count} towns processed`)
-                    count++
-                }
-            })
             //sort
-            newTowns.sort((a, b) => {
+            this.newTowns.sort((a, b) => {
 
                 const aName = a.name.toUpperCase()
                 const bName = b.name.toUpperCase()
@@ -276,7 +207,7 @@ export default class cyt {
 
             //Check for new towns
 
-            newTowns.forEach((nt) => {
+            this.newTowns.forEach((nt) => {
                 const ret = towns.find((ot) => {
                 return ot.name == nt.name
             })
@@ -290,7 +221,7 @@ export default class cyt {
          //Check for fallen towns
 
          towns.forEach((ot) => {
-             const ret = newTowns.find((nt) => {
+             const ret = this.newTowns.find((nt) => {
                  return nt.name == ot.name
              })
              if (!ret) {
@@ -300,9 +231,9 @@ export default class cyt {
          })
 
             //save
-           fs.writeFileSync(townsDataFile, JSON.stringify(newTowns, null, 4))
+           fs.writeFileSync(townsDataFile, JSON.stringify(this.newTowns, null, 4))
 
-           this.townCount = newTowns.length
+           this.townCount = this.newTowns.length
 
         } catch (error) { 
             console.log(error)
@@ -313,7 +244,56 @@ export default class cyt {
 
     }
 
+    private genEndpoint(world: World) {
+
+        return `/tiles/${world}/markers.json`
+
+    }
+
+    private genDataFile(world: World) {
+
+        return `./data/fetch${world}Markers.json`
+
+    }
+
+
+    private async getMarkers(world: World) {
+
+        let res = await fetch(defaultAddress + this.genEndpoint(world), {
+            "headers": {
+                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                "accept-language": "en-US,en;q=0.9",
+                "cache-control": "max-age=0",
+                "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
+                "if-none-match": "\"1636899523701\"",
+                "sec-fetch-dest": "document",
+                "sec-fetch-mode": "navigate",
+                "sec-fetch-site": "none",
+                "sec-fetch-user": "?1",
+                "sec-gpc": "1",
+                "upgrade-insecure-requests": "1",
+                "cookie": this.cookie
+            },
+            "method": "GET"
+        });
+
+        const json: any = await res.json()
+
+        fs.writeFileSync(this.genDataFile(world), JSON.stringify(json, null, 4))
+
+         //find the order of the towns/worldborder markers, it seems to be random lmao
+
+         const markerOrder =  json[0].id == "towny" ? 0 : 1
+
+          //process towns
+          json[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
+
+            let t = new Town(world)
+            if (marker.type == "icon") {
+                t = t.fromIcon(marker, world)
+                    this.newTowns.push(t)
+            }
+        })
+    }
 
 }
-
-

@@ -26,7 +26,7 @@ Client.once("ready", () => {
 	console.log(`Ready, logged in as ${Client.user?.tag}`);
 	Client.user?.setActivity({
 		type: "PLAYING",
-		name: `On CYT | craftyour.town`,
+		name: `On CYT | craftyour.town | Waiting for first ping...`,
 	});
 
 	setInterval(() => {

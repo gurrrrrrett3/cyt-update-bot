@@ -3,6 +3,12 @@ import { Client, CYT } from "..";
 import Town from './cytmarker';
 import Discord from 'discord.js';
 
+export const roles = {
+    townFall: "Town Fall Notifications",
+    pinata: "Pinata",
+    daily: "Daily Server Updates",
+}
+
 export const startTime = Date.now()
 
 export async function update() {
@@ -46,15 +52,26 @@ export async function townUpdate(town: Town, action: "CREATE" | "DELETE") {
     .setURL(makeMapLink(town.world, town.coords.x, town.coords.z))
     .setTimestamp()
 
-    Client.channels.cache.get("909811232792510464")?.fetch().then((channel) => {
+    Client.channels.cache.get("909811232792510464")?.fetch().then(async (channel) => {
 
         if (!channel.isText()) return
 
-        channel.send({embeds: [embed]})
+        channel.send({embeds: [embed], content: action == "DELETE" ? await mentionRole(roles.townFall) : ""})
 
     })
 
     
+}
+
+
+export async function mentionRole(role: string) {
+
+    const foundRole = Client.guilds.cache.get("909811232792510464")?.roles.cache.find((r) => r.name == role)
+
+    if (!foundRole) return
+
+    return `<@&${foundRole.id}>`
+
 }
 
 export function formatTime(time: string | number) {

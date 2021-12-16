@@ -1,319 +1,344 @@
 //@typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
-import fetch from "node-fetch"
-import fs from "fs"
-const fuzzyset = require("fuzzyset")
+import fetch from "node-fetch";
+import fs from "fs";
+const fuzzyset = require("fuzzyset");
 
-import Player from './cytplayer';
-import Town from "./cytmarker"
-import { MarkerIconData, MarkerPolygonData } from './cytmarker';
+import Player from "./cytplayer";
+import Town from "./cytmarker";
+import { MarkerIconData, MarkerPolygonData } from "./cytmarker";
 import { Client } from "..";
 import { MessageEmbed } from "discord.js";
 import { startTime, townUpdate } from "./infochannels";
 import dailyUpdate from "./dailyupdate";
 
-const playerDataFile = "./data/fetchPlayers.json"
-const worldMarkerDataFile = "./data/fetchWorldMarkers.json"
-const earthMarkerDataFile = "./data/fetchEarthMarkers.json"
-const townsDataFile = "./data/towns.json"
+const playerDataFile = "./data/fetchPlayers.json";
+const worldMarkerDataFile = "./data/fetchWorldMarkers.json";
+const earthMarkerDataFile = "./data/fetchEarthMarkers.json";
+const townsDataFile = "./data/towns.json";
 
-const onlineDataFile = "./data/onlineData.json"
+const onlineDataFile = "./data/onlineData.json";
 
-const cookieFile = "./data/cookie.json"
+const cookieFile = "./data/cookie.json";
 
-const defaultAddress: string = "https://zion.craftyourtown.com"
-const playerEndpoint: string = "/tiles/players.json"
-const worldMarkerEndpoint: string = "/tiles/world/markers.json"
-const earthMarkerEndpoint: string = "/tiles/earth/markers.json"
-
+const defaultAddress: string = "https://zion.craftyourtown.com";
+const playerEndpoint: string = "/tiles/players.json";
+const worldMarkerEndpoint: string = "/tiles/world/markers.json";
+const earthMarkerEndpoint: string = "/tiles/earth/markers.json";
 
 export default class cyt {
+  private lastFetch: number;
+  private fuzzy: any;
+  private interval = setInterval(async () => {
+    await this.fetch();
+  }, 5000);
 
-    private lastFetch: number
-    private fuzzy: any
-    private interval = setInterval(async () => {
-       await this.fetch()
-    }, 5000)
+  public address: string;
+  public cookie: string;
+  public townCount: number;
+  public oldPlayers: {
+    players?: Player[];
+  };
+  public players: {
+    players?: Player[];
+  } = JSON.parse(fs.readFileSync(playerDataFile).toString());
 
-    public address: string
-    public cookie: string
-    public townCount: number
-    public oldPlayers: {
-        players?: Player[]
+  constructor(address?: string) {
+    this.players = { players: [] };
+    this.oldPlayers = { players: [] };
+    this.address = address ?? defaultAddress;
+
+    this.lastFetch = Date.now();
+    this.fuzzy = null;
+    this.cookie = JSON.parse(fs.readFileSync(cookieFile).toString()).cookie;
+
+    this.townCount = 0;
+  }
+
+  /**
+   * Get's the live server player count
+   * @returns Player count
+   */
+  public getOnlineCount(): number | undefined {
+    const onlineData = JSON.parse(fs.readFileSync(onlineDataFile).toString());
+    const d = new Date();
+    const playerCount = this.players.players?.length;
+
+    if (!onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`]) {
+      onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`] = {};
     }
-    public players: {
+    onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`][
+      `${d.getHours()}-${d.getMinutes()}-${d.getSeconds()}`
+    ] = playerCount;
+    fs.writeFileSync(onlineDataFile, JSON.stringify(onlineData, null, 4));
 
-        players?: Player[]
+    //Check for join
 
-    } = JSON.parse(fs.readFileSync(playerDataFile).toString())
-
-    constructor(address?: string) {
-
-        this.players = {players: []}
-        this.oldPlayers = {players: []}
-        this.address = address ?? defaultAddress
-
-        this.lastFetch = Date.now()
-        this.fuzzy = null
-        this.cookie = JSON.parse(fs.readFileSync(cookieFile).toString()).cookie
-
-        this.townCount = 0
+    if (this.oldPlayers.players?.length == 0) {
+      this.oldPlayers = this.players;
     }
 
+    this.players.players?.forEach((player) => {
+      if (
+        !this.oldPlayers.players?.find(
+          (oldPlayer) => oldPlayer.name == player.name
+        )
+      )
+        Client.channels.cache
+          .get("909871500939624449")
+          ?.fetch()
+          .then((channel) => {
+            if (channel.isText()) {
+              channel.send({
+                embeds: [
+                  new MessageEmbed()
+                    .setAuthor(`${player.name} Joined.`)
+                    .setTimestamp()
+                    .setThumbnail(
+                      `https://visage.surgeplay.com/bust/128/${player.uuid}`
+                    ),
+                ],
+              });
+            }
+          });
+    });
+    this.oldPlayers = this.players;
 
-    public getOnlineCount() {
+    return playerCount;
+  }
 
-        const onlineData = JSON.parse(fs.readFileSync(onlineDataFile).toString())
-        const d = new Date()
-        const playerCount = this.players.players?.length
+  /**
+   * Get's a live town count 
+   * @returns Number of Towns
+   */
+  public getTownCount(): number {
+    return this.townCount;
+  }
 
-        if (!onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`]) {onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`] = {}} 
-        onlineData[`${d.getMonth()}-${d.getDate()}-${d.getFullYear()}`][`${d.getHours()}-${d.getMinutes()}-${d.getSeconds()}`] = playerCount
-        fs.writeFileSync(onlineDataFile, JSON.stringify(onlineData, null, 4))
-
-        //Check for join
-
-        if(this.oldPlayers.players?.length == 0) {
-            this.oldPlayers = this.players
+  public async getPos(playerName: string) {
+    const playerData = this.fuzzy.get(playerName);
+    if (!playerData)
+      return new Player({
+        armor: 0,
+        health: 0,
+        name: "Error",
+        uuid: "Player not found",
+        world: "null",
+        x: 0,
+        z: 0,
+        yaw: 0,
+      });
+    const nameData = playerData[0];
+    const name = nameData[1];
+    const percentage = nameData[0];
+    const data: {
+      players?: [
+        {
+          armor: number;
+          health: number;
+          name: string;
+          uuid: string;
+          world: string;
+          x: number;
+          z: number;
+          yaw: number;
         }
+      ];
+    } = JSON.parse(fs.readFileSync(playerDataFile).toString());
 
-        this.players.players?.forEach((player) => {
+    const player = new Player(data.players?.find((p) => p.name == name));
 
-        if (!this.oldPlayers.players?.find((oldPlayer) => oldPlayer.name == player.name))
+    console.log(player);
 
-        Client.channels.cache.get("909871500939624449")?.fetch().then((channel) => {
+    return player.export();
+  }
 
-            if(channel.isText()) {
+  /**
+   * Creates the fuzzy search object
+   */
+  private makeFuzzy() {
+    const playerMap = this.players.players?.map((p) => p.name);
 
-                channel.send({embeds: [new MessageEmbed().setAuthor(`${player.name} Joined.`).setTimestamp().setThumbnail(`https://visage.surgeplay.com/bust/128/${player.uuid}`)]})
+    this.fuzzy = fuzzyset(playerMap);
+  }
 
-            }
+  /**
+   * MASSIVE fetch function, fetches all data from the server, formats it, and saves it to the data files.
+   * @returns 
+   */
+  private async fetch() {
+    try {
+      //fetch players
 
-        })
+      let playerRes = await fetch(defaultAddress + playerEndpoint, {
+        headers: {
+          accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "accept-language": "en-US,en;q=0.9",
+          "cache-control": "max-age=0",
+          "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
+          "if-none-match": '"1636899523701"',
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "sec-gpc": "1",
+          "upgrade-insecure-requests": "1",
+          cookie: this.cookie,
+        },
+        method: "GET",
+      });
 
-        })
-        this.oldPlayers = this.players
+      const json: any = await playerRes.json();
 
-        return playerCount
+      this.players = json;
 
-    }
+      if (Date.now() - startTime > 10000) {
+        this.oldPlayers = this.players;
+      }
 
-    public getTownCount() {
+      this.makeFuzzy();
 
-        return this.townCount 
+      fs.writeFileSync(playerDataFile, JSON.stringify(this.players, null, 4));
 
-    }
+      //fetch world towns
 
-    public async getPos(playerName: string) {
+      let worldRes = await fetch(defaultAddress + worldMarkerEndpoint, {
+        headers: {
+          accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "accept-language": "en-US,en;q=0.9",
+          "cache-control": "max-age=0",
+          "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
+          "if-none-match": '"1636899523701"',
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "sec-gpc": "1",
+          "upgrade-insecure-requests": "1",
+          cookie: this.cookie,
+        },
+        method: "GET",
+      });
 
-        const playerData = this.fuzzy.get(playerName)
-        if(!playerData) return new Player({armor: 0, health: 0, name: "Error", uuid: "Player not found", world: "null", x: 0, z: 0, yaw: 0})
-        const nameData = playerData[0]
-        const name = nameData[1]
-        const percentage = nameData[0]
-        const data: {
-            players?: [
-                {
-                    armor: number,
-                    health: number,
-                    name: string,
-                    uuid: string,
-                    world: string,
-                    x: number,
-                    z: number,
-                    yaw: number
+      const worldMarkerJSON: any = await worldRes.json();
 
-                }
-            ]
-        } = JSON.parse(fs.readFileSync(playerDataFile).toString())
+      fs.writeFileSync(
+        worldMarkerDataFile,
+        JSON.stringify(worldMarkerJSON, null, 4)
+      );
 
-        const player = new Player(data.players?.find((p) => p.name == name))
+      //fetch earth towns
 
-        console.log(player)
+      let earthRes = await fetch(defaultAddress + earthMarkerEndpoint, {
+        headers: {
+          accept:
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+          "accept-language": "en-US,en;q=0.9",
+          "cache-control": "max-age=0",
+          "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
+          "if-none-match": '"1636899523701"',
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "sec-gpc": "1",
+          "upgrade-insecure-requests": "1",
+          cookie: this.cookie,
+        },
+        method: "GET",
+      });
 
-        return player.export()
+      const earthMarkerJSON: any = await earthRes.json();
 
-    }
+      fs.writeFileSync(
+        earthMarkerDataFile,
+        JSON.stringify(earthMarkerJSON, null, 4)
+      );
 
-    private makeFuzzy() {
+      //Get saved towns
 
-        const playerMap = this.players.players?.map((p) => (p.name))
+      let towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString());
+      let newTowns: Town[] = [];
+      let count = 0;
 
-        this.fuzzy = fuzzyset(playerMap)
+      //Create list of town data
 
-    }
+      //find the order of the towns/worldborder markers, it seems to be random lmao
 
-    private async fetch() {
+      const markerOrder = worldMarkerJSON[0].id == "towny" ? 0 : 1;
 
-        try {
-
-            //fetch players
-
-            let playerRes = await fetch(defaultAddress + playerEndpoint, {
-                "headers": {
-                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                    "accept-language": "en-US,en;q=0.9",
-                    "cache-control": "max-age=0",
-                    "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
-                    "if-none-match": "\"1636899523701\"",
-                    "sec-fetch-dest": "document",
-                    "sec-fetch-mode": "navigate",
-                    "sec-fetch-site": "none",
-                    "sec-fetch-user": "?1",
-                    "sec-gpc": "1",
-                    "upgrade-insecure-requests": "1",
-                    "cookie": this.cookie
-                },
-                "method": "GET"
-            });
-
-
-            const json: any = await playerRes.json()
-
-            this.players = json
-
-            if(Date.now() - startTime > 10000) {
-                this.oldPlayers = this.players
-            }
-
-            this.makeFuzzy()
-
-            fs.writeFileSync(playerDataFile, JSON.stringify(this.players, null, 4))
-
-            //fetch world towns
-
-            let worldRes = await fetch(defaultAddress + worldMarkerEndpoint, {
-                "headers": {
-                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                    "accept-language": "en-US,en;q=0.9",
-                    "cache-control": "max-age=0",
-                    "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
-                    "if-none-match": "\"1636899523701\"",
-                    "sec-fetch-dest": "document",
-                    "sec-fetch-mode": "navigate",
-                    "sec-fetch-site": "none",
-                    "sec-fetch-user": "?1",
-                    "sec-gpc": "1",
-                    "upgrade-insecure-requests": "1",
-                    "cookie": this.cookie
-                },
-                "method": "GET"
-            });
-
-            const worldMarkerJSON: any = await worldRes.json()
-
-            fs.writeFileSync(worldMarkerDataFile, JSON.stringify(worldMarkerJSON, null, 4))
-
-            //fetch earth towns
-
-            let earthRes = await fetch(defaultAddress + earthMarkerEndpoint, {
-                "headers": {
-                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-                    "accept-language": "en-US,en;q=0.9",
-                    "cache-control": "max-age=0",
-                    "if-modified-since": "Sun, 14 Nov 2021 14:18:43 GMT",
-                    "if-none-match": "\"1636899523701\"",
-                    "sec-fetch-dest": "document",
-                    "sec-fetch-mode": "navigate",
-                    "sec-fetch-site": "none",
-                    "sec-fetch-user": "?1",
-                    "sec-gpc": "1",
-                    "upgrade-insecure-requests": "1",
-                    "cookie": this.cookie
-                },
-                "method": "GET"
-            });
-
-            const earthMarkerJSON: any = await earthRes.json()
-
-            fs.writeFileSync(earthMarkerDataFile, JSON.stringify(earthMarkerJSON, null, 4))
-
-            //Get saved towns
-
-            let towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString())
-            let newTowns: Town[] = []
-            let count = 0
-
-            //Create list of town data
-
-            //find the order of the towns/worldborder markers, it seems to be random lmao
-
-            const markerOrder =  worldMarkerJSON[0].id == "towny" ? 0 : 1
-
-            //process overworld towns
-            worldMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
-
-                let t = new Town("world")
-                if (marker.type == "icon") {
-                    t = t.fromIcon(marker, "world")
-                        newTowns.push(t)
-                    //console.log(`Processing Overworld towns... ${count} towns processed`)
-                    count++
-                }
-            })
-
-            //process earth towns
-
-            earthMarkerJSON[markerOrder].markers.forEach((marker: MarkerIconData | MarkerPolygonData) => {
-
-                let t = new Town("earth")
-                if (marker.type == "icon") {
-                    t = t.fromIcon(marker, "earth")
-                     newTowns.push(t)
-                    //console.log(`Processing Earth towns... ${count} towns processed`)
-                    count++
-                }
-            })
-            //sort
-            newTowns.sort((a, b) => {
-
-                const aName = a.name.toUpperCase()
-                const bName = b.name.toUpperCase()
-
-                return (aName < bName) ? -1 : (aName > bName) ? 1 : 0;
-            })
-
-            //Compare
-
-            //Check for new towns
-
-            newTowns.forEach((nt) => {
-                const ret = towns.find((ot) => {
-                return ot.name == nt.name
-            })
-
-            if (!ret) {
-                //town is new, announce it
-                townUpdate(nt, "CREATE")
-            }
-        })
-
-         //Check for fallen towns
-
-         towns.forEach((ot) => {
-             const ret = newTowns.find((nt) => {
-                 return nt.name == ot.name
-             })
-             if (!ret) {
-                //town has fallen, announce it
-                townUpdate(ot, "DELETE")
-             }
-         })
-
-            //save
-           fs.writeFileSync(townsDataFile, JSON.stringify(newTowns, null, 4))
-
-           this.townCount = newTowns.length
-
-        } catch (error) { 
-            console.log(error)
+      //process overworld towns
+      worldMarkerJSON[markerOrder].markers.forEach(
+        (marker: MarkerIconData | MarkerPolygonData) => {
+          let t = new Town("world");
+          if (marker.type == "icon") {
+            t = t.fromIcon(marker, "world");
+            newTowns.push(t);
+            //console.log(`Processing Overworld towns... ${count} towns processed`)
+            count++;
+          }
         }
+      );
 
+      //process earth towns
 
-        return
+      earthMarkerJSON[markerOrder].markers.forEach(
+        (marker: MarkerIconData | MarkerPolygonData) => {
+          let t = new Town("earth");
+          if (marker.type == "icon") {
+            t = t.fromIcon(marker, "earth");
+            newTowns.push(t);
+            //console.log(`Processing Earth towns... ${count} towns processed`)
+            count++;
+          }
+        }
+      );
+      //sort
+      newTowns.sort((a, b) => {
+        const aName = a.name.toUpperCase();
+        const bName = b.name.toUpperCase();
 
+        return aName < bName ? -1 : aName > bName ? 1 : 0;
+      });
+
+      //Compare
+
+      //Check for new towns
+
+      newTowns.forEach((nt) => {
+        const ret = towns.find((ot) => {
+          return ot.name == nt.name;
+        });
+
+        if (!ret) {
+          //town is new, announce it
+          townUpdate(nt, "CREATE");
+        }
+      });
+
+      //Check for fallen towns
+
+      towns.forEach((ot) => {
+        const ret = newTowns.find((nt) => {
+          return nt.name == ot.name;
+        });
+        if (!ret) {
+          //town has fallen, announce it
+          townUpdate(ot, "DELETE");
+
+          //Notify the "Town Fall Noftification" role by mentioning them
+        }
+      });
+
+      //save
+      fs.writeFileSync(townsDataFile, JSON.stringify(newTowns, null, 4));
+
+      this.townCount = newTowns.length;
+    } catch (error) {
+      console.log(error);
     }
 
-
+    return;
+  }
 }
-
-

@@ -1,5 +1,5 @@
 import {MapZoom, World } from './types';
-import Canvas from 'canvas';
+import Canvas from 'node-canvas';
 import staticData from './staticData';
 import fetch from 'node-fetch';
 import fs from 'fs';

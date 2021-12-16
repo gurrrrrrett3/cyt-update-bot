@@ -25,7 +25,10 @@ export default class Player {
         this.yaw = data.yaw 
 
     }
-
+/**
+ * Returns a JSON formatted object of the player
+ * @returns {Player} Player object
+ */
     public export() {
 
         return { armor: this.armor , health: this.health, name: this.name, uuid: this.uuid, world: this.world, x: this.x, z: this.z, yaw: this.yaw }

@@ -1,99 +1,105 @@
-import { parse } from "node-html-parser" 
+import { parse } from "node-html-parser";
 
 export default class Town {
+  public name: string;
+  public mayor: string;
+  public assistants: string[];
+  public color: string;
+  public residents: string[];
+  public pvp: boolean;
+  public chunks: number;
+  public world: "earth" | "world";
+  public coords: Coords;
 
-    public name: string
-    public mayor: string
-    public assistants: string[]
-    public color: string
-    public residents: string[]
-    public pvp: boolean
-    public chunks: number
-    public world: "earth" | "world"
-    public coords: Coords
+  constructor(world: "earth" | "world") {
+    this.world = world;
+    this.name = "";
+    this.chunks = 0;
+    this.color = "";
+    this.mayor = "";
+    this.pvp = false;
+    this.residents = [""];
+    this.assistants = [""];
 
-    constructor(world: "earth" | "world") { 
+    this.coords = {
+      x: 0,
+      z: 0,
+    };
+  }
 
-        this.world = world
-        this.name = ""
-        this.chunks = 0
-        this.color = ""
-        this.mayor = ""
-        this.pvp = false
-        this.residents = [""]
-        this.assistants = [""]
+  /**
+   * Takes a HTML string and parses it into a Town object
+   * @param data String of HTML data
+   * @param world World of the icon
+   * @returns {Town} Town object
+   */
+  fromIcon(data: MarkerIconData, world: World) {
+    let town = new Town(world);
 
-        this.coords = {
-            x: 0,
-            z: 0
-        }
+    town.coords = data.point;
+    town.chunks = 0;
 
-    }
+    const popupData = parse(data.popup).rawText.split("\n");
 
-    fromIcon(data: MarkerIconData, world: World) {
+    town.name = popupData[2].trim().replace(/ \(.+\)/g, "");
+    town.mayor = popupData[5].trim();
+    town.assistants = popupData[8]
+      .trim()
+      .split(",")
+      .map((r) => r.trim());
+    town.pvp = popupData[11].trim() == "true" ? true : false;
+    town.residents = popupData[13]
+      .trim()
+      .replace("Residents: ", "")
+      .split(",")
+      .map((r) => r.trim());
 
-        let town = new Town(world)
-
-        town.coords = data.point
-        town.chunks = 0
-        
-        const popupData = parse(data.popup).rawText.split("\n")
-
-        town.name = popupData[2].trim().replace(/ \(.+\)/g, "")
-        town.mayor = popupData[5].trim()
-        town.assistants = popupData[8].trim().split(",").map((r) => r.trim())
-        town.pvp = popupData[11].trim() == "true" ? true : false
-        town.residents = popupData[13].trim().replace("Residents: ", "").split(",").map((r) => r.trim())
-
-        return town
-
-    }
-
+    return town;
+  }
 }
 
 export type MarkerPolygonData = {
-
-    "fillColor": string,
-    "popup": string,
-    "color": string,
-    "tooltip": string,
-    "type": "polygon",
-    "points": [[{
-        "x": number,
-        "z": number
-    }]]
-
-
-}
+  fillColor: string;
+  popup: string;
+  color: string;
+  tooltip: string;
+  type: "polygon";
+  points: [
+    [
+      {
+        x: number;
+        z: number;
+      }
+    ]
+  ];
+};
 
 export type MarkerIconData = {
+  tooltip_anchor: {
+    z: number;
+    x: number;
+  };
+  popup: string;
+  size: {
+    z: number;
+    x: number;
+  };
+  anchor: {
+    z: number;
+    x: number;
+  };
+  tooltip: string;
+  icon: string;
+  type: "icon";
+  point: {
+    z: number;
+    x: number;
+  };
+};
 
-    "tooltip_anchor": {
-        "z": number,
-        "x": number
-    },
-    "popup": string,
-    "size": {
-        "z": number,
-        "x": number
-    },
-    "anchor": {
-        "z": number,
-        "x": number
-    },
-    "tooltip": string,
-    "icon": string,
-    "type": "icon",
-    "point": {
-        "z": number,
-        "x": number
-    }
-}
-
-type World = "world" | "earth"
+type World = "world" | "earth";
 
 type Coords = {
-    x: number
-    z: number
-}
-
+  x: number;
+  z: number;
+};

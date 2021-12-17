@@ -143,3 +143,20 @@ export function makeMapLink(
 
   //COMMENTED OUT FOR NOW AS THEY PROCEEDED TO BREAK THIS AGAIN LMAO
 }
+
+export async function sendPinataMessage() {
+
+  Client.channels.cache.get("909811204057350165")?.fetch().then(async (channel) => {
+
+    if (!channel.isText()) return
+
+    const embed = new MessageEmbed()
+      .setTitle("Pinata Starts Now!")
+      .setDescription("Pinata is now starting!\n/warp event")
+      .setColor("#ffff00")
+      .setTimestamp()
+      .setThumbnail("https://cdn.discordapp.com/attachments/909840674990469180/909840709580894218/CYT_UpdateBotIcon.png")
+
+    channel.send({ embeds: [embed], content: await mentionRole(roles.pinata) })
+  })
+}

@@ -333,7 +333,7 @@ export default class cyt {
 
       //save
       fs.writeFileSync(townsDataFile, JSON.stringify(newTowns, null, 4));
-
+      //update town count variable
       this.townCount = newTowns.length;
     } catch (error) {
       console.log(error);

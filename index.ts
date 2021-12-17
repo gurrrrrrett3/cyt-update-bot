@@ -31,6 +31,12 @@ Client.once("ready", () => {
 
 	setInterval(() => {
 		update();
+
+		Client.user?.setActivity({
+			type: "PLAYING",
+			name: `On CYT | craftyour.town | ${CYT.townCount} towns | ${CYT.getOnlineCount()} players`,
+		});
+		
 	}, 10000);
 });
 

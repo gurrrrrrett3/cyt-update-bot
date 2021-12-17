@@ -163,7 +163,7 @@ export default class cyt {
 
   /**
    * MASSIVE fetch function, fetches all data from the server, formats it, and saves it to the data files.
-   * @returns 
+   * @returns nothing
    */
   private async fetch() {
     try {

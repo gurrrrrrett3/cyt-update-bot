@@ -62,12 +62,17 @@ Client.on("messageCreate", async (message) => {
       const embed = new MessageEmbed()
       .setTitle(`Position of ${data?.name}`)
       .setURL(makeMapLink(data?.world == "earth" ? "earth" : "world", data?.x,data?.z))
-
-      if (data.world == "world" || data.world == "earth") {
+		
+    //   if (data.world == "world" || data.world == "earth") {
         embed.setDescription(`**World:** ${data?.world}\n**X:** ${data?.x}\n**Z:** ${data?.z}`)
-      } else {
-        embed.setDescription(`**World:** ${data?.world}\n**X:** No data available\n**Z:** No data available`)
-      }
+    //   } else {
+    //     embed.setDescription(`**World:** ${data?.world}\n**X:** No data available\n**Z:** No data available`)
+    //   }
+
+	//They broke their code again, so the above block is unneccessary
+
+	
+
 			message.reply({
 				embeds: [
 				embed

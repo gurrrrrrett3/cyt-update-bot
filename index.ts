@@ -52,6 +52,14 @@ Client.on("messageCreate", async (message) => {
   const split = content.split(" ");
   const command = split[0].toLowerCase();
   const args = split.slice(1);
+  
+  //check if commands are enabled
+
+  if (!CYT.isReady()) {
+
+    message.reply("Commands aren't ready yet, please wait while the bot starts up.");
+    return;
+  }
 
   if (command == "pos") {
     const data = await CYT.getPos(args[0]);
@@ -88,9 +96,43 @@ Client.on("messageCreate", async (message) => {
         embeds: [embed],
       });
     }
+  } else if (command == "town") {
+
+
+  const data = await CYT.getTown(args.join(" "));
+
+  if (!data) {
+
+    message.reply("Error, could not find town");
+
   }
 
-  if (command == "online") {
+  const embed = new MessageEmbed()
+
+  .setTitle(`Town of ${data?.name}`)
+  .setURL(
+    makeMapLink(
+      data?.world == "earth" ? "earth" : "world",
+      data?.coords.x ?? 0,
+      data?.coords.z ?? 0,
+    )
+  )
+  .setDescription(
+    `**World:** ${data?.world}\n**X:** ${data?.coords.x ?? 0}\n**Z:** ${data?.coords.z ?? 0}`
+  )
+.addField("Mayor", data?.mayor ?? "No data available")
+.addField("Pvp", data?.pvp ? "Enabled" : "Disabled" ?? "No data available")
+.addField("Assistants", data?.assistants.join(", ") ?? "No data available")
+.addField("Residents", data?.residents.length.toString() ?? "No data available")
+.addField("Resident List", data?.residents.join("\n") ?? "No data available")
+
+.setTimestamp()
+
+  message.reply({
+    embeds: [embed],
+  });
+  
+} else if (command == "online") {
     message.reply({
       content: `There are: ${CYT.getOnlineCount()} players online!`,
     });

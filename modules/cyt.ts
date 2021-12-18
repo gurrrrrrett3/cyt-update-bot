@@ -26,9 +26,12 @@ const playerEndpoint: string = "/tiles/players.json";
 const worldMarkerEndpoint: string = "/tiles/world/markers.json";
 const earthMarkerEndpoint: string = "/tiles/earth/markers.json";
 
+let ready = false;
+
 export default class cyt {
   private lastFetch: number;
-  private fuzzy: any;
+  private playerFuzzy: any;
+  private townFuzzy: any;
   private interval = setInterval(async () => {
     await this.fetch();
     Pinata.update()
@@ -44,13 +47,16 @@ export default class cyt {
     players?: Player[];
   } = JSON.parse(fs.readFileSync(playerDataFile).toString());
 
+  public towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString());
+
   constructor(address?: string) {
     this.players = { players: [] };
     this.oldPlayers = { players: [] };
     this.address = address ?? defaultAddress;
 
     this.lastFetch = Date.now();
-    this.fuzzy = null;
+    this.playerFuzzy = null;
+    this.townFuzzy = null;
     this.cookie = JSON.parse(fs.readFileSync(cookieFile).toString()).cookie;
 
     this.townCount = 0;
@@ -117,7 +123,7 @@ export default class cyt {
   }
 
   public async getPos(playerName: string) {
-    const playerData = this.fuzzy.get(playerName);
+    const playerData = this.playerFuzzy.get(playerName);
     if (!playerData)
       return new Player({
         armor: 0,
@@ -154,13 +160,33 @@ export default class cyt {
     return player.export();
   }
 
+
+  public async getTown(townName: string) {
+
+    const townData = this.townFuzzy.get(townName)[0];
+    if (!townData){
+      return null;
+    }
+   
+    const town = this.towns.find((t) => t.name == townData[1]);
+
+    return town;
+    
+  }
+        
+
   /**
-   * Creates the fuzzy search object
+   * Creates the playerFuzzy search object
    */
   private makeFuzzy() {
     const playerMap = this.players.players?.map((p) => p.name);
 
-    this.fuzzy = fuzzyset(playerMap);
+    this.playerFuzzy = fuzzyset(playerMap);
+
+    const townMap = this.towns.map((t) => t.name);
+    this.townFuzzy = fuzzyset(townMap);
+
+    ready = true;
   }
 
   /**
@@ -197,8 +223,6 @@ export default class cyt {
       if (Date.now() - startTime > 10000) {
         this.oldPlayers = this.players;
       }
-
-      this.makeFuzzy();
 
       fs.writeFileSync(playerDataFile, JSON.stringify(this.players, null, 4));
 
@@ -260,7 +284,7 @@ export default class cyt {
 
       //Get saved towns
 
-      let towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString());
+      this.towns = JSON.parse(fs.readFileSync(townsDataFile).toString());
       let newTowns: Town[] = [];
       let count = 0;
 
@@ -304,12 +328,16 @@ export default class cyt {
         return aName < bName ? -1 : aName > bName ? 1 : 0;
       });
 
+      //Make Fuzzy
+
+      this.makeFuzzy();
+
       //Compare
 
       //Check for new towns
 
       newTowns.forEach((nt) => {
-        const ret = towns.find((ot) => {
+        const ret = this.towns.find((ot) => {
           return ot.name == nt.name;
         });
 
@@ -321,7 +349,7 @@ export default class cyt {
 
       //Check for fallen towns
 
-      towns.forEach((ot) => {
+      this.towns.forEach((ot) => {
         const ret = newTowns.find((nt) => {
           return nt.name == ot.name;
         });
@@ -343,4 +371,10 @@ export default class cyt {
 
     return;
   }
+
+  public isReady(): boolean {
+
+    return ready;
+  }
+
 }

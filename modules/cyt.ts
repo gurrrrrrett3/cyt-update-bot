@@ -10,6 +10,7 @@ import { Client } from "..";
 import { MessageEmbed } from "discord.js";
 import { startTime, townUpdate } from "./infochannels";
 import dailyUpdate from "./dailyupdate";
+import Pinata from "./pinata";
 
 const playerDataFile = "./data/fetchPlayers.json";
 const worldMarkerDataFile = "./data/fetchWorldMarkers.json";
@@ -30,6 +31,7 @@ export default class cyt {
   private fuzzy: any;
   private interval = setInterval(async () => {
     await this.fetch();
+    Pinata.update()
   }, 5000);
 
   public address: string;

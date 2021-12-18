@@ -122,8 +122,8 @@ Client.on("messageCreate", async (message) => {
   )
 .addField("Mayor", data?.mayor ?? "No data available")
 .addField("Pvp", data?.pvp ? "Enabled" : "Disabled" ?? "No data available")
-.addField("Assistants", data?.assistants.join(", ") ?? "No data available")
-.addField("Residents", data?.residents.length.toString() ?? "No data available")
+.addField("Assistants", `\`${data?.assistants.join(", ")}\`` ?? "No data available")
+.addField("Residents", `\`${data?.residents.length.toString()}\`` ?? "No data available")
 .addField("Resident List", data?.residents.join("\n") ?? "No data available")
 
 .setTimestamp()

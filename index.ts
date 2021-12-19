@@ -127,7 +127,6 @@ Client.on("messageCreate", async (message) => {
 .addField("Resident List", `\`${data?.residents.join("\n")}\`` ?? "No data available")
 
 .setTimestamp()
-
   message.reply({
     embeds: [embed],
   });

@@ -78,3 +78,9 @@ typings/
 *.js
 cyt_updates
 /output
+data/towns.json
+data/onlineData.json
+data/fetchWorldMarkers.json
+data/fetchPlayers.json
+data/fetchEarthMarkers.json
+data/fetchEarthMarkers.json

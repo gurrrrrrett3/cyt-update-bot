@@ -3967,10 +3967,11 @@
         "mayor": "SpaddersHD",
         "pvp": false,
         "residents": [
-            "SpaddersHD"
+            "SpaddersHD",
+            "TheTwistedKitty"
         ],
         "assistants": [
-            "None"
+            "TheTwistedKitty"
         ],
         "coords": {
             "z": 1688,
@@ -6766,6 +6767,28 @@
     },
     {
         "world": "world",
+        "name": "PUB_Island",
+        "chunks": 0,
+        "color": "",
+        "mayor": "Thee_sheriff",
+        "pvp": false,
+        "residents": [
+            "Thee_sheriff",
+            "Villa_Sempre",
+            "Troan",
+            "Sonix_Highways",
+            "anti_barca"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": 10584,
+            "x": 14856
+        }
+    },
+    {
+        "world": "world",
         "name": "Pufferfish_Land",
         "chunks": 0,
         "color": "",
@@ -7297,7 +7320,8 @@
             "bbboca",
             "OurLordHarambe",
             "JDL0701",
-            "dmdouglas"
+            "dmdouglas",
+            "gameboi0990"
         ],
         "assistants": [
             "luukvanloo"
@@ -7349,7 +7373,8 @@
             "bbboca",
             "OurLordHarambe",
             "JDL0701",
-            "dmdouglas"
+            "dmdouglas",
+            "gameboi0990"
         ],
         "assistants": [
             "luukvanloo"
@@ -7924,6 +7949,24 @@
     },
     {
         "world": "world",
+        "name": "Salem",
+        "chunks": 0,
+        "color": "",
+        "mayor": "Hedgiedog",
+        "pvp": false,
+        "residents": [
+            "Hedgiedog"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": 8104,
+            "x": -6024
+        }
+    },
+    {
+        "world": "world",
         "name": "santa",
         "chunks": 0,
         "color": "",
@@ -8106,8 +8149,7 @@
             "xXhellsbells99Xx",
             "NoobTheNoob",
             "ThaNine",
-            "JacoboTheMasto",
-            "Hedgiedog"
+            "JacoboTheMasto"
         ],
         "assistants": [
             "None"

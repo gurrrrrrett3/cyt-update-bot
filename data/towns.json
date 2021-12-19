@@ -171,7 +171,8 @@
         "residents": [
             "novashaman",
             "kleb04",
-            "His_Lordsh1p"
+            "His_Lordsh1p",
+            "TheSlipperySlip"
         ],
         "assistants": [
             "None"
@@ -191,7 +192,8 @@
         "residents": [
             "novashaman",
             "kleb04",
-            "His_Lordsh1p"
+            "His_Lordsh1p",
+            "TheSlipperySlip"
         ],
         "assistants": [
             "None"
@@ -875,6 +877,25 @@
         "coords": {
             "z": -4392,
             "x": 12248
+        }
+    },
+    {
+        "world": "world",
+        "name": "Axolotl",
+        "chunks": 0,
+        "color": "",
+        "mayor": "TBRNKyubitai",
+        "pvp": false,
+        "residents": [
+            "TBRNKyubitai",
+            "Taygirl2004"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": 2344,
+            "x": -8136
         }
     },
     {
@@ -1974,6 +1995,24 @@
         "coords": {
             "z": -7208,
             "x": -4968
+        }
+    },
+    {
+        "world": "world",
+        "name": "DarkVille",
+        "chunks": 0,
+        "color": "",
+        "mayor": "miashap1129",
+        "pvp": false,
+        "residents": [
+            "miashap1129"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": -14216,
+            "x": 10872
         }
     },
     {
@@ -3967,10 +4006,11 @@
         "mayor": "SpaddersHD",
         "pvp": false,
         "residents": [
-            "SpaddersHD"
+            "SpaddersHD",
+            "TheTwistedKitty"
         ],
         "assistants": [
-            "None"
+            "TheTwistedKitty"
         ],
         "coords": {
             "z": 1688,
@@ -6766,6 +6806,28 @@
     },
     {
         "world": "world",
+        "name": "PUB_Island",
+        "chunks": 0,
+        "color": "",
+        "mayor": "Thee_sheriff",
+        "pvp": false,
+        "residents": [
+            "Thee_sheriff",
+            "Villa_Sempre",
+            "Troan",
+            "Sonix_Highways",
+            "anti_barca"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": 10584,
+            "x": 14856
+        }
+    },
+    {
+        "world": "world",
         "name": "Pufferfish_Land",
         "chunks": 0,
         "color": "",
@@ -7297,7 +7359,8 @@
             "bbboca",
             "OurLordHarambe",
             "JDL0701",
-            "dmdouglas"
+            "dmdouglas",
+            "gameboi0990"
         ],
         "assistants": [
             "luukvanloo"
@@ -7349,7 +7412,8 @@
             "bbboca",
             "OurLordHarambe",
             "JDL0701",
-            "dmdouglas"
+            "dmdouglas",
+            "gameboi0990"
         ],
         "assistants": [
             "luukvanloo"
@@ -7879,10 +7943,10 @@
         "name": "Sailoria",
         "chunks": 0,
         "color": "",
-        "mayor": "Sailor_Popeye",
+        "mayor": "Pogeye",
         "pvp": false,
         "residents": [
-            "Sailor_Popeye",
+            "Pogeye",
             "asz_kresnik",
             "DrPowerpants",
             "xDarrowx",
@@ -7903,10 +7967,10 @@
         "name": "Sailoria",
         "chunks": 0,
         "color": "",
-        "mayor": "Sailor_Popeye",
+        "mayor": "Pogeye",
         "pvp": false,
         "residents": [
-            "Sailor_Popeye",
+            "Pogeye",
             "asz_kresnik",
             "DrPowerpants",
             "xDarrowx",
@@ -7920,6 +7984,24 @@
         "coords": {
             "z": 56,
             "x": 3256
+        }
+    },
+    {
+        "world": "world",
+        "name": "Salem",
+        "chunks": 0,
+        "color": "",
+        "mayor": "Hedgiedog",
+        "pvp": false,
+        "residents": [
+            "Hedgiedog"
+        ],
+        "assistants": [
+            "None"
+        ],
+        "coords": {
+            "z": 8104,
+            "x": -6024
         }
     },
     {
@@ -8106,8 +8188,7 @@
             "xXhellsbells99Xx",
             "NoobTheNoob",
             "ThaNine",
-            "JacoboTheMasto",
-            "Hedgiedog"
+            "JacoboTheMasto"
         ],
         "assistants": [
             "None"
@@ -10083,8 +10164,8 @@
             "None"
         ],
         "coords": {
-            "z": -6216,
-            "x": 2920
+            "z": -6200,
+            "x": 2936
         }
     },
     {

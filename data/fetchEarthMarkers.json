@@ -9579,7 +9579,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Sailor_Popeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Sailor_Popeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Pogeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Pogeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -18224,7 +18224,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas, gameboi0990</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -21848,42 +21848,42 @@
                                 "x": 17056
                             },
                             {
-                                "z": 1327,
+                                "z": 1328,
+                                "x": 17056
+                            },
+                            {
+                                "z": 1343,
+                                "x": 17056
+                            },
+                            {
+                                "z": 1343,
                                 "x": 17071
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17072
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17087
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17088
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17103
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17104
                             },
                             {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17119
                             },
                             {
-                                "z": 1327,
-                                "x": 17120
-                            },
-                            {
-                                "z": 1328,
-                                "x": 17120
-                            },
-                            {
                                 "z": 1343,
                                 "x": 17120
                             },
@@ -21924,16 +21924,16 @@
                                 "x": 17135
                             },
                             {
-                                "z": 1328,
-                                "x": 17135
-                            },
-                            {
-                                "z": 1327,
-                                "x": 17135
-                            },
-                            {
-                                "z": 1327,
+                                "z": 1343,
                                 "x": 17136
+                            },
+                            {
+                                "z": 1343,
+                                "x": 17151
+                            },
+                            {
+                                "z": 1328,
+                                "x": 17151
                             },
                             {
                                 "z": 1327,
@@ -24752,7 +24752,7 @@
             },
             {
                 "fillColor": "#000000",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Shadowmoure </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">xXhellsbells99Xx</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>xXhellsbells99Xx, NoobTheNoob, ThaNine, JacoboTheMasto, Hedgiedog</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Shadowmoure </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">xXhellsbells99Xx</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>xXhellsbells99Xx, NoobTheNoob, ThaNine, JacoboTheMasto</span>\r\n</div>",
                 "color": "#000000",
                 "tooltip": "\r\n<div>\r\n    <bold>Shadowmoure </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -31262,7 +31262,7 @@
             },
             {
                 "fillColor": "#8b008b",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Sailor_Popeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Sailor_Popeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Pogeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Pogeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
                 "color": "#8b008b",
                 "tooltip": "\r\n<div>\r\n    <bold>Sailoria (Hot_Boy_Nation)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -32775,7 +32775,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p, TheSlipperySlip</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -33378,7 +33378,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Greenwood </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SpaddersHD</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SpaddersHD</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Greenwood </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SpaddersHD</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">TheTwistedKitty</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SpaddersHD, TheTwistedKitty</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -34704,7 +34704,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p, TheSlipperySlip</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -42008,7 +42008,7 @@
             },
             {
                 "fillColor": "#006400",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas, gameboi0990</span>\r\n</div>",
                 "color": "#006400",
                 "tooltip": "\r\n<div>\r\n    <bold>Red_Rock (Republic)</bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -44710,7 +44710,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Sailor_Popeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Sailor_Popeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Sailoria (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Pogeye</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Yiroh</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Pogeye, asz_kresnik, DrPowerpants, xDarrowx, Kir0washere, Yiroh, Stanneke2009</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -45007,7 +45007,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Red_Rock (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">skirunner10</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">luukvanloo</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>skirunner10, A_Suspicious_Man, ProjectAkio, NekoCb, BFW_YT, WolverineGawd, WellAllBell, SupSwooty, _qtM, WillowExists, GetSmurfed, BetaRayBilly1, KazooHolder, SoulTSC, luukvanloo, KaySeVeN, M4N4, minijo563, Hershy101, Baconator232, Flowerflower89, VRVoltage, AKJJ106, Holy_Minecrafter, JelloBrain95, Hophaelyth, TonyTheTiger116, SaVaGexPhoenix, SyrupSplashin, 808MELO, SalemSent, bbboca, OurLordHarambe, JDL0701, dmdouglas, gameboi0990</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -45283,7 +45283,7 @@
             },
             {
                 "fillColor": "#0000ff",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Greenwood </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SpaddersHD</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SpaddersHD</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Greenwood </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SpaddersHD</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">TheTwistedKitty</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SpaddersHD, TheTwistedKitty</span>\r\n</div>",
                 "tooltip": "\r\n<div>\r\n    <bold>Greenwood </bold>\r\n</div>\r\n",
                 "type": "polygon",
                 "points": [
@@ -45378,16 +45378,16 @@
                                 "x": -7216
                             },
                             {
-                                "z": 1679,
-                                "x": -7216
-                            },
-                            {
-                                "z": 1680,
-                                "x": -7216
-                            },
-                            {
-                                "z": 1680,
+                                "z": 1664,
                                 "x": -7217
+                            },
+                            {
+                                "z": 1664,
+                                "x": -7232
+                            },
+                            {
+                                "z": 1679,
+                                "x": -7232
                             },
                             {
                                 "z": 1680,
@@ -45474,24 +45474,24 @@
                                 "x": -7169
                             },
                             {
+                                "z": 1727,
+                                "x": -7168
+                            },
+                            {
+                                "z": 1727,
+                                "x": -7153
+                            },
+                            {
                                 "z": 1712,
-                                "x": -7169
+                                "x": -7153
                             },
                             {
                                 "z": 1711,
-                                "x": -7169
+                                "x": -7153
                             },
                             {
                                 "z": 1696,
-                                "x": -7169
-                            },
-                            {
-                                "z": 1695,
-                                "x": -7169
-                            },
-                            {
-                                "z": 1695,
-                                "x": -7168
+                                "x": -7153
                             },
                             {
                                 "z": 1695,
@@ -50049,7 +50049,7 @@
             },
             {
                 "fillColor": "#ffffe0",
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Allegannon </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">novashaman</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>novashaman, kleb04, His_Lordsh1p, TheSlipperySlip</span>\r\n</div>",
                 "color": "#ffffe0",
                 "tooltip": "\r\n<div>\r\n    <bold>Allegannon </bold>\r\n</div>\r\n",
                 "type": "polygon",
@@ -50261,20 +50261,36 @@
                                 "x": -13632
                             },
                             {
+                                "z": -4848,
+                                "x": -13633
+                            },
+                            {
+                                "z": -4848,
+                                "x": -13648
+                            },
+                            {
                                 "z": -4833,
-                                "x": -13632
+                                "x": -13648
                             },
                             {
                                 "z": -4832,
-                                "x": -13632
+                                "x": -13648
                             },
                             {
                                 "z": -4817,
-                                "x": -13632
+                                "x": -13648
                             },
                             {
                                 "z": -4816,
-                                "x": -13632
+                                "x": -13648
+                            },
+                            {
+                                "z": -4801,
+                                "x": -13648
+                            },
+                            {
+                                "z": -4801,
+                                "x": -13633
                             },
                             {
                                 "z": -4801,
@@ -53502,7 +53518,7 @@
                     "z": -17,
                     "x": 0
                 },
-                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Shadowmoure </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">xXhellsbells99Xx</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>xXhellsbells99Xx, NoobTheNoob, ThaNine, JacoboTheMasto, Hedgiedog</span>\r\n</div>",
+                "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Shadowmoure </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">xXhellsbells99Xx</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>xXhellsbells99Xx, NoobTheNoob, ThaNine, JacoboTheMasto</span>\r\n</div>",
                 "size": {
                     "z": 35,
                     "x": 35
@@ -54589,7 +54605,7 @@
             }
         ],
         "order": 5,
-        "timestamp": 1639868962081
+        "timestamp": 1639883670745
     },
     {
         "hide": false,

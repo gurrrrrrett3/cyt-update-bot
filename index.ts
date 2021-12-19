@@ -120,11 +120,11 @@ Client.on("messageCreate", async (message) => {
   .setDescription(
     `**World:** ${data?.world}\n**X:** ${data?.coords.x ?? 0}\n**Z:** ${data?.coords.z ?? 0}`
   )
-.addField("Mayor", data?.mayor ?? "No data available")
-.addField("Pvp", data?.pvp ? "Enabled" : "Disabled" ?? "No data available")
+.addField("Mayor", `\`${data?.mayor}\`` ?? "No data available")
+.addField("Pvp", data?.pvp ? "`Enabled`" : "`Disabled`" ?? "No data available")
 .addField("Assistants", `\`${data?.assistants.join(", ")}\`` ?? "No data available")
 .addField("Residents", `\`${data?.residents.length.toString()}\`` ?? "No data available")
-.addField("Resident List", data?.residents.join("\n") ?? "No data available")
+.addField("Resident List", `\`${data?.residents.join("\n")}\`` ?? "No data available")
 
 .setTimestamp()
 

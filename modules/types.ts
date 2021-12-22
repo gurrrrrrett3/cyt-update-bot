@@ -47,3 +47,18 @@ export type MarkerIconData = {
         "x": number
     }
 }
+
+export type Bounds = {
+   min: {
+         x: number
+         z: number
+    },
+    max: {
+        x: number
+        z: number
+    }
+}
+
+export type Polygon = {
+    points: Array<Coords>
+}

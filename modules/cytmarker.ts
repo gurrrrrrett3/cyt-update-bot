@@ -10,6 +10,7 @@ export default class Town {
   public chunks: number;
   public world: "earth" | "world";
   public coords: Coords;
+  public points: Coords[]
 
   constructor(world: "earth" | "world") {
     this.world = world;
@@ -25,6 +26,8 @@ export default class Town {
       x: 0,
       z: 0,
     };
+
+    this.points = [ this.coords ];
   }
 
   /**
@@ -56,7 +59,42 @@ export default class Town {
 
     return town;
   }
+
+  public static fromPolygon(town: Town, polygon: MarkerPolygonData) {
+    town.chunks += polygon.points.length
+    town.color = polygon.color;
+    return town;
+  }
+
+  public static markerToTownPolygon(marker: MarkerPolygonData) {
+
+    const out: townPolygon = {
+
+      points: marker.points,
+      type: marker.type,
+      color: marker.color,
+      popup: marker.popup,
+      name: parse(marker.tooltip).rawText.trim(),
+    };
+  }
+
 }
+
+export type townPolygon = {
+  popup: string;
+  color: string;
+  name: string;
+  type: "polygon";
+  points: [
+    [
+      {
+        x: number;
+        z: number;
+      }
+    ]
+  ];
+};
+
 
 export type MarkerPolygonData = {
   fillColor: string;

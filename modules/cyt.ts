@@ -49,6 +49,8 @@ export default class cyt {
 
   public towns: Town[] = JSON.parse(fs.readFileSync(townsDataFile).toString());
 
+  public polygons: MarkerPolygonData[]
+
   constructor(address?: string) {
     this.players = { players: [] };
     this.oldPlayers = { players: [] };
@@ -60,6 +62,8 @@ export default class cyt {
     this.cookie = JSON.parse(fs.readFileSync(cookieFile).toString()).cookie;
 
     this.townCount = 0;
+
+    this.polygons = []
   }
 
   /**
@@ -303,6 +307,8 @@ export default class cyt {
             newTowns.push(t);
             //console.log(`Processing Overworld towns... ${count} towns processed`)
             count++;
+          } else {
+            this.polygons.push(marker);
           }
         }
       );
@@ -317,6 +323,8 @@ export default class cyt {
             newTowns.push(t);
             //console.log(`Processing Earth towns... ${count} towns processed`)
             count++;
+          } else {
+            this.polygons.push(marker);
           }
         }
       );
@@ -327,6 +335,15 @@ export default class cyt {
 
         return aName < bName ? -1 : aName > bName ? 1 : 0;
       });
+
+      this.polygons.forEach((polygon: MarkerPolygonData) => {
+
+        const town = newTowns.find(t => t.name == polygon.);
+        if (town) {
+          town.polygon = polygon;
+        }
+
+      })
 
       //Make Fuzzy
 

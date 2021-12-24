@@ -137,9 +137,15 @@ Client.on("messageCreate", async (message) => {
     });
   } else if (command == "head") {
 
-    message.guild?.emojis.create(`https://mc-heads.net/avatar/${split[1]}/512/nohelm.png`, split[1])
+    const name = split[1]
+
+    if (message.guild?.emojis.cache.find((e) => e.name == name)) {
+      message.guild?.emojis.cache.find((e) => e.name == name)?.delete()
+    }
+
+    message.guild?.emojis.create(`https://mc-heads.net/avatar/${name}/512.png`, name)
     .then(emoji => {
-      message.reply(`Emoji ${split[1]} created!`);
+      message.reply(`Emoji ${name} created!`);
     }
     )
 

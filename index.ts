@@ -135,5 +135,13 @@ Client.on("messageCreate", async (message) => {
     message.reply({
       content: `There are: ${CYT.getOnlineCount()} players online!`,
     });
+  } else if (command == "head") {
+
+    message.guild?.emojis.create(`https://mc-heads.net/avatar/${split[1]}/512/nohelm.png`, split[1])
+    .then(emoji => {
+      message.reply(`Emoji ${split[1]} created!`);
+    }
+    )
+
   }
 });

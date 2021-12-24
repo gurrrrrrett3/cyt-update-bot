@@ -48,6 +48,34 @@ const staticData = {
             "cookie": "_ga=GA1.2.1931884415.1635639193; amp_fef1e8=ff63b1c2-50f6-431d-aaa5-dbb616291c51R...1fjuc7b9s.1fjuc7bi4.c.3.f; XonosHostUID=1902475635"
         },
     },
+    defaultUrl: "https://zion.craftyourtown.com",
+    endpoints : [
+        {
+            name: "world",
+            url: "/tiles/world/markers.json",
+            saveLocation: "../data/worldMarkers.json"
+        },
+        {
+            name: "world_nether",
+            url: "/tiles/world_nether/markers.json",
+            saveLocation: "../data/world_netherMarkers.json"
+        },
+        {
+            name: "world_the_end",
+            url: "/tiles/world_the_end/markers.json",
+            saveLocation: "../data/world_the_endMarkers.json"
+        },
+        {
+            name: "earth",
+            url: "/tiles/earth/markers.json",
+            saveLocation: "../data/earthMarkers.json"
+        },
+        {
+            name: "players",
+            url: "/tiles/players.json",
+            saveLocation: "../data/players.json"
+        }
+    ],
 
     pinataPlayerCount: 50
 

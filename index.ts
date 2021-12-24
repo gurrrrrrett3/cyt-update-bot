@@ -135,5 +135,5 @@ Client.on("messageCreate", async (message) => {
     message.reply({
       content: `There are: ${CYT.getOnlineCount()} players online!`,
     });
-  }
+  } 
 });

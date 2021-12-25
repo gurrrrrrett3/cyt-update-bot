@@ -367,7 +367,6 @@ export default class cyt {
 
         const town = newTowns.find(t => t.name == townPolygon.name);
         if (town) {
-          town.points = townPolygon.points;
          // town.chunks = PolygonUtil.getChunkCount();
           town.color = townPolygon.color;
         }

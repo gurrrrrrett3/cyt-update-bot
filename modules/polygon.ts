@@ -3,10 +3,26 @@ import { Bounds, Coords, Marker, Polygon, PolygonGroup } from "./types";
 
 export default class PolygonUtil {
   public static getPolygonBounds(polygon: Polygon): Bounds {
-    const minX = Math.min(...polygon.map((point) => point.x));
-    const minZ = Math.min(...polygon.map((point) => point.z));
-    const maxX = Math.max(...polygon.map((point) => point.x));
-    const maxZ = Math.max(...polygon.map((point) => point.z));
+
+    let minX = Infinity;
+    let minZ = Infinity;
+    let maxX = -Infinity;
+    let maxZ = -Infinity;
+
+    polygon.forEach((point) => {
+      if (point.x < minX) {
+        minX = point.x;
+      }
+      if (point.z < minZ) {
+        minZ = point.z;
+      }
+      if (point.x > maxX) {
+        maxX = point.x;
+      }
+      if (point.z > maxZ) {
+        maxZ = point.z;
+      }
+    });
 
     return {
       min: {
@@ -18,6 +34,7 @@ export default class PolygonUtil {
         z: maxZ,
       },
     };
+
   }
 
   public static isPointInPolygon(point: Coords, polygon: Polygon): boolean {
@@ -28,7 +45,7 @@ export default class PolygonUtil {
     let i = 0;
     let j = polygon.length - 1;
 
-    for (i; i < polygon.length; i++) {
+    for (i; i < polygon.length; i+=8){
       const p1 = polygon[i];
       const p2 = polygon[j];
 
@@ -38,7 +55,6 @@ export default class PolygonUtil {
 
       j = i;
     }
-
     return inside;
   }
 
@@ -66,7 +82,7 @@ export default class PolygonUtil {
   public static fromTown(town: Town): PolygonGroup {
     let out: Polygon[] = [];
 
-    town.points.forEach((group) => {
+    town.polygon.forEach((group) => {
       out.push(group);
     });
 
@@ -74,11 +90,14 @@ export default class PolygonUtil {
   }
 
   public static getChunkCount(polygon: Marker) {
-    if (polygon.type === "polygon") {
+if (polygon.type === "polygon") {
       let total = 0;
 
-      polygon.points.forEach((poly) => {
-        total += PolygonUtil.getAreaOfPolygon(poly);
+      polygon.points.forEach((polygonGroup) => {
+        polygonGroup.forEach((polygon) => {
+          //@ts-ignore
+          total += PolygonUtil.getAreaOfPolygon(polygon);
+        });
       });
 
       return total / (16 * 16);

@@ -2,7 +2,7 @@
   {
     "world": "world",
     "name": "Hollowdale",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#4b0082",
     "mayor": "Myszusz",
     "pvp": false,
@@ -17,7 +17,6 @@
       "x": 4184,
       "z": 4280
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -92,7 +91,7 @@
   {
     "world": "world",
     "name": "Safehaven",
-    "chunks": 0,
+    "chunks": 81.66796875,
     "color": "#00ffff",
     "mayor": "APG777",
     "pvp": false,
@@ -119,7 +118,6 @@
       "x": 9784,
       "z": -4184
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -634,7 +632,7 @@
   {
     "world": "world",
     "name": "Ariesona",
-    "chunks": 0,
+    "chunks": 399.97265625,
     "color": "#f0e68c",
     "mayor": "Aries1012",
     "pvp": false,
@@ -672,7 +670,6 @@
       "x": -9466,
       "z": -2045
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -739,7 +736,7 @@
   {
     "world": "world",
     "name": "Lord",
-    "chunks": 0,
+    "chunks": 290.60546875,
     "color": "#800080",
     "mayor": "Aresxxx",
     "pvp": false,
@@ -760,7 +757,6 @@
       "x": 9512,
       "z": -10728
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -883,7 +879,7 @@
   {
     "world": "world",
     "name": "craftmartia",
-    "chunks": 0,
+    "chunks": 21.375,
     "color": "#008000",
     "mayor": "Eatsoylentgreen",
     "pvp": false,
@@ -900,7 +896,6 @@
       "x": -4088,
       "z": -9992
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -927,7 +922,7 @@
   {
     "world": "world",
     "name": "jeffreyland",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#000080",
     "mayor": "pro23315",
     "pvp": false,
@@ -943,7 +938,6 @@
       "x": -3912,
       "z": 2040
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -1034,7 +1028,7 @@
   {
     "world": "world",
     "name": "Mithrim",
-    "chunks": 0,
+    "chunks": 37.125,
     "color": "#800080",
     "mayor": "ThePiggyPerson",
     "pvp": false,
@@ -1048,7 +1042,6 @@
       "x": 1288,
       "z": -12376
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -1283,7 +1276,7 @@
   {
     "world": "world",
     "name": "Jorvik",
-    "chunks": 0,
+    "chunks": 50.34375,
     "color": "#d3d3d3",
     "mayor": "LittlePingWing",
     "pvp": false,
@@ -1298,7 +1291,6 @@
       "x": -5480,
       "z": 5304
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -1659,7 +1651,6 @@
       "x": 9224,
       "z": 9576
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -1686,7 +1677,7 @@
   {
     "world": "world",
     "name": "CRONOS",
-    "chunks": 0,
+    "chunks": 23.0078125,
     "color": "#8b008b",
     "mayor": "Lord_Meshio",
     "pvp": false,
@@ -1701,7 +1692,6 @@
       "x": 2152,
       "z": -2728
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -1936,7 +1926,7 @@
   {
     "world": "world",
     "name": "Fritos",
-    "chunks": 0,
+    "chunks": 60.125,
     "color": "#e0ffff",
     "mayor": "JaeYoungJr",
     "pvp": false,
@@ -1951,7 +1941,6 @@
       "x": -2920,
       "z": 6152
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -2334,7 +2323,7 @@
   {
     "world": "world",
     "name": "Rusalka",
-    "chunks": 0,
+    "chunks": 242.17578125,
     "color": "#f5f5dc",
     "mayor": "jamin101",
     "pvp": false,
@@ -2353,7 +2342,6 @@
       "x": -6088,
       "z": 11000
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -2476,7 +2464,7 @@
   {
     "world": "world",
     "name": "Fantasia",
-    "chunks": 0,
+    "chunks": 12.96484375,
     "color": "#ff00ff",
     "mayor": "TheMusicMan250",
     "pvp": false,
@@ -2491,7 +2479,6 @@
       "x": -2216,
       "z": -13752
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -2677,7 +2664,6 @@
       "x": -344,
       "z": 8
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -2704,7 +2690,7 @@
   {
     "world": "world",
     "name": "Hillwood",
-    "chunks": 0,
+    "chunks": 883.30078125,
     "color": "#00008b",
     "mayor": "wxtnessed",
     "pvp": false,
@@ -2735,7 +2721,6 @@
       "x": -9106,
       "z": 6286
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -4102,7 +4087,7 @@
   {
     "world": "world",
     "name": "Joshtown",
-    "chunks": 0,
+    "chunks": 3.87109375,
     "color": "#00ff00",
     "mayor": "JOSH234145337",
     "pvp": false,
@@ -4116,7 +4101,6 @@
       "x": -488,
       "z": -56
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -4271,7 +4255,7 @@
   {
     "world": "world",
     "name": "Pyxis",
-    "chunks": 0,
+    "chunks": 175.3828125,
     "color": "#ffff00",
     "mayor": "Evil5Lem0n",
     "pvp": true,
@@ -4289,7 +4273,6 @@
       "x": -5320,
       "z": 7704
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -5632,7 +5615,7 @@
   {
     "world": "world",
     "name": "Lone",
-    "chunks": 0,
+    "chunks": 1.59375,
     "color": "#ffb6c1",
     "mayor": "trudimc",
     "pvp": false,
@@ -5646,7 +5629,6 @@
       "x": -5016,
       "z": -7512
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -5737,7 +5719,7 @@
   {
     "world": "world",
     "name": "Farland",
-    "chunks": 0,
+    "chunks": 45.375,
     "color": "#add8e6",
     "mayor": "adventure12255",
     "pvp": false,
@@ -5756,7 +5738,6 @@
       "x": -10712,
       "z": 7928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -6137,7 +6118,7 @@
   {
     "world": "world",
     "name": "Auroria",
-    "chunks": 0,
+    "chunks": 12.03125,
     "color": "#808000",
     "mayor": "ImAroma",
     "pvp": false,
@@ -6152,7 +6133,6 @@
       "x": -1656,
       "z": -8936
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -6323,7 +6303,7 @@
   {
     "world": "world",
     "name": "Mt.Verna",
-    "chunks": 0,
+    "chunks": 151.36328125,
     "color": "#bdb76b",
     "mayor": "Feerrugm",
     "pvp": false,
@@ -6339,7 +6319,6 @@
       "x": -9608,
       "z": 10056
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -7118,7 +7097,7 @@
   {
     "world": "world",
     "name": "Ghostbusters",
-    "chunks": 0,
+    "chunks": 102.63671875,
     "color": "#800080",
     "mayor": "serthony",
     "pvp": false,
@@ -7134,7 +7113,6 @@
       "x": -504,
       "z": 12376
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -7659,7 +7637,6 @@
       "x": -4744,
       "z": -7976
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -7686,7 +7663,7 @@
   {
     "world": "world",
     "name": "Copyright",
-    "chunks": 0,
+    "chunks": 26.5625,
     "color": "#ffffff",
     "mayor": "CovidBypass",
     "pvp": false,
@@ -7700,7 +7677,6 @@
       "x": -14440,
       "z": -2616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -8127,7 +8103,7 @@
   {
     "world": "world",
     "name": "Bamboleo",
-    "chunks": 0,
+    "chunks": 30.49609375,
     "color": "#e0ffff",
     "mayor": "xBryZe",
     "pvp": false,
@@ -8143,7 +8119,6 @@
       "x": 9016,
       "z": 1016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -8410,7 +8385,7 @@
   {
     "world": "world",
     "name": "Redrion",
-    "chunks": 0,
+    "chunks": 1.46875,
     "color": "#00008b",
     "mayor": "RAFALbro",
     "pvp": false,
@@ -8425,7 +8400,6 @@
       "x": -616,
       "z": -9352
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -8500,7 +8474,7 @@
   {
     "world": "world",
     "name": "UwUden",
-    "chunks": 0,
+    "chunks": 116.5234375,
     "color": "#ffd700",
     "mayor": "Heldaniel",
     "pvp": false,
@@ -8523,7 +8497,6 @@
       "x": -13098,
       "z": 3141
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -9230,7 +9203,7 @@
   {
     "world": "world",
     "name": "taxfraud",
-    "chunks": 0,
+    "chunks": 63.21484375,
     "color": "#ffd700",
     "mayor": "gmplaysmc",
     "pvp": false,
@@ -9256,7 +9229,6 @@
       "x": -2296,
       "z": -840
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -9667,7 +9639,7 @@
   {
     "world": "world",
     "name": "Inazuma",
-    "chunks": 0,
+    "chunks": 46.65234375,
     "color": "#008000",
     "mayor": "AngelOneesama",
     "pvp": false,
@@ -9684,7 +9656,6 @@
       "x": -4356,
       "z": 682
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -9971,7 +9942,7 @@
   {
     "world": "world",
     "name": "PokeBay",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#800080",
     "mayor": "charzmander",
     "pvp": false,
@@ -9985,7 +9956,6 @@
       "x": 3464,
       "z": -6504
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10076,7 +10046,7 @@
   {
     "world": "world",
     "name": "Puredale",
-    "chunks": 0,
+    "chunks": 332.06640625,
     "color": "#ffff00",
     "mayor": "WolfLiSteel",
     "pvp": false,
@@ -10090,7 +10060,6 @@
       "x": -488,
       "z": -296
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10117,7 +10086,7 @@
   {
     "world": "world",
     "name": "Bony_Burbs",
-    "chunks": 0,
+    "chunks": 35.0859375,
     "color": "#ff0000",
     "mayor": "KingOfCongruency",
     "pvp": false,
@@ -10133,7 +10102,6 @@
       "x": -6424,
       "z": -3848
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10434,7 +10402,7 @@
   {
     "world": "world",
     "name": "Axolotl",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#008000",
     "mayor": "TBRNKyubitai",
     "pvp": false,
@@ -10449,7 +10417,6 @@
       "x": -8136,
       "z": 2328
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10508,7 +10475,7 @@
   {
     "world": "world",
     "name": "Straya",
-    "chunks": 0,
+    "chunks": 32.25390625,
     "color": "#ffb6c1",
     "mayor": "MissLeadings",
     "pvp": false,
@@ -10524,7 +10491,6 @@
       "x": 4024,
       "z": -5544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10854,7 +10820,6 @@
       "x": 10920,
       "z": -2984
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -10881,7 +10846,7 @@
   {
     "world": "world",
     "name": "Vramburg",
-    "chunks": 0,
+    "chunks": 30.0625,
     "color": "#d3d3d3",
     "mayor": "jackiish",
     "pvp": false,
@@ -10895,7 +10860,6 @@
       "x": 3144,
       "z": -13784
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -11146,7 +11110,7 @@
   {
     "world": "world",
     "name": "noobvill",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#000000",
     "mayor": "Stoopid_nooob",
     "pvp": false,
@@ -11160,7 +11124,6 @@
       "x": 2440,
       "z": -1832
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -11251,7 +11214,7 @@
   {
     "world": "world",
     "name": "Tinkertown",
-    "chunks": 0,
+    "chunks": 54,
     "color": "#8b008b",
     "mayor": "BR__CallingBrake",
     "pvp": false,
@@ -11265,7 +11228,6 @@
       "x": -4456,
       "z": -6008
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -11580,7 +11542,7 @@
   {
     "world": "world",
     "name": "Hillvilles",
-    "chunks": 0,
+    "chunks": 10.27734375,
     "color": "#ffc0cb",
     "mayor": "ariskap7",
     "pvp": false,
@@ -11594,7 +11556,6 @@
       "x": -7368,
       "z": 5832
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -11749,7 +11710,7 @@
   {
     "world": "world",
     "name": "FlowerTown",
-    "chunks": 0,
+    "chunks": 13.21484375,
     "color": "#808000",
     "mayor": "Kat_The_Mermaid3",
     "pvp": true,
@@ -11764,7 +11725,6 @@
       "x": -5624,
       "z": -6776
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -11807,7 +11767,7 @@
   {
     "world": "world",
     "name": "Austerra",
-    "chunks": 0,
+    "chunks": 92.41796875,
     "color": "#add8e6",
     "mayor": "AlexAttila",
     "pvp": false,
@@ -11823,7 +11783,6 @@
       "x": 264,
       "z": 2920
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -12898,7 +12857,7 @@
   {
     "world": "world",
     "name": "Skull_Island",
-    "chunks": 0,
+    "chunks": 2.875,
     "mayor": "Rich_Skeleton",
     "pvp": false,
     "residents": [
@@ -12912,7 +12871,6 @@
       "x": 1656,
       "z": 8
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -13003,7 +12961,7 @@
   {
     "world": "world",
     "name": "Genesis",
-    "chunks": 0,
+    "chunks": 112.30859375,
     "color": "#00008b",
     "mayor": "LegoLord365",
     "pvp": true,
@@ -13017,7 +12975,6 @@
       "x": -157,
       "z": 1638
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -13626,7 +13583,7 @@
   {
     "world": "world",
     "name": "Dragon_Palace",
-    "chunks": 0,
+    "chunks": 41.58203125,
     "color": "#90ee90",
     "mayor": "PerfectPritsch",
     "pvp": false,
@@ -13640,7 +13597,6 @@
       "x": -12696,
       "z": -12888
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -13715,7 +13671,7 @@
   {
     "world": "world",
     "name": "Mansehra",
-    "chunks": 0,
+    "chunks": 1.9375,
     "color": "#9932cc",
     "mayor": "Danial_Arshad",
     "pvp": false,
@@ -13729,7 +13685,6 @@
       "x": 1256,
       "z": -3992
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -13820,7 +13775,7 @@
   {
     "world": "world",
     "name": "Glizzy_Empire",
-    "chunks": 0,
+    "chunks": 208.09375,
     "color": "#90ee90",
     "mayor": "NPC3",
     "pvp": false,
@@ -13834,7 +13789,6 @@
       "x": 3976,
       "z": 6360
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -13941,7 +13895,7 @@
   {
     "world": "world",
     "name": "Miserere",
-    "chunks": 0,
+    "chunks": 31.1484375,
     "color": "#ff00ff",
     "mayor": "Flanza",
     "pvp": false,
@@ -13956,7 +13910,6 @@
       "x": 9672,
       "z": 8904
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -14256,7 +14209,6 @@
       "x": -6872,
       "z": 6424
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -14315,7 +14267,7 @@
   {
     "world": "world",
     "name": "MiningArea",
-    "chunks": 0,
+    "chunks": 144.50390625,
     "color": "#008000",
     "mayor": "x0035x",
     "pvp": false,
@@ -14329,7 +14281,6 @@
       "x": -3976,
       "z": 4168
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -14820,7 +14771,7 @@
   {
     "world": "world",
     "name": "Pufferfish_Land",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#800080",
     "mayor": "Holy_Thighble",
     "pvp": false,
@@ -14837,7 +14788,6 @@
       "x": 9208,
       "z": 984
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -14944,7 +14894,6 @@
       "x": 647,
       "z": 91
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -15007,7 +14956,7 @@
   {
     "world": "world",
     "name": "KaGe",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#ffd700",
     "mayor": "Egexx25",
     "pvp": false,
@@ -15022,7 +14971,6 @@
       "x": -10904,
       "z": -6616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -15097,7 +15045,7 @@
   {
     "world": "world",
     "name": "Waterdeep",
-    "chunks": 0,
+    "chunks": 59.125,
     "color": "#a9a9a9",
     "mayor": "Punished_Venom",
     "pvp": false,
@@ -15136,7 +15084,6 @@
       "x": 8120,
       "z": -7928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -15483,7 +15430,7 @@
   {
     "world": "world",
     "name": "bastille",
-    "chunks": 0,
+    "chunks": 338.359375,
     "color": "#8b008b",
     "mayor": "scasmith",
     "pvp": false,
@@ -15499,7 +15446,6 @@
       "x": -1379,
       "z": 546
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -16622,7 +16568,7 @@
   {
     "world": "world",
     "name": "Croissant",
-    "chunks": 0,
+    "chunks": 6.6328125,
     "color": "#4b0082",
     "mayor": "Albelnoxfan",
     "pvp": false,
@@ -16637,7 +16583,6 @@
       "x": 14648,
       "z": 13640
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -16792,7 +16737,7 @@
   {
     "world": "world",
     "name": "VIET_NAM-Comrades",
-    "chunks": 0,
+    "chunks": 519.5,
     "color": "#000000",
     "mayor": "Hadesxxxx",
     "pvp": false,
@@ -16812,7 +16757,6 @@
       "x": 9142,
       "z": 586
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -18627,7 +18571,7 @@
   {
     "world": "world",
     "name": "Lisil",
-    "chunks": 0,
+    "chunks": 16.15234375,
     "color": "#e9967a",
     "mayor": "TrashBaby44",
     "pvp": false,
@@ -18641,7 +18585,6 @@
       "x": 1976,
       "z": 6216
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -18796,7 +18739,7 @@
   {
     "world": "world",
     "name": "main_base",
-    "chunks": 0,
+    "chunks": 357.796875,
     "color": "#800080",
     "mayor": "koenymeloeny",
     "pvp": false,
@@ -18810,7 +18753,6 @@
       "x": 135,
       "z": 8265
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -18869,7 +18811,7 @@
   {
     "world": "world",
     "name": "zell",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#000080",
     "mayor": "zellmer1990",
     "pvp": false,
@@ -18883,7 +18825,6 @@
       "x": 5736,
       "z": -11352
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -18942,7 +18883,7 @@
   {
     "world": "world",
     "name": "Jenobi",
-    "chunks": 0,
+    "chunks": 10.27734375,
     "color": "#00ffff",
     "mayor": "ObiBeaver",
     "pvp": false,
@@ -18957,7 +18898,6 @@
       "x": 1992,
       "z": -14120
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -19096,7 +19036,7 @@
   {
     "world": "world",
     "name": "TwigTree",
-    "chunks": 0,
+    "chunks": 21.49609375,
     "color": "#ffb6c1",
     "mayor": "DarudeBully",
     "pvp": false,
@@ -19115,7 +19055,6 @@
       "x": 6584,
       "z": 3064
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -19286,7 +19225,7 @@
   {
     "world": "world",
     "name": "Purple_Hamlet",
-    "chunks": 0,
+    "chunks": 1420.9609375,
     "color": "#e0ffff",
     "mayor": "Praetoriann",
     "pvp": false,
@@ -19323,7 +19262,6 @@
       "x": 12984,
       "z": 3016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -21396,7 +21334,7 @@
   {
     "world": "world",
     "name": "seaside_3",
-    "chunks": 0,
+    "chunks": 113.90625,
     "color": "#f0e68c",
     "mayor": "yourcandy_",
     "pvp": false,
@@ -21411,7 +21349,6 @@
       "x": 11441,
       "z": 7684
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -21614,7 +21551,7 @@
   {
     "world": "world",
     "name": "Owltown",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#800080",
     "mayor": "Enkaz07",
     "pvp": false,
@@ -21628,7 +21565,6 @@
       "x": -7528,
       "z": 8664
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -21687,7 +21623,7 @@
   {
     "world": "world",
     "name": "clover_island",
-    "chunks": 0,
+    "chunks": 298.20703125,
     "color": "#ffc0cb",
     "mayor": "CloverlucyMC",
     "pvp": false,
@@ -21702,7 +21638,6 @@
       "x": -1669,
       "z": -7368
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -23033,7 +22968,7 @@
   {
     "world": "world",
     "name": "Dizzifields",
-    "chunks": 0,
+    "chunks": 3.99609375,
     "color": "#ffa500",
     "mayor": "Dizoriented",
     "pvp": false,
@@ -23047,7 +22982,6 @@
       "x": 12344,
       "z": 1768
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -23154,7 +23088,7 @@
   {
     "world": "world",
     "name": "Asgor",
-    "chunks": 0,
+    "chunks": 15.15625,
     "color": "#008000",
     "mayor": "Zipstie",
     "pvp": false,
@@ -23169,7 +23103,6 @@
       "x": 5576,
       "z": 2616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -23372,7 +23305,7 @@
   {
     "world": "world",
     "name": "Shark_Bay_Wharf",
-    "chunks": 0,
+    "chunks": 4.875,
     "color": "#ffff00",
     "mayor": "BR__vernonmason1",
     "pvp": false,
@@ -23387,7 +23320,6 @@
       "x": -2664,
       "z": -424
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -23494,7 +23426,7 @@
   {
     "world": "world",
     "name": "Silver_Keep",
-    "chunks": 0,
+    "chunks": 1.99609375,
     "color": "#e9967a",
     "mayor": "tastierpoem",
     "pvp": false,
@@ -23508,7 +23440,6 @@
       "x": 5814,
       "z": 12461
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -23619,7 +23550,7 @@
   {
     "world": "world",
     "name": "Riverrun",
-    "chunks": 0,
+    "chunks": 254.0625,
     "color": "#800080",
     "mayor": "Andrewfb",
     "pvp": false,
@@ -23646,7 +23577,6 @@
       "x": 6904,
       "z": 4840
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -24173,7 +24103,7 @@
   {
     "world": "world",
     "name": "Rosewood",
-    "chunks": 0,
+    "chunks": 231.9921875,
     "color": "#e9967a",
     "mayor": "ItzEmzie",
     "pvp": false,
@@ -24190,7 +24120,6 @@
       "x": 10296,
       "z": 8920
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -25283,7 +25212,7 @@
   {
     "world": "world",
     "name": "EPIC_TOWN",
-    "chunks": 0,
+    "chunks": 0.53125,
     "color": "#f0e68c",
     "mayor": "laurenshort1",
     "pvp": false,
@@ -25298,7 +25227,6 @@
       "x": 8072,
       "z": 1624
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -25357,7 +25285,7 @@
   {
     "world": "world",
     "name": "Nerds_Point",
-    "chunks": 0,
+    "chunks": 1.3359375,
     "color": "#e9967a",
     "mayor": "BitterNerdette",
     "pvp": false,
@@ -25371,7 +25299,6 @@
       "x": -2536,
       "z": -5192
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -25478,7 +25405,7 @@
   {
     "world": "world",
     "name": "Wormwood",
-    "chunks": 0,
+    "chunks": 14.71875,
     "color": "#800080",
     "mayor": "Reaper2694",
     "pvp": false,
@@ -25493,7 +25420,6 @@
       "x": 2936,
       "z": -6200
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -25664,7 +25590,7 @@
   {
     "world": "world",
     "name": "cubes_craft",
-    "chunks": 0,
+    "chunks": 49.4609375,
     "color": "#a52a2a",
     "mayor": "dark_copy900",
     "pvp": false,
@@ -25686,7 +25612,6 @@
       "x": 3771,
       "z": -2623
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -26085,7 +26010,7 @@
   {
     "world": "world",
     "name": "nwot_gaf",
-    "chunks": 0,
+    "chunks": 13.21484375,
     "color": "#ff8c00",
     "mayor": "adlog",
     "pvp": false,
@@ -26099,7 +26024,6 @@
       "x": 6888,
       "z": -7256
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -26238,7 +26162,7 @@
   {
     "world": "world",
     "name": "Asgard",
-    "chunks": 0,
+    "chunks": 178.46484375,
     "color": "#ff00ff",
     "mayor": "Hyraxis",
     "pvp": false,
@@ -26252,7 +26176,6 @@
       "x": 14464,
       "z": 8956
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -27003,7 +26926,7 @@
   {
     "world": "world",
     "name": "Atlas",
-    "chunks": 0,
+    "chunks": 16.03125,
     "color": "#f0e68c",
     "mayor": "RileyDean",
     "pvp": false,
@@ -27018,7 +26941,6 @@
       "x": -4408,
       "z": -8840
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -27237,7 +27159,7 @@
   {
     "world": "world",
     "name": "Grove",
-    "chunks": 0,
+    "chunks": 57.78125,
     "color": "#a52a2a",
     "mayor": "The_Janson",
     "pvp": false,
@@ -27253,7 +27175,6 @@
       "x": -1976,
       "z": 10536
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -27504,7 +27425,7 @@
   {
     "world": "world",
     "name": "Citadel",
-    "chunks": 0,
+    "chunks": 23.71875,
     "color": "#00008b",
     "mayor": "QopsterNoDice",
     "pvp": false,
@@ -27518,7 +27439,6 @@
       "x": 2520,
       "z": -5928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -27785,7 +27705,7 @@
   {
     "world": "world",
     "name": "Alabasta",
-    "chunks": 0,
+    "chunks": 56.5859375,
     "color": "#f5f5dc",
     "mayor": "MrMcFluffy23",
     "pvp": false,
@@ -27802,7 +27722,6 @@
       "x": 4504,
       "z": -7528
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -28149,7 +28068,7 @@
   {
     "world": "world",
     "name": "Greece",
-    "chunks": 0,
+    "chunks": 162.87890625,
     "color": "#e9967a",
     "mayor": "koolkbraza",
     "pvp": false,
@@ -28178,7 +28097,6 @@
       "x": 6188,
       "z": 1778
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -29041,7 +28959,7 @@
   {
     "world": "world",
     "name": "Korvo",
-    "chunks": 0,
+    "chunks": 177.07421875,
     "color": "#f5f5dc",
     "mayor": "StragoNubius",
     "pvp": false,
@@ -29063,7 +28981,6 @@
       "x": -815,
       "z": 6814
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -29825,13 +29742,12 @@
       "x": 6484,
       "z": 6262
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Thellodir",
-    "chunks": 0,
+    "chunks": 44.58203125,
     "color": "#f5f5dc",
     "mayor": "GoPro23",
     "pvp": false,
@@ -29846,7 +29762,6 @@
       "x": 7868,
       "z": -5441
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -30197,7 +30112,7 @@
   {
     "world": "world",
     "name": "Invasion_Point",
-    "chunks": 0,
+    "chunks": 1.875,
     "color": "#a52a2a",
     "mayor": "Xodius94",
     "pvp": false,
@@ -30211,7 +30126,6 @@
       "x": 5912,
       "z": -1016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -30302,7 +30216,7 @@
   {
     "world": "world",
     "name": "Fort_Mogus",
-    "chunks": 0,
+    "chunks": 36.4921875,
     "color": "#ffd700",
     "mayor": "Ezicked",
     "pvp": false,
@@ -30316,7 +30230,6 @@
       "x": 14392,
       "z": 2328
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -30615,7 +30528,7 @@
   {
     "world": "world",
     "name": "scorpio",
-    "chunks": 0,
+    "chunks": 7.69140625,
     "mayor": "khilljil",
     "pvp": false,
     "residents": [
@@ -30628,7 +30541,6 @@
       "x": -2744,
       "z": 2424
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -30767,7 +30679,7 @@
   {
     "world": "world",
     "name": "Chernobyl",
-    "chunks": 0,
+    "chunks": 14.80859375,
     "color": "#800000",
     "mayor": "0RADIOSTAR0",
     "pvp": false,
@@ -30787,7 +30699,6 @@
       "x": -2472,
       "z": 9384
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -30958,7 +30869,7 @@
   {
     "world": "world",
     "name": "The_Outlands",
-    "chunks": 0,
+    "chunks": 1.875,
     "color": "#ffffff",
     "mayor": "Redramus",
     "pvp": false,
@@ -30972,7 +30883,6 @@
       "x": -3752,
       "z": 4008
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -31079,7 +30989,7 @@
   {
     "world": "world",
     "name": "elysium",
-    "chunks": 0,
+    "chunks": 23.83984375,
     "color": "#00008b",
     "mayor": "jayyvee17",
     "pvp": false,
@@ -31096,7 +31006,6 @@
       "x": 11864,
       "z": -5288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -31583,7 +31492,7 @@
   {
     "world": "world",
     "name": "The_Thirst_Mutilator",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#00ffff",
     "mayor": "Superultrajimmy",
     "pvp": false,
@@ -31597,7 +31506,6 @@
       "x": -4264,
       "z": 7224
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -31720,7 +31628,7 @@
   {
     "world": "world",
     "name": "Yes",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#006400",
     "mayor": "kopix22",
     "pvp": false,
@@ -31735,7 +31643,6 @@
       "x": -6440,
       "z": -1448
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -31826,7 +31733,7 @@
   {
     "world": "world",
     "name": "Alcatraz",
-    "chunks": 0,
+    "chunks": 14.15625,
     "color": "#9932cc",
     "mayor": "zes0460",
     "pvp": false,
@@ -31840,7 +31747,6 @@
       "x": 1672,
       "z": -568
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -31979,7 +31885,7 @@
   {
     "world": "world",
     "name": "TacoBahia",
-    "chunks": 0,
+    "chunks": 124.96875,
     "color": "#ffa500",
     "mayor": "TacoMamaFae",
     "pvp": false,
@@ -31993,7 +31899,6 @@
       "x": -9144,
       "z": -2792
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -32308,7 +32213,7 @@
   {
     "world": "world",
     "name": "revyl",
-    "chunks": 0,
+    "chunks": 335.578125,
     "color": "#e9967a",
     "mayor": "joelandjoel",
     "pvp": false,
@@ -32331,7 +32236,6 @@
       "x": 8857,
       "z": 3129
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -34094,7 +33998,7 @@
   {
     "world": "world",
     "name": "Cambria",
-    "chunks": 0,
+    "chunks": 1.9921875,
     "color": "#008b8b",
     "mayor": "Almightyhim",
     "pvp": false,
@@ -34108,7 +34012,6 @@
       "x": -14744,
       "z": 12680
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -34183,7 +34086,7 @@
   {
     "world": "world",
     "name": "TTS",
-    "chunks": 0,
+    "chunks": 53.8671875,
     "color": "#ffffe0",
     "mayor": "Marduukie",
     "pvp": false,
@@ -34199,7 +34102,6 @@
       "x": 6072,
       "z": 1688
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -34546,7 +34448,7 @@
   {
     "world": "world",
     "name": "Newhill",
-    "chunks": 0,
+    "chunks": 20.78125,
     "color": "#800000",
     "mayor": "Playful_Platypus",
     "pvp": false,
@@ -34561,7 +34463,6 @@
       "x": 5224,
       "z": 4360
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -34834,13 +34735,12 @@
       "x": -8872,
       "z": -1544
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "AcceptAbel",
-    "chunks": 0,
+    "chunks": 11.27734375,
     "color": "#e9967a",
     "mayor": "AcceptAbel",
     "pvp": false,
@@ -34855,7 +34755,6 @@
       "x": -4792,
       "z": -9304
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -34994,7 +34893,7 @@
   {
     "world": "world",
     "name": "VoltTown",
-    "chunks": 0,
+    "chunks": 48.43359375,
     "color": "#ffffff",
     "mayor": "DemxGGG",
     "pvp": false,
@@ -35008,7 +34907,6 @@
       "x": -6088,
       "z": -2120
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -35243,7 +35141,7 @@
   {
     "world": "world",
     "name": "Cygnus_X-1",
-    "chunks": 0,
+    "chunks": 84.5234375,
     "color": "#008000",
     "mayor": "MB3113",
     "pvp": false,
@@ -35260,7 +35158,6 @@
       "x": -9249,
       "z": -1895
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -35867,7 +35764,7 @@
   {
     "world": "world",
     "name": "Macedonia",
-    "chunks": 0,
+    "chunks": 192.21484375,
     "color": "#ff0000",
     "mayor": "TrumpVMRO",
     "pvp": false,
@@ -35882,7 +35779,6 @@
       "x": 8104,
       "z": 9528
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -36721,7 +36617,7 @@
   {
     "world": "world",
     "name": "Lotus_Falls",
-    "chunks": 0,
+    "chunks": 228.5234375,
     "color": "#000080",
     "mayor": "vixlyn",
     "pvp": false,
@@ -36742,7 +36638,6 @@
       "x": 5432,
       "z": 3544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -38321,7 +38216,7 @@
   {
     "world": "world",
     "name": "Antheia",
-    "chunks": 0,
+    "chunks": 81.96875,
     "color": "#ffa500",
     "mayor": "ChunkyChaya",
     "pvp": false,
@@ -38338,7 +38233,6 @@
       "x": -5063,
       "z": 7882
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -38541,7 +38435,7 @@
   {
     "world": "world",
     "name": "Radiance_Reborn",
-    "chunks": 0,
+    "chunks": 433.28125,
     "color": "#00008b",
     "mayor": "Bruuunooo",
     "pvp": false,
@@ -38586,7 +38480,6 @@
       "x": 10808,
       "z": 4520
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -39929,7 +39822,7 @@
   {
     "world": "world",
     "name": "TaxCollectors",
-    "chunks": 0,
+    "chunks": 6.87109375,
     "color": "#ffffff",
     "mayor": "TheK9_",
     "pvp": false,
@@ -39944,7 +39837,6 @@
       "x": 10280,
       "z": -728
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -40051,7 +39943,7 @@
   {
     "world": "world",
     "name": "GamerGods",
-    "chunks": 0,
+    "chunks": 22.7578125,
     "color": "#8b008b",
     "mayor": "R0MANSREVENGE",
     "pvp": true,
@@ -40067,7 +39959,6 @@
       "x": -2760,
       "z": -11000
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -40302,7 +40193,7 @@
   {
     "world": "world",
     "name": "angels",
-    "chunks": 0,
+    "chunks": 79.02734375,
     "color": "#9932cc",
     "mayor": "winglesskt",
     "pvp": false,
@@ -40319,7 +40210,6 @@
       "x": 4200,
       "z": -7032
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -40808,7 +40698,6 @@
       "x": -2968,
       "z": -9144
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -40835,7 +40724,7 @@
   {
     "world": "world",
     "name": "Zeus",
-    "chunks": 0,
+    "chunks": 140.375,
     "color": "#f0ffff",
     "mayor": "impact12312",
     "pvp": false,
@@ -40851,7 +40740,6 @@
       "x": 492,
       "z": -100
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -41118,7 +41006,7 @@
   {
     "world": "world",
     "name": "Hillside",
-    "chunks": 0,
+    "chunks": 6.87109375,
     "color": "#9932cc",
     "mayor": "Tsuki33",
     "pvp": false,
@@ -41133,7 +41021,6 @@
       "x": -6136,
       "z": -9320
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -41240,7 +41127,7 @@
   {
     "world": "world",
     "name": "Ionia",
-    "chunks": 0,
+    "chunks": 176.48046875,
     "color": "#800000",
     "mayor": "jensassin",
     "pvp": false,
@@ -41262,7 +41149,6 @@
       "x": -5768,
       "z": -2824
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -41385,7 +41271,7 @@
   {
     "world": "world",
     "name": "fisch",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#f5f5dc",
     "mayor": "_Herobrine__",
     "pvp": false,
@@ -41399,7 +41285,6 @@
       "x": 5832,
       "z": 5576
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -41474,7 +41359,7 @@
   {
     "world": "world",
     "name": "Castlewood",
-    "chunks": 0,
+    "chunks": 52.62890625,
     "color": "#9400d3",
     "mayor": "Adversarially",
     "pvp": false,
@@ -41490,7 +41375,6 @@
       "x": -9592,
       "z": 4888
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -41887,7 +41771,7 @@
   {
     "world": "world",
     "name": "TokersVillage",
-    "chunks": 0,
+    "chunks": 29.90625,
     "color": "#ff0000",
     "mayor": "DavieTheStoner",
     "pvp": false,
@@ -41902,7 +41786,6 @@
       "x": 2056,
       "z": 9528
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -42105,7 +41988,7 @@
   {
     "world": "world",
     "name": "Xelandia",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#ffffe0",
     "mayor": "Alexanderfh",
     "pvp": false,
@@ -42119,7 +42002,6 @@
       "x": -9560,
       "z": 7688
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -42210,7 +42092,7 @@
   {
     "world": "world",
     "name": "Squanchy",
-    "chunks": 0,
+    "chunks": 4.1875,
     "color": "#ffff00",
     "mayor": "Sir_Squanchy",
     "pvp": false,
@@ -42225,7 +42107,6 @@
       "x": 3608,
       "z": -3112
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -42364,7 +42245,7 @@
   {
     "world": "world",
     "name": "Red",
-    "chunks": 0,
+    "chunks": 477.875,
     "color": "#000000",
     "mayor": "RedAnger",
     "pvp": false,
@@ -42386,7 +42267,6 @@
       "x": -5029,
       "z": 3182
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -43584,7 +43464,6 @@
       "x": -1272,
       "z": -9016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -43611,7 +43490,7 @@
   {
     "world": "world",
     "name": "HallowCove",
-    "chunks": 0,
+    "chunks": 31.4296875,
     "color": "#a52a2a",
     "mayor": "Jas136465",
     "pvp": false,
@@ -43626,7 +43505,6 @@
       "x": 3800,
       "z": -1288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -43973,7 +43851,7 @@
   {
     "world": "world",
     "name": "AppleGroves",
-    "chunks": 0,
+    "chunks": 688.71875,
     "color": "#006400",
     "mayor": "AppleCider9283",
     "pvp": false,
@@ -44058,7 +43936,6 @@
       "x": -3256,
       "z": -12728
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -48383,7 +48260,7 @@
   {
     "world": "world",
     "name": "Willowshire",
-    "chunks": 0,
+    "chunks": 72.45703125,
     "color": "#808000",
     "mayor": "Borislander",
     "pvp": false,
@@ -48398,7 +48275,6 @@
       "x": 3576,
       "z": -9544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -48793,7 +48669,7 @@
   {
     "world": "world",
     "name": "Lorvale",
-    "chunks": 0,
+    "chunks": 202.1171875,
     "color": "#d3d3d3",
     "mayor": "Lamter",
     "pvp": false,
@@ -48818,7 +48694,6 @@
       "x": -5816,
       "z": -24
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -49453,7 +49328,7 @@
   {
     "world": "world",
     "name": "Republic_of_Bio_Bio",
-    "chunks": 0,
+    "chunks": 131.80859375,
     "color": "#ff00ff",
     "mayor": "ZupahMan",
     "pvp": false,
@@ -49473,7 +49348,6 @@
       "x": 4847,
       "z": 11040
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -50060,7 +49934,7 @@
   {
     "world": "world",
     "name": "Conquest",
-    "chunks": 0,
+    "chunks": 183.90234375,
     "color": "#ff0000",
     "mayor": "LanariaOfTheMist",
     "pvp": false,
@@ -50082,7 +49956,6 @@
       "x": 1415,
       "z": -9161
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -50613,7 +50486,7 @@
   {
     "world": "world",
     "name": "gotzaville",
-    "chunks": 0,
+    "chunks": 27.90625,
     "color": "#f5f5dc",
     "mayor": "meechza",
     "pvp": false,
@@ -50627,7 +50500,6 @@
       "x": -5400,
       "z": -8184
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -50738,7 +50610,7 @@
   {
     "world": "world",
     "name": "Oars_Rest",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#000000",
     "mayor": "GamerNotFound1",
     "pvp": false,
@@ -50754,7 +50626,6 @@
       "x": -5512,
       "z": -10216
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -50891,7 +50762,6 @@
       "x": -3640,
       "z": 2152
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -50918,7 +50788,7 @@
   {
     "world": "world",
     "name": "Whiterun",
-    "chunks": 0,
+    "chunks": 147.46484375,
     "color": "#f0e68c",
     "mayor": "LIONsaysROAR",
     "pvp": false,
@@ -50953,7 +50823,6 @@
       "x": 5928,
       "z": 2968
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -51492,7 +51361,7 @@
   {
     "world": "world",
     "name": "Xenia",
-    "chunks": 0,
+    "chunks": 14.15625,
     "color": "#000080",
     "mayor": "yvzux",
     "pvp": false,
@@ -51508,7 +51377,6 @@
       "x": 9224,
       "z": -792
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -51647,7 +51515,7 @@
   {
     "world": "world",
     "name": "Fox_Grove_Hollow",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#000080",
     "mayor": "FreyjaJynx",
     "pvp": false,
@@ -51661,7 +51529,6 @@
       "x": -8472,
       "z": 5704
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -51736,7 +51603,7 @@
   {
     "world": "world",
     "name": "Fun_City",
-    "chunks": 0,
+    "chunks": 29.30859375,
     "color": "#f0ffff",
     "mayor": "ShaungLin",
     "pvp": false,
@@ -51752,7 +51619,6 @@
       "x": 376,
       "z": 8456
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -52070,7 +51936,6 @@
       "x": -10041,
       "z": -6400
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -52090,13 +51955,12 @@
       "x": -3014,
       "z": -5690
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "DragonEye",
-    "chunks": 0,
+    "chunks": 55.98046875,
     "color": "#ff00ff",
     "mayor": "Zaemar",
     "pvp": false,
@@ -52111,7 +51975,6 @@
       "x": 2594,
       "z": 4081
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -52622,7 +52485,7 @@
   {
     "world": "world",
     "name": "Macburgh",
-    "chunks": 0,
+    "chunks": 69.05859375,
     "color": "#c0c0c0",
     "mayor": "MacRobin",
     "pvp": false,
@@ -52636,7 +52499,6 @@
       "x": -1160,
       "z": -12072
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -53127,7 +52989,7 @@
   {
     "world": "world",
     "name": "PyramidScheme",
-    "chunks": 0,
+    "chunks": 113.21875,
     "color": "#c0c0c0",
     "mayor": "Renquah",
     "pvp": false,
@@ -53143,7 +53005,6 @@
       "x": -3864,
       "z": -1912
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -53634,7 +53495,7 @@
   {
     "world": "world",
     "name": "Gondor",
-    "chunks": 0,
+    "chunks": 160.41796875,
     "color": "#808000",
     "mayor": "gonzo1o",
     "pvp": false,
@@ -53653,7 +53514,6 @@
       "x": 9901,
       "z": -2339
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -54100,7 +53960,7 @@
   {
     "world": "world",
     "name": "FenTown",
-    "chunks": 0,
+    "chunks": 26.3125,
     "color": "#ff00ff",
     "mayor": "JustAmai",
     "pvp": false,
@@ -54118,7 +53978,6 @@
       "x": -6728,
       "z": -9080
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -54321,7 +54180,7 @@
   {
     "world": "world",
     "name": "DragonIron",
-    "chunks": 0,
+    "chunks": 56.484375,
     "color": "#006400",
     "mayor": "dragon8877",
     "pvp": false,
@@ -54342,7 +54201,6 @@
       "x": 2584,
       "z": -2824
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -54763,7 +54621,7 @@
   {
     "world": "world",
     "name": "PUB_Island",
-    "chunks": 0,
+    "chunks": 19.89453125,
     "color": "#ff8c00",
     "mayor": "Thee_sheriff",
     "pvp": false,
@@ -54785,7 +54643,6 @@
       "x": 14856,
       "z": 10584
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -55100,7 +54957,7 @@
   {
     "world": "world",
     "name": "Engineers",
-    "chunks": 0,
+    "chunks": 307.609375,
     "color": "#ff8c00",
     "mayor": "CyberBeRG",
     "pvp": false,
@@ -55128,7 +54985,6 @@
       "x": 9464,
       "z": -7128
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -55547,7 +55403,7 @@
   {
     "world": "world",
     "name": "boMboLand",
-    "chunks": 0,
+    "chunks": 2.9375,
     "color": "#f0e68c",
     "mayor": "AlexaIV",
     "pvp": false,
@@ -55561,7 +55417,6 @@
       "x": -12296,
       "z": -12584
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -55652,7 +55507,7 @@
   {
     "world": "world",
     "name": "Babylon",
-    "chunks": 0,
+    "chunks": 30.671875,
     "color": "#d3d3d3",
     "mayor": "IronicEclipse",
     "pvp": false,
@@ -55666,7 +55521,6 @@
       "x": 10720,
       "z": -7824
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -55741,7 +55595,7 @@
   {
     "world": "world",
     "name": "KipoTheAxoltol",
-    "chunks": 0,
+    "chunks": 16.86328125,
     "color": "#90ee90",
     "mayor": "Drax0",
     "pvp": false,
@@ -55756,7 +55610,6 @@
       "x": 2456,
       "z": -9016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -55991,7 +55844,7 @@
   {
     "world": "world",
     "name": "USSR",
-    "chunks": 0,
+    "chunks": 2.87109375,
     "color": "#808000",
     "mayor": "NotBloodyKyd",
     "pvp": false,
@@ -56005,7 +55858,6 @@
       "x": 1160,
       "z": 4888
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -56080,7 +55932,7 @@
   {
     "world": "world",
     "name": "New_Dawn",
-    "chunks": 0,
+    "chunks": 626.68359375,
     "color": "#006400",
     "mayor": "Neko501st",
     "pvp": false,
@@ -56096,7 +55948,6 @@
       "x": -9706,
       "z": 3030
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -57003,7 +56854,7 @@
   {
     "world": "world",
     "name": "HoneyHedge",
-    "chunks": 0,
+    "chunks": 515.46484375,
     "color": "#ffffe0",
     "mayor": "Ariellelp",
     "pvp": false,
@@ -57034,7 +56885,6 @@
       "x": -5176,
       "z": -10920
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -58765,7 +58615,7 @@
   {
     "world": "world",
     "name": "Tel-Aviv",
-    "chunks": 0,
+    "chunks": 1.0625,
     "color": "#e0ffff",
     "mayor": "Adam3",
     "pvp": false,
@@ -58779,7 +58629,6 @@
       "x": 5336,
       "z": 1832
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -58870,7 +58719,7 @@
   {
     "world": "world",
     "name": "Serenity",
-    "chunks": 0,
+    "chunks": 113.92578125,
     "color": "#e0ffff",
     "mayor": "Segumisama",
     "pvp": false,
@@ -58885,7 +58734,6 @@
       "x": 12728,
       "z": -13944
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -59392,7 +59240,7 @@
   {
     "world": "world",
     "name": "Solarus",
-    "chunks": 0,
+    "chunks": 88.5390625,
     "color": "#ffffe0",
     "mayor": "Starkittycat",
     "pvp": false,
@@ -59410,7 +59258,6 @@
       "x": -9330,
       "z": 9197
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -59677,7 +59524,7 @@
   {
     "world": "world",
     "name": "humperdink",
-    "chunks": 0,
+    "chunks": 16.15625,
     "color": "#bdb76b",
     "mayor": "SammyAxel",
     "pvp": false,
@@ -59691,7 +59538,6 @@
       "x": -3272,
       "z": 5176
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -59914,7 +59760,7 @@
   {
     "world": "world",
     "name": "Vikingr_Village",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#c0c0c0",
     "mayor": "GWS_Gaming",
     "pvp": false,
@@ -59928,7 +59774,6 @@
       "x": -9448,
       "z": -8440
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -60019,7 +59864,7 @@
   {
     "world": "world",
     "name": "blaze",
-    "chunks": 0,
+    "chunks": 2.9375,
     "color": "#e0ffff",
     "mayor": "SBB_16",
     "pvp": false,
@@ -60035,7 +59880,6 @@
       "x": -6552,
       "z": 5544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -60126,7 +59970,7 @@
   {
     "world": "world",
     "name": "Noremacia",
-    "chunks": 0,
+    "chunks": 41.078125,
     "color": "#a52a2a",
     "mayor": "MRredstone",
     "pvp": false,
@@ -60145,7 +59989,6 @@
       "x": 9720,
       "z": 2616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -60684,7 +60527,7 @@
   {
     "world": "world",
     "name": "CCP",
-    "chunks": 0,
+    "chunks": 6.40625,
     "color": "#000080",
     "mayor": "MohammadAbdul",
     "pvp": false,
@@ -60700,7 +60543,6 @@
       "x": 7816,
       "z": -5896
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -60839,7 +60681,7 @@
   {
     "world": "world",
     "name": "Salem",
-    "chunks": 0,
+    "chunks": 31.71875,
     "color": "#ffc0cb",
     "mayor": "Hedgiedog",
     "pvp": false,
@@ -60854,7 +60696,6 @@
       "x": -6024,
       "z": 8104
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -61107,7 +60948,7 @@
   {
     "world": "world",
     "name": "Midgard",
-    "chunks": 0,
+    "chunks": 31.609375,
     "color": "#ff8c00",
     "mayor": "Powelus",
     "pvp": false,
@@ -61123,7 +60964,6 @@
       "x": 11976,
       "z": -13928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -61506,7 +61346,7 @@
   {
     "world": "world",
     "name": "name",
-    "chunks": 0,
+    "chunks": 68.0625,
     "color": "#000080",
     "mayor": "BLUEJACKET333",
     "pvp": false,
@@ -61524,7 +61364,6 @@
       "x": 1544,
       "z": -4296
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -61935,7 +61774,7 @@
   {
     "world": "world",
     "name": "Divinity",
-    "chunks": 0,
+    "chunks": 292.203125,
     "color": "#00ffff",
     "mayor": "sphynxz666",
     "pvp": false,
@@ -61954,7 +61793,6 @@
       "x": -11528,
       "z": -10200
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -63048,13 +62886,12 @@
       "x": 3913,
       "z": -8137
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Starlight",
-    "chunks": 0,
+    "chunks": 188.55859375,
     "color": "#006400",
     "mayor": "lunarsunnie",
     "pvp": false,
@@ -63069,7 +62906,6 @@
       "x": -7656,
       "z": 6424
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -63256,7 +63092,7 @@
   {
     "world": "world",
     "name": "Kapville",
-    "chunks": 0,
+    "chunks": 385.55859375,
     "color": "#008b8b",
     "mayor": "Kaplooshh",
     "pvp": false,
@@ -63270,7 +63106,6 @@
       "x": 4551,
       "z": 13040
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -64495,7 +64330,7 @@
   {
     "world": "world",
     "name": "Beneland",
-    "chunks": 0,
+    "chunks": 26.44140625,
     "color": "#9400d3",
     "mayor": "_Y2000_",
     "pvp": false,
@@ -64509,7 +64344,6 @@
       "x": -2264,
       "z": 1176
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -64744,7 +64578,7 @@
   {
     "world": "world",
     "name": "Water",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#e0ffff",
     "mayor": "babyrobertcage",
     "pvp": false,
@@ -64761,7 +64595,6 @@
       "x": -9640,
       "z": -8392
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -64852,7 +64685,7 @@
   {
     "world": "world",
     "name": "JuubCuube",
-    "chunks": 0,
+    "chunks": 57.6796875,
     "color": "#800080",
     "mayor": "TyrantTigress",
     "pvp": false,
@@ -64868,7 +64701,6 @@
       "x": 2696,
       "z": -9400
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -65232,7 +65064,6 @@
       "x": 1736,
       "z": -6616
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -65259,13 +65090,12 @@
       "x": 2486,
       "z": -2342
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Lorb",
-    "chunks": 0,
+    "chunks": 299.71875,
     "color": "#a9a9a9",
     "mayor": "KitsuneSword",
     "pvp": false,
@@ -65282,7 +65112,6 @@
       "x": 9528,
       "z": -8376
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -65949,7 +65778,7 @@
   {
     "world": "world",
     "name": "Eytown",
-    "chunks": 0,
+    "chunks": 53.12109375,
     "color": "#a52a2a",
     "mayor": "Eystreem21",
     "pvp": false,
@@ -65971,7 +65800,6 @@
       "x": 5320,
       "z": -9960
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -66466,7 +66294,7 @@
   {
     "world": "world",
     "name": "Doggo_Town",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#000000",
     "mayor": "THE_HAPPIER_CYL",
     "pvp": false,
@@ -66483,7 +66311,6 @@
       "x": -5160,
       "z": -9544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -66542,7 +66369,7 @@
   {
     "world": "world",
     "name": "Moo_Moo_Meadows",
-    "chunks": 0,
+    "chunks": 21.49609375,
     "color": "#00008b",
     "mayor": "Uictoriam",
     "pvp": false,
@@ -66557,7 +66384,6 @@
       "x": -4088,
       "z": 3064
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -66742,7 +66568,6 @@
       "x": -2072,
       "z": 1336
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -66769,7 +66594,7 @@
   {
     "world": "world",
     "name": "raiders",
-    "chunks": 0,
+    "chunks": 13.15234375,
     "color": "#f5f5dc",
     "mayor": "Darin_Chase",
     "pvp": false,
@@ -66786,7 +66611,6 @@
       "x": -3489,
       "z": -9411
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -66977,7 +66801,7 @@
   {
     "world": "world",
     "name": "KnappyVille",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#ff8c00",
     "mayor": "TypicalKnapp",
     "pvp": false,
@@ -66991,7 +66815,6 @@
       "x": -8696,
       "z": -9608
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -67082,7 +66905,7 @@
   {
     "world": "world",
     "name": "Vinocaye",
-    "chunks": 0,
+    "chunks": 7.81640625,
     "color": "#00ffff",
     "mayor": "ChromeGoggles",
     "pvp": false,
@@ -67096,7 +66919,6 @@
       "x": 14376,
       "z": 13928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -67241,7 +67063,6 @@
       "x": 5015,
       "z": -10146
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -67264,13 +67085,12 @@
       "x": -360,
       "z": 744
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Hot_Boy_Nation",
-    "chunks": 0,
+    "chunks": 717.37109375,
     "color": "#e0ffff",
     "mayor": "pandacat666",
     "pvp": false,
@@ -67317,7 +67137,6 @@
       "x": -3117,
       "z": 10507
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -68394,13 +68213,12 @@
       "x": 5208,
       "z": 14024
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Osktil",
-    "chunks": 0,
+    "chunks": 103.3125,
     "color": "#ffffe0",
     "mayor": "Moress",
     "pvp": false,
@@ -68415,7 +68233,6 @@
       "x": 11192,
       "z": 11864
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -68944,13 +68761,12 @@
       "x": -1544,
       "z": -9672
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "DoofenshmirtsEvilInc",
-    "chunks": 0,
+    "chunks": 27.18359375,
     "color": "#ffb6c1",
     "mayor": "DullBaby",
     "pvp": false,
@@ -68967,7 +68783,6 @@
       "x": 13032,
       "z": -1832
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -69314,7 +69129,7 @@
   {
     "world": "world",
     "name": "Fakes_Town",
-    "chunks": 0,
+    "chunks": 129.08984375,
     "color": "#e9967a",
     "mayor": "zp33zy",
     "pvp": false,
@@ -69330,7 +69145,6 @@
       "x": 9304,
       "z": -14056
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70033,7 +69847,7 @@
   {
     "world": "world",
     "name": "SpringVille",
-    "chunks": 0,
+    "chunks": 16.6875,
     "color": "#ff8c00",
     "mayor": "springtyme",
     "pvp": false,
@@ -70049,7 +69863,6 @@
       "x": -5688,
       "z": -2008
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70236,7 +70049,7 @@
   {
     "world": "world",
     "name": "TheFree",
-    "chunks": 0,
+    "chunks": 610.84375,
     "mayor": "SimonLA_",
     "pvp": false,
     "residents": [
@@ -70262,7 +70075,6 @@
       "x": -9448,
       "z": 5864
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70511,7 +70323,6 @@
       "x": 9656,
       "z": -7128
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70553,7 +70364,6 @@
       "x": 9147,
       "z": -5398
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -70586,7 +70396,6 @@
       "x": -5876,
       "z": 2767
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -70606,7 +70415,6 @@
       "x": -4824,
       "z": -7688
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70647,7 +70455,6 @@
       "x": -7048,
       "z": -1656
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70674,7 +70481,7 @@
   {
     "world": "world",
     "name": "Elsweyr",
-    "chunks": 0,
+    "chunks": 2.9375,
     "color": "#c0c0c0",
     "mayor": "Ferginautie",
     "pvp": false,
@@ -70688,7 +70495,6 @@
       "x": 8104,
       "z": 11064
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -70779,7 +70585,7 @@
   {
     "world": "world",
     "name": "The_Hamster_Cages",
-    "chunks": 0,
+    "chunks": 54.76171875,
     "color": "#800000",
     "mayor": "FnafQueen31",
     "pvp": false,
@@ -70793,7 +70599,6 @@
       "x": -11432,
       "z": -2792
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -71380,7 +71185,7 @@
   {
     "world": "world",
     "name": "Skycean_Forest",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#ff8c00",
     "mayor": "AicesSkycean",
     "pvp": false,
@@ -71394,7 +71199,6 @@
       "x": -8456,
       "z": -13288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -71469,7 +71273,7 @@
   {
     "world": "world",
     "name": "Kilead",
-    "chunks": 0,
+    "chunks": 122.99609375,
     "color": "#808000",
     "mayor": "ilefranc",
     "pvp": false,
@@ -71489,7 +71293,6 @@
       "x": -10712,
       "z": -3960
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -71852,7 +71655,7 @@
   {
     "world": "world",
     "name": "Ulketown",
-    "chunks": 0,
+    "chunks": 33.96484375,
     "color": "#a52a2a",
     "mayor": "Ulkee",
     "pvp": false,
@@ -71866,7 +71669,6 @@
       "x": -792,
       "z": -12312
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -72133,7 +71935,7 @@
   {
     "world": "world",
     "name": "Jonko",
-    "chunks": 0,
+    "chunks": 16.5,
     "color": "#000000",
     "mayor": "waterboyy360",
     "pvp": false,
@@ -72147,7 +71949,6 @@
       "x": -8152,
       "z": -9224
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -72334,7 +72135,7 @@
   {
     "world": "world",
     "name": "Birch_Town",
-    "chunks": 0,
+    "chunks": 69.9921875,
     "color": "#f5f5dc",
     "mayor": "KevinGames17",
     "pvp": false,
@@ -72350,7 +72151,6 @@
       "x": -7912,
       "z": 6040
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -72990,13 +72790,12 @@
       "x": -12024,
       "z": 3496
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Temple",
-    "chunks": 0,
+    "chunks": 46.3125,
     "color": "#ff00ff",
     "mayor": "t2sdayaz",
     "pvp": false,
@@ -73012,7 +72811,6 @@
       "x": -8328,
       "z": -7544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -73055,7 +72853,7 @@
   {
     "world": "world",
     "name": "Driftveil_City",
-    "chunks": 0,
+    "chunks": 25.8046875,
     "color": "#00ffff",
     "mayor": "Osolight678",
     "pvp": false,
@@ -73070,7 +72868,6 @@
       "x": 4760,
       "z": 1480
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -73480,13 +73277,12 @@
       "x": 12328,
       "z": -1160
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Margaritaville",
-    "chunks": 0,
+    "chunks": 104.9609375,
     "color": "#ff00ff",
     "mayor": "DAEMON_DEAN",
     "pvp": false,
@@ -73500,7 +73296,6 @@
       "x": -8200,
       "z": 3784
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -73975,7 +73770,7 @@
   {
     "world": "world",
     "name": "Monterey_Jack",
-    "chunks": 0,
+    "chunks": 81.7421875,
     "color": "#ffd700",
     "mayor": "NomNomNombie",
     "pvp": false,
@@ -73992,7 +73787,6 @@
       "x": 13960,
       "z": 13560
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -74387,7 +74181,7 @@
   {
     "world": "world",
     "name": "So_Toooooooooown",
-    "chunks": 0,
+    "chunks": 121.41015625,
     "color": "#ffa500",
     "mayor": "So_Loooooooooong",
     "pvp": false,
@@ -74401,7 +74195,6 @@
       "x": 6024,
       "z": 648
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -74796,7 +74589,7 @@
   {
     "world": "world",
     "name": "Bee_Hive",
-    "chunks": 0,
+    "chunks": 88.25,
     "color": "#000080",
     "mayor": "OriginalMistake",
     "pvp": false,
@@ -74810,7 +74603,6 @@
       "x": -330,
       "z": -1432
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -75059,7 +74851,6 @@
       "x": 6408,
       "z": 4360
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -75131,13 +74922,12 @@
       "x": -6603,
       "z": 8502
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Dragonstone",
-    "chunks": 0,
+    "chunks": 63.4296875,
     "mayor": "Letroy11",
     "pvp": false,
     "residents": [
@@ -75150,7 +74940,6 @@
       "x": -5064,
       "z": 739
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -75643,7 +75432,6 @@
       "x": 6776,
       "z": 8632
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -75687,7 +75475,6 @@
       "x": -4968,
       "z": -7208
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -75716,7 +75503,6 @@
       "x": 2760,
       "z": -1672
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -75737,13 +75523,12 @@
       "x": 8696,
       "z": 2008
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Sky_Foundry",
-    "chunks": 0,
+    "chunks": 16.80859375,
     "color": "#000080",
     "mayor": "ItzFuego",
     "pvp": false,
@@ -75757,13 +75542,20 @@
       "x": -2584,
       "z": -4536
     },
-    "points": [],
     "polygon": [
       [
         [
           {
             "x": -2592,
-            "z": -4497
+            "z": -4481
+          },
+          {
+            "x": -2577,
+            "z": -4481
+          },
+          {
+            "x": -2577,
+            "z": -4496
           },
           {
             "x": -2577,
@@ -75850,6 +75642,22 @@
             "z": -4528
           },
           {
+            "x": -2657,
+            "z": -4528
+          },
+          {
+            "x": -2672,
+            "z": -4528
+          },
+          {
+            "x": -2672,
+            "z": -4513
+          },
+          {
+            "x": -2657,
+            "z": -4513
+          },
+          {
             "x": -2656,
             "z": -4513
           },
@@ -75886,8 +75694,16 @@
             "z": -4497
           },
           {
+            "x": -2608,
+            "z": -4496
+          },
+          {
+            "x": -2608,
+            "z": -4481
+          },
+          {
             "x": -2593,
-            "z": -4497
+            "z": -4481
           }
         ]
       ]
@@ -75919,13 +75735,12 @@
       "x": -14712,
       "z": 10904
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "WorkersUnion",
-    "chunks": 0,
+    "chunks": 289.01171875,
     "color": "#800080",
     "mayor": "ifeelghosts",
     "pvp": false,
@@ -75946,7 +75761,6 @@
       "x": -7544,
       "z": -10536
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77255,7 +77069,7 @@
   {
     "world": "world",
     "name": "Red_Pandemonium",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#8b008b",
     "mayor": "Karethos",
     "pvp": false,
@@ -77270,7 +77084,6 @@
       "x": -2952,
       "z": 5752
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77393,7 +77206,7 @@
   {
     "world": "world",
     "name": "Goldie",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#c0c0c0",
     "mayor": "Gold_Digger__",
     "pvp": false,
@@ -77407,7 +77220,6 @@
       "x": -10072,
       "z": 7432
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77530,13 +77342,12 @@
       "x": 7992,
       "z": -11640
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "gingertown",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#90ee90",
     "mayor": "OmyClay",
     "pvp": false,
@@ -77550,7 +77361,6 @@
       "x": -4296,
       "z": -7944
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77656,7 +77466,6 @@
       "x": 6664,
       "z": -1208
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77683,7 +77492,7 @@
   {
     "world": "world",
     "name": "Death_HQ",
-    "chunks": 0,
+    "chunks": 13.2109375,
     "color": "#9400d3",
     "mayor": "OutlandishShadow",
     "pvp": false,
@@ -77699,7 +77508,6 @@
       "x": -4616,
       "z": 5224
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -77902,7 +77710,7 @@
   {
     "world": "world",
     "name": "ScampiaPatriaMia",
-    "chunks": 0,
+    "chunks": 27.37109375,
     "color": "#ffffe0",
     "mayor": "FrancescoCucchi",
     "pvp": false,
@@ -77918,7 +77726,6 @@
       "x": 9352,
       "z": 3576
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -78201,7 +78008,7 @@
   {
     "world": "world",
     "name": "Riverwood",
-    "chunks": 0,
+    "chunks": 656.578125,
     "color": "#ffff00",
     "mayor": "Zex1mus",
     "pvp": false,
@@ -78249,7 +78056,6 @@
       "x": 5896,
       "z": 3480
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -80219,13 +80025,12 @@
       "x": 2680,
       "z": 4456
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Rulid",
-    "chunks": 0,
+    "chunks": 34.18359375,
     "color": "#ff0000",
     "mayor": "Harrysplat11",
     "pvp": false,
@@ -80240,7 +80045,6 @@
       "x": 9816,
       "z": -6968
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -80491,7 +80295,7 @@
   {
     "world": "world",
     "name": "Ezlyn",
-    "chunks": 0,
+    "chunks": 66.29296875,
     "color": "#9400d3",
     "mayor": "Quackbeard",
     "pvp": false,
@@ -80511,7 +80315,6 @@
       "x": -8520,
       "z": -7944
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -80776,7 +80579,6 @@
       "x": 2632,
       "z": 8344
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -80799,13 +80601,12 @@
       "x": -10953,
       "z": -758
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Purps",
-    "chunks": 0,
+    "chunks": 83.359375,
     "color": "#bdb76b",
     "mayor": "PurpleNurplezz",
     "pvp": false,
@@ -80820,7 +80621,6 @@
       "x": 4903,
       "z": 5992
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -81529,7 +81329,7 @@
   {
     "world": "world",
     "name": "Russian_Federation",
-    "chunks": 0,
+    "chunks": 9.7734375,
     "color": "#e9967a",
     "mayor": "DexWasFound",
     "pvp": false,
@@ -81544,7 +81344,6 @@
       "x": 2536,
       "z": -5592
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -81731,7 +81530,7 @@
   {
     "world": "world",
     "name": "Pepperland",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#9932cc",
     "mayor": "Rysch98",
     "pvp": false,
@@ -81745,7 +81544,6 @@
       "x": 10088,
       "z": 7112
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -81850,13 +81648,12 @@
       "x": 12728,
       "z": 14056
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Brotopia",
-    "chunks": 0,
+    "chunks": 8.34375,
     "color": "#00008b",
     "mayor": "highfivemebreh",
     "pvp": false,
@@ -81871,7 +81668,6 @@
       "x": 1784,
       "z": 9592
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82056,7 +81852,6 @@
       "x": 12904,
       "z": -11624
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -82076,7 +81871,6 @@
       "x": -9128,
       "z": -2793
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -82097,7 +81891,6 @@
       "x": 6184,
       "z": -1992
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82124,7 +81917,7 @@
   {
     "world": "world",
     "name": "benj6",
-    "chunks": 0,
+    "chunks": 6.87109375,
     "color": "#9932cc",
     "mayor": "benj6",
     "pvp": false,
@@ -82138,7 +81931,6 @@
       "x": 9912,
       "z": 4968
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82260,13 +82052,12 @@
       "x": -649,
       "z": 7397
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "StarIsland",
-    "chunks": 0,
+    "chunks": 48.95703125,
     "color": "#556b2f",
     "mayor": "SecondStarr4478",
     "pvp": false,
@@ -82281,7 +82072,6 @@
       "x": -9000,
       "z": 9544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82756,7 +82546,7 @@
   {
     "world": "world",
     "name": "Detroit",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#e0ffff",
     "mayor": "LukeThreeSixty",
     "pvp": false,
@@ -82770,7 +82560,6 @@
       "x": 5352,
       "z": 4648
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82829,7 +82618,7 @@
   {
     "world": "world",
     "name": "Amberville",
-    "chunks": 0,
+    "chunks": 88.78515625,
     "color": "#800080",
     "mayor": "Amber_Amber",
     "pvp": false,
@@ -82843,7 +82632,6 @@
       "x": 6056,
       "z": 1000
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -82995,7 +82783,6 @@
       "x": 6984,
       "z": -9080
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -83038,13 +82825,12 @@
       "x": 12072,
       "z": 867
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Nightingales",
-    "chunks": 0,
+    "chunks": 3.75,
     "mayor": "Law_Cifer",
     "pvp": false,
     "residents": [
@@ -83058,7 +82844,6 @@
       "x": 11096,
       "z": -1528
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -83165,7 +82950,7 @@
   {
     "world": "world",
     "name": "Utopia",
-    "chunks": 0,
+    "chunks": 8.33984375,
     "color": "#f5f5dc",
     "mayor": "Linsc_",
     "pvp": false,
@@ -83180,7 +82965,6 @@
       "x": 5384,
       "z": -1448
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -83339,7 +83123,6 @@
       "x": -3976,
       "z": -1448
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -83430,13 +83213,12 @@
       "x": -14863,
       "z": -12731
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Awesomeville",
-    "chunks": 0,
+    "chunks": 45.58203125,
     "color": "#a52a2a",
     "mayor": "EpikEvan",
     "pvp": false,
@@ -83451,7 +83233,6 @@
       "x": 12248,
       "z": -4392
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -83894,7 +83675,7 @@
   {
     "world": "world",
     "name": "Porte",
-    "chunks": 0,
+    "chunks": 41.20703125,
     "color": "#e9967a",
     "mayor": "_P0seidon",
     "pvp": false,
@@ -83910,7 +83691,6 @@
       "x": -3352,
       "z": 3336
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -84310,13 +84090,12 @@
       "x": -5732,
       "z": -1748
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Wildfire",
-    "chunks": 0,
+    "chunks": 210.1015625,
     "color": "#000000",
     "mayor": "yabbadabbadu",
     "pvp": false,
@@ -84336,7 +84115,6 @@
       "x": 4440,
       "z": 984
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -85161,13 +84939,12 @@
       "x": -12704,
       "z": -12912
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Ghstly",
-    "chunks": 0,
+    "chunks": 2.9375,
     "color": "#bdb76b",
     "mayor": "akaGhst",
     "pvp": false,
@@ -85183,7 +84960,6 @@
       "x": 6952,
       "z": 5416
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -85274,7 +85050,7 @@
   {
     "world": "world",
     "name": "Gargoyles",
-    "chunks": 0,
+    "chunks": 69.6796875,
     "color": "#f5f5dc",
     "mayor": "Ahshley",
     "pvp": false,
@@ -85291,7 +85067,6 @@
       "x": -7565,
       "z": 5267
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -85834,7 +85609,7 @@
   {
     "world": "world",
     "name": "The_No_Zone",
-    "chunks": 0,
+    "chunks": 2.875,
     "mayor": "Experza",
     "pvp": false,
     "residents": [
@@ -85849,7 +85624,6 @@
       "x": 12040,
       "z": -8264
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -85956,7 +85730,7 @@
   {
     "world": "world",
     "name": "CommonWealth",
-    "chunks": 0,
+    "chunks": 26.84765625,
     "color": "#4b0082",
     "mayor": "Th3Moo5e",
     "pvp": false,
@@ -85973,7 +85747,6 @@
       "x": -1528,
       "z": 3016
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -86190,7 +85963,6 @@
       "x": -6648,
       "z": -1208
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -86217,7 +85989,7 @@
   {
     "world": "world",
     "name": "Eastrock",
-    "chunks": 0,
+    "chunks": 39.1796875,
     "color": "#a52a2a",
     "mayor": "Hazbo_56",
     "pvp": false,
@@ -86231,7 +86003,6 @@
       "x": -5352,
       "z": 2072
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -86361,13 +86132,12 @@
       "x": 9327,
       "z": -2433
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Lapland",
-    "chunks": 0,
+    "chunks": 16.375,
     "color": "#006400",
     "mayor": "HxB08",
     "pvp": false,
@@ -86384,7 +86154,6 @@
       "x": 2600,
       "z": -8472
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -86619,7 +86388,7 @@
   {
     "world": "world",
     "name": "Mama_Apples_Orchard",
-    "chunks": 0,
+    "chunks": 127,
     "color": "#800080",
     "mayor": "AppleSalzer",
     "pvp": false,
@@ -86640,7 +86409,6 @@
       "x": 9914,
       "z": -10952
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -87269,7 +87037,7 @@
   {
     "world": "world",
     "name": "Fiora",
-    "chunks": 0,
+    "chunks": 70.34765625,
     "color": "#000080",
     "mayor": "ch3rrie3",
     "pvp": false,
@@ -87283,7 +87051,6 @@
       "x": -1672,
       "z": -3304
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -87773,13 +87540,12 @@
       "x": -9958,
       "z": 9946
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Home",
-    "chunks": 0,
+    "chunks": 32.2421875,
     "color": "#8b0000",
     "mayor": "SYBR",
     "pvp": false,
@@ -87793,7 +87559,6 @@
       "x": 4440,
       "z": 1704
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -88138,7 +87903,6 @@
       "x": -1912,
       "z": 472
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -88158,7 +87922,6 @@
       "x": -2248,
       "z": 2792
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -88212,13 +87975,12 @@
       "x": 9256,
       "z": -3848
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Enigma",
-    "chunks": 0,
+    "chunks": 2.5625,
     "color": "#008b8b",
     "mayor": "ErizoGames",
     "pvp": false,
@@ -88232,7 +87994,6 @@
       "x": -10536,
       "z": 136
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -88355,7 +88116,7 @@
   {
     "world": "world",
     "name": "Copenhagen_Mint",
-    "chunks": 0,
+    "chunks": 6.90234375,
     "color": "#ff0000",
     "mayor": "RollieMo",
     "pvp": false,
@@ -88370,7 +88131,6 @@
       "x": 9080,
       "z": -4712
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -88525,13 +88285,12 @@
       "x": 1604,
       "z": 9451
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "The_Islands",
-    "chunks": 0,
+    "chunks": 107.30078125,
     "color": "#4b0082",
     "mayor": "Music_Reed",
     "pvp": false,
@@ -88569,7 +88328,6 @@
       "x": 8440,
       "z": -4344
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -89464,7 +89222,7 @@
   {
     "world": "world",
     "name": "Devils",
-    "chunks": 0,
+    "chunks": 146.87890625,
     "color": "#ff8c00",
     "mayor": "CreepyFriend15",
     "pvp": false,
@@ -89480,7 +89238,6 @@
       "x": 7720,
       "z": 9256
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -89811,7 +89568,7 @@
   {
     "world": "world",
     "name": "Mimdorahl",
-    "chunks": 0,
+    "chunks": 10.7265625,
     "color": "#800080",
     "mayor": "Nurono",
     "pvp": false,
@@ -89829,7 +89586,6 @@
       "x": -7592,
       "z": 4616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -90032,7 +89788,6 @@
       "x": -9912,
       "z": 6776
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -90060,13 +89815,12 @@
       "x": -11912,
       "z": -2040
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "EastHeaven",
-    "chunks": 0,
+    "chunks": 44.16796875,
     "color": "#800080",
     "mayor": "lilugly03",
     "pvp": false,
@@ -90080,7 +89834,6 @@
       "x": -5848,
       "z": -9304
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -90443,7 +90196,6 @@
       "x": 9496,
       "z": 3320
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -90484,13 +90236,12 @@
       "x": 1564,
       "z": -8481
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Empyris",
-    "chunks": 0,
+    "chunks": 128.04296875,
     "color": "#ff8c00",
     "mayor": "Snowboarder26",
     "pvp": false,
@@ -90507,7 +90258,6 @@
       "x": 7688,
       "z": 8472
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -91192,7 +90942,7 @@
   {
     "world": "world",
     "name": "Copper_Cartel",
-    "chunks": 0,
+    "chunks": 24.6875,
     "color": "#000080",
     "mayor": "Awooie",
     "pvp": false,
@@ -91213,7 +90963,6 @@
       "x": -8120,
       "z": -5000
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -91432,7 +91181,6 @@
       "x": 680,
       "z": 11016
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -91452,7 +91200,6 @@
       "x": 5839,
       "z": 1008
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -91472,13 +91219,12 @@
       "x": -5343,
       "z": 2064
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Industria",
-    "chunks": 0,
+    "chunks": 114.98828125,
     "color": "#e0ffff",
     "mayor": "Mettatorian",
     "pvp": false,
@@ -91494,7 +91240,6 @@
       "x": 3448,
       "z": -7896
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -91521,7 +91266,7 @@
   {
     "world": "world",
     "name": "The_Meadow",
-    "chunks": 0,
+    "chunks": 36.77734375,
     "color": "#90ee90",
     "mayor": "Cewkoyle",
     "pvp": false,
@@ -91535,7 +91280,6 @@
       "x": -13784,
       "z": -9672
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -91770,7 +91514,7 @@
   {
     "world": "world",
     "name": "gods_cross",
-    "chunks": 0,
+    "chunks": 42.09375,
     "color": "#8b0000",
     "mayor": "MadLittleMiss",
     "pvp": false,
@@ -91792,7 +91536,6 @@
       "x": 5064,
       "z": -8024
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -92171,7 +91914,7 @@
   {
     "world": "world",
     "name": "Lounge",
-    "chunks": 0,
+    "chunks": 8.34375,
     "color": "#00ffff",
     "mayor": "MogiPxnda",
     "pvp": false,
@@ -92188,7 +91931,6 @@
       "x": 5032,
       "z": 1208
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -92343,7 +92085,7 @@
   {
     "world": "world",
     "name": "Smallville",
-    "chunks": 0,
+    "chunks": 57.93359375,
     "color": "#000080",
     "mayor": "Zeru_Phoenix",
     "pvp": false,
@@ -92357,7 +92099,6 @@
       "x": -8424,
       "z": 5268
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -92544,7 +92285,7 @@
   {
     "world": "world",
     "name": "The_Miners",
-    "chunks": 0,
+    "chunks": 37.3125,
     "mayor": "Mason0221",
     "pvp": false,
     "residents": [
@@ -92559,7 +92300,6 @@
       "x": -3976,
       "z": 8696
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -92928,13 +92668,12 @@
       "x": -5304,
       "z": 7272
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "CaveDwell",
-    "chunks": 0,
+    "chunks": 9.91015625,
     "color": "#ffa500",
     "mayor": "SuprahSkai",
     "pvp": false,
@@ -92950,7 +92689,6 @@
       "x": 8968,
       "z": -9336
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -93089,7 +92827,7 @@
   {
     "world": "world",
     "name": "Northpacific",
-    "chunks": 0,
+    "chunks": 319.3515625,
     "color": "#ff00ff",
     "mayor": "Mikaela5322747",
     "pvp": false,
@@ -93103,7 +92841,6 @@
       "x": 7792,
       "z": -9586
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -94358,7 +94095,7 @@
   {
     "world": "world",
     "name": "Nosagis",
-    "chunks": 0,
+    "chunks": 21.65234375,
     "color": "#ffd700",
     "mayor": "Glory_Peko",
     "pvp": false,
@@ -94372,7 +94109,6 @@
       "x": -8808,
       "z": -2264
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -94670,7 +94406,6 @@
       "x": 7400,
       "z": 5768
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -94776,7 +94511,6 @@
       "x": -4488,
       "z": 6440
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -94820,13 +94554,12 @@
       "x": 8312,
       "z": -4793
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "KO",
-    "chunks": 0,
+    "chunks": 1.875,
     "color": "#ffff00",
     "mayor": "Kn0ck0uT_101",
     "pvp": false,
@@ -94840,7 +94573,6 @@
       "x": -3032,
       "z": 1992
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -94968,7 +94700,6 @@
       "x": 1128,
       "z": -6168
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -94989,7 +94720,6 @@
       "x": 4904,
       "z": 5992
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -95013,13 +94743,12 @@
       "x": 1064,
       "z": -264
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Ragnarok",
-    "chunks": 0,
+    "chunks": 14.41015625,
     "color": "#ff0000",
     "mayor": "greene9000",
     "pvp": false,
@@ -95033,7 +94762,6 @@
       "x": 7896,
       "z": 11848
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -95232,13 +94960,12 @@
       "x": -545,
       "z": -4836
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Arysea",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#ff8c00",
     "mayor": "drx_0",
     "pvp": false,
@@ -95252,7 +94979,6 @@
       "x": -3480,
       "z": 9944
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -95343,7 +95069,7 @@
   {
     "world": "world",
     "name": "Giants",
-    "chunks": 0,
+    "chunks": 12.59375,
     "color": "#00ff00",
     "mayor": "GiantReaper",
     "pvp": false,
@@ -95357,7 +95083,6 @@
       "x": 6984,
       "z": 5912
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -95528,7 +95253,7 @@
   {
     "world": "world",
     "name": "ExoCity",
-    "chunks": 0,
+    "chunks": 1.46875,
     "color": "#ffd700",
     "mayor": "ZqFo",
     "pvp": false,
@@ -95543,7 +95268,6 @@
       "x": -3800,
       "z": -5160
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -95681,13 +95405,12 @@
       "x": 2424,
       "z": 7752
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "BritishEmpire",
-    "chunks": 0,
+    "chunks": 128.1875,
     "color": "#ffffe0",
     "mayor": "JosefDab",
     "pvp": false,
@@ -95701,7 +95424,6 @@
       "x": 3656,
       "z": -6760
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -96320,13 +96042,12 @@
       "x": 5240,
       "z": 14328
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Miasto",
-    "chunks": 0,
+    "chunks": 6.34375,
     "color": "#008000",
     "mayor": "minime1978",
     "pvp": false,
@@ -96341,7 +96062,6 @@
       "x": 6712,
       "z": -6040
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -96480,7 +96200,7 @@
   {
     "world": "world",
     "name": "ooft",
-    "chunks": 0,
+    "chunks": 50.71484375,
     "color": "#d3d3d3",
     "mayor": "SwissRmyFist",
     "pvp": false,
@@ -96495,7 +96215,6 @@
       "x": 2856,
       "z": 8184
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -96778,7 +96497,7 @@
   {
     "world": "world",
     "name": "Baloum_Park",
-    "chunks": 0,
+    "chunks": 84.875,
     "color": "#00008b",
     "mayor": "Luckyremi",
     "pvp": false,
@@ -96795,7 +96514,6 @@
       "x": 280,
       "z": -10488
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -97143,13 +96861,12 @@
       "x": 4104,
       "z": 9112
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "Spekton",
-    "chunks": 0,
+    "chunks": 68.46875,
     "color": "#add8e6",
     "mayor": "Spektrofotometer",
     "pvp": false,
@@ -97163,7 +96880,6 @@
       "x": -3656,
       "z": 9784
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -97639,13 +97355,12 @@
       "x": -8523,
       "z": 9986
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "French-Iladas",
-    "chunks": 0,
+    "chunks": 0.46875,
     "mayor": "clemband",
     "pvp": false,
     "residents": [
@@ -97658,7 +97373,6 @@
       "x": 13512,
       "z": 11928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -97765,13 +97479,12 @@
       "x": -13722,
       "z": 12505
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "StarGazer_LilyValley",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#ffffff",
     "mayor": "dovegirl1122",
     "pvp": false,
@@ -97785,7 +97498,6 @@
       "x": -8328,
       "z": -8280
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -97908,7 +97620,7 @@
   {
     "world": "world",
     "name": "Le",
-    "chunks": 0,
+    "chunks": 22.625,
     "color": "#000080",
     "mayor": "Lemons_1",
     "pvp": false,
@@ -97922,7 +97634,6 @@
       "x": -6968,
       "z": 7400
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -98141,7 +97852,7 @@
   {
     "world": "world",
     "name": "Bywater",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#9400d3",
     "mayor": "MlakCannon",
     "pvp": false,
@@ -98156,7 +97867,6 @@
       "x": 14840,
       "z": -6488
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -98279,7 +97989,7 @@
   {
     "world": "world",
     "name": "Aquasil",
-    "chunks": 0,
+    "chunks": 91.22265625,
     "color": "#000080",
     "mayor": "Kaitso",
     "pvp": false,
@@ -98294,7 +98004,6 @@
       "x": 3096,
       "z": -5048
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -98724,7 +98433,6 @@
       "x": -9512,
       "z": 3576
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -98746,13 +98454,12 @@
       "x": 14982,
       "z": -14964
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "world",
     "name": "CycleTown",
-    "chunks": 0,
+    "chunks": 119.65234375,
     "color": "#ffffe0",
     "mayor": "CycleKing",
     "pvp": false,
@@ -98767,7 +98474,6 @@
       "x": -6824,
       "z": 12872
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99193,7 +98899,6 @@
       "x": 5448,
       "z": 488
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99220,7 +98925,7 @@
   {
     "world": "world",
     "name": "UIF",
-    "chunks": 0,
+    "chunks": 2.93359375,
     "color": "#4b0082",
     "mayor": "concursam",
     "pvp": false,
@@ -99234,7 +98939,6 @@
       "x": 6952,
       "z": -10456
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99309,7 +99013,7 @@
   {
     "world": "earth",
     "name": "Revival",
-    "chunks": 0,
+    "chunks": 15.36328125,
     "color": "#ff8c00",
     "mayor": "gerbilator",
     "pvp": false,
@@ -99323,7 +99027,6 @@
       "x": 2248,
       "z": -6520
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99557,7 +99260,6 @@
       "x": 6232,
       "z": 1544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99600,7 +99302,7 @@
   {
     "world": "earth",
     "name": "Angelorum",
-    "chunks": 0,
+    "chunks": 0.93359375,
     "color": "#800080",
     "mayor": "ChallengeGamesMC",
     "pvp": false,
@@ -99615,7 +99317,6 @@
       "x": 4328,
       "z": -4152
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99674,7 +99375,7 @@
   {
     "world": "earth",
     "name": "Seattle",
-    "chunks": 0,
+    "chunks": 7.875,
     "color": "#800080",
     "mayor": "Ammika",
     "pvp": false,
@@ -99688,7 +99389,6 @@
       "x": -14712,
       "z": -5672
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99825,7 +99525,6 @@
       "x": -6552,
       "z": 3000
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -99900,7 +99599,7 @@
   {
     "world": "earth",
     "name": "Central_PA",
-    "chunks": 0,
+    "chunks": 34.375,
     "color": "#ff00ff",
     "mayor": "_xXMrManateeXx_",
     "pvp": false,
@@ -99915,7 +99614,6 @@
       "x": -9336,
       "z": -4888
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -100152,13 +99850,12 @@
       "x": -7593,
       "z": 4134
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Down",
-    "chunks": 0,
+    "chunks": 24.15625,
     "color": "#9932cc",
     "mayor": "BR__AnonymousP13",
     "pvp": false,
@@ -100174,7 +99871,6 @@
       "x": -680,
       "z": -6552
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -100425,7 +100121,7 @@
   {
     "world": "earth",
     "name": "Sinfall",
-    "chunks": 0,
+    "chunks": 26.390625,
     "mayor": "SuperSkippy01",
     "pvp": false,
     "residents": [
@@ -100439,7 +100135,6 @@
       "x": 3656,
       "z": -6440
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -100706,7 +100401,7 @@
   {
     "world": "earth",
     "name": "Lemon",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#556b2f",
     "mayor": "Number1Badguy",
     "pvp": false,
@@ -100720,7 +100415,6 @@
       "x": 16920,
       "z": -4632
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -100779,7 +100473,7 @@
   {
     "world": "earth",
     "name": "Hael",
-    "chunks": 0,
+    "chunks": 44.2734375,
     "color": "#a9a9a9",
     "mayor": "ClawdeenRP",
     "pvp": false,
@@ -100794,7 +100488,6 @@
       "x": 4280,
       "z": -936
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -101211,7 +100904,7 @@
   {
     "world": "earth",
     "name": "ToxicLabs",
-    "chunks": 0,
+    "chunks": 2.5625,
     "color": "#e9967a",
     "mayor": "Toxicdolphin98",
     "pvp": false,
@@ -101225,7 +100918,6 @@
       "x": 14056,
       "z": 8
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -101349,13 +101041,12 @@
       "x": 2056,
       "z": 1880
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "The_Empire",
-    "chunks": 0,
+    "chunks": 15.75,
     "color": "#ffa500",
     "mayor": "KanoriUtsui",
     "pvp": false,
@@ -101369,7 +101060,6 @@
       "x": -6072,
       "z": 2424
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -101508,7 +101198,7 @@
   {
     "world": "earth",
     "name": "Destiny",
-    "chunks": 0,
+    "chunks": 51.06640625,
     "color": "#808000",
     "mayor": "GlazedDonuts",
     "pvp": false,
@@ -101522,7 +101212,6 @@
       "x": 13864,
       "z": 4072
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -101869,7 +101558,7 @@
   {
     "world": "earth",
     "name": "Red_Rock",
-    "chunks": 0,
+    "chunks": 452.390625,
     "color": "#006400",
     "mayor": "skirunner10",
     "pvp": false,
@@ -101919,7 +101608,6 @@
       "x": -13576,
       "z": -3256
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -104162,7 +103850,7 @@
   {
     "world": "earth",
     "name": "Koolaid",
-    "chunks": 0,
+    "chunks": 98.6015625,
     "color": "#ff00ff",
     "mayor": "FlavoredKoolaid",
     "pvp": false,
@@ -104176,7 +103864,6 @@
       "x": 7736,
       "z": -5560
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -104555,7 +104242,7 @@
   {
     "world": "earth",
     "name": "UnderGrove",
-    "chunks": 0,
+    "chunks": 33.5,
     "color": "#008b8b",
     "mayor": "NikkoPlayz",
     "pvp": false,
@@ -104569,7 +104256,6 @@
       "x": -6264,
       "z": 1768
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -104788,7 +104474,6 @@
       "x": 1832,
       "z": -2744
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -104822,13 +104507,12 @@
       "x": 4082,
       "z": 1285
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Woodpine",
-    "chunks": 0,
+    "chunks": 17.05078125,
     "color": "#ff00ff",
     "mayor": "josefedavila",
     "pvp": false,
@@ -104845,7 +104529,6 @@
       "x": 4232,
       "z": 2200
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -105084,13 +104767,12 @@
       "x": -8712,
       "z": 4456
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Frackers",
-    "chunks": 0,
+    "chunks": 213.02734375,
     "color": "#a52a2a",
     "mayor": "spider_hunter5",
     "pvp": false,
@@ -105106,7 +104788,6 @@
       "x": -9480,
       "z": 136
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -105597,7 +105278,7 @@
   {
     "world": "earth",
     "name": "Brandenburg",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#4b0082",
     "mayor": "PolishPie",
     "pvp": false,
@@ -105612,7 +105293,6 @@
       "x": 1336,
       "z": -6136
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -105703,7 +105383,7 @@
   {
     "world": "earth",
     "name": "Bangor",
-    "chunks": 0,
+    "chunks": 21.9375,
     "color": "#c0c0c0",
     "mayor": "Burnsmashkill",
     "pvp": false,
@@ -105718,7 +105398,6 @@
       "x": -8264,
       "z": -5480
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -106015,7 +105694,6 @@
       "x": -600,
       "z": -4408
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -106056,13 +105734,12 @@
       "x": 16296,
       "z": -6536
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "snowyvilla",
-    "chunks": 0,
+    "chunks": 26.65234375,
     "color": "#00ffff",
     "mayor": "Vixen_420",
     "pvp": false,
@@ -106078,7 +105755,6 @@
       "x": -1976,
       "z": 8904
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -106525,7 +106201,7 @@
   {
     "world": "earth",
     "name": "ChillsVille.",
-    "chunks": 0,
+    "chunks": 0.46875,
     "color": "#f0ffff",
     "mayor": "PilarThomas",
     "pvp": false,
@@ -106539,7 +106215,6 @@
       "x": -3944,
       "z": -8616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -106614,7 +106289,7 @@
   {
     "world": "earth",
     "name": "Ireland",
-    "chunks": 0,
+    "chunks": 14.15625,
     "color": "#e0ffff",
     "mayor": "AlphaRooney",
     "pvp": false,
@@ -106629,7 +106304,6 @@
       "x": -808,
       "z": -6392
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -106768,7 +106442,7 @@
   {
     "world": "earth",
     "name": "Silverkeep",
-    "chunks": 0,
+    "chunks": 71.65234375,
     "color": "#d3d3d3",
     "mayor": "MrFoxzer",
     "pvp": false,
@@ -106783,7 +106457,6 @@
       "x": -11768,
       "z": -4280
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -107066,7 +106739,7 @@
   {
     "world": "earth",
     "name": "zen",
-    "chunks": 0,
+    "chunks": 35.84765625,
     "color": "#808000",
     "mayor": "nmitsu",
     "pvp": false,
@@ -107081,7 +106754,6 @@
       "x": 1224,
       "z": -5416
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -107415,13 +107087,12 @@
       "x": -5464,
       "z": 2840
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Houston",
-    "chunks": 0,
+    "chunks": 1.0625,
     "color": "#ffd700",
     "mayor": "Doggo_tac0_77",
     "pvp": false,
@@ -107436,7 +107107,6 @@
       "x": -11384,
       "z": -3576
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -107511,7 +107181,7 @@
   {
     "world": "earth",
     "name": "gaum",
-    "chunks": 0,
+    "chunks": 177.43359375,
     "color": "#8b0000",
     "mayor": "El_Acordeonachi",
     "pvp": false,
@@ -107526,7 +107196,6 @@
       "x": 17368,
       "z": -1592
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -109129,7 +108798,7 @@
   {
     "world": "earth",
     "name": "DummyThicc_Republic",
-    "chunks": 0,
+    "chunks": 40.08203125,
     "color": "#ff0000",
     "mayor": "ZayTheRonin",
     "pvp": false,
@@ -109151,7 +108820,6 @@
       "x": -8296,
       "z": -2216
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -109546,7 +109214,7 @@
   {
     "world": "earth",
     "name": "Lunas_Eve",
-    "chunks": 0,
+    "chunks": 1.875,
     "color": "#00ff00",
     "mayor": "greenapple5",
     "pvp": false,
@@ -109560,7 +109228,6 @@
       "x": 7576,
       "z": -4616
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -109651,7 +109318,7 @@
   {
     "world": "earth",
     "name": "HxH",
-    "chunks": 0,
+    "chunks": 87.47265625,
     "mayor": "0oLily",
     "pvp": false,
     "residents": [
@@ -109665,7 +109332,6 @@
       "x": -4680,
       "z": 1848
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -110092,7 +109758,7 @@
   {
     "world": "earth",
     "name": "Ace",
-    "chunks": 0,
+    "chunks": 437.359375,
     "color": "#00ffff",
     "mayor": "gcovy",
     "pvp": false,
@@ -110190,7 +109856,6 @@
       "x": -1000,
       "z": -1288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -111873,7 +111538,7 @@
   {
     "world": "earth",
     "name": "Allegannon",
-    "chunks": 0,
+    "chunks": 31.3125,
     "color": "#ffffe0",
     "mayor": "novashaman",
     "pvp": false,
@@ -111893,7 +111558,6 @@
       "x": -9384,
       "z": -4760
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -112296,7 +111960,7 @@
   {
     "world": "earth",
     "name": "Wolves_Den",
-    "chunks": 0,
+    "chunks": 24.62109375,
     "color": "#a52a2a",
     "mayor": "Mkruler",
     "pvp": false,
@@ -112310,7 +111974,6 @@
       "x": -6552,
       "z": 1544
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -112511,7 +112174,6 @@
       "x": 344,
       "z": -4760
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -112538,7 +112200,7 @@
   {
     "world": "earth",
     "name": "Greenwood",
-    "chunks": 0,
+    "chunks": 53.0859375,
     "mayor": "SpaddersHD",
     "pvp": false,
     "residents": [
@@ -112555,7 +112217,6 @@
       "x": -7192,
       "z": 1688
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -112902,7 +112563,7 @@
   {
     "world": "earth",
     "name": "bots",
-    "chunks": 0,
+    "chunks": 33.1875,
     "color": "#000080",
     "mayor": "FoxtrotDelta7",
     "pvp": false,
@@ -112917,7 +112578,6 @@
       "x": 5784,
       "z": -4104
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -113360,7 +113020,7 @@
   {
     "world": "earth",
     "name": "wolf_den",
-    "chunks": 0,
+    "chunks": 1.45703125,
     "color": "#f0e68c",
     "mayor": "Bloodfallk9",
     "pvp": false,
@@ -113375,7 +113035,6 @@
       "x": 9704,
       "z": -3288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -113470,13 +113129,12 @@
       "x": -13624,
       "z": -4815
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Louisville",
-    "chunks": 0,
+    "chunks": 234.484375,
     "color": "#e9967a",
     "mayor": "Banditt",
     "pvp": false,
@@ -113498,7 +113156,6 @@
       "x": -10264,
       "z": -4584
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -114331,7 +113988,7 @@
   {
     "world": "earth",
     "name": "FrostFall",
-    "chunks": 0,
+    "chunks": 40.62109375,
     "color": "#e9967a",
     "mayor": "DeZine_Energy",
     "pvp": false,
@@ -114345,7 +114002,6 @@
       "x": 18744,
       "z": -6488
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -114628,7 +114284,7 @@
   {
     "world": "earth",
     "name": "Helsinki",
-    "chunks": 0,
+    "chunks": 2.87109375,
     "color": "#c0c0c0",
     "mayor": "Aapeli_",
     "pvp": false,
@@ -114642,7 +114298,6 @@
       "x": 3064,
       "z": -7256
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -114717,7 +114372,7 @@
   {
     "world": "earth",
     "name": "TarsiLand",
-    "chunks": 0,
+    "chunks": 11.4609375,
     "color": "#ff0000",
     "mayor": "xTarsier",
     "pvp": false,
@@ -114734,7 +114389,6 @@
       "x": -40,
       "z": -1400
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -114951,7 +114605,6 @@
       "x": 3048,
       "z": 2696
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -114998,13 +114651,12 @@
       "x": 12664,
       "z": -2456
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Oasis_Outposts",
-    "chunks": 0,
+    "chunks": 586.078125,
     "color": "#00ffff",
     "mayor": "KingHardman",
     "pvp": false,
@@ -115018,7 +114670,6 @@
       "x": 2136,
       "z": -2648
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -119949,7 +119600,7 @@
   {
     "world": "earth",
     "name": "Glummington",
-    "chunks": 0,
+    "chunks": 71.0625,
     "color": "#800080",
     "mayor": "Panda_Banditz",
     "pvp": false,
@@ -119963,7 +119614,6 @@
       "x": -9896,
       "z": -4248
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -120378,13 +120028,12 @@
       "x": 8708,
       "z": 8445
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Nuremberg",
-    "chunks": 0,
+    "chunks": 103.35546875,
     "color": "#a9a9a9",
     "mayor": "Jic_Jak",
     "pvp": false,
@@ -120399,7 +120048,6 @@
       "x": 1384,
       "z": -5864
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -120906,7 +120554,7 @@
   {
     "world": "earth",
     "name": "Moonreach",
-    "chunks": 0,
+    "chunks": 10.28125,
     "color": "#800080",
     "mayor": "Muffinity",
     "pvp": false,
@@ -120921,7 +120569,6 @@
       "x": 2632,
       "z": 3928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -121066,13 +120713,12 @@
       "x": -7512,
       "z": 4824
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "NYC",
-    "chunks": 0,
+    "chunks": 50.55859375,
     "color": "#8b0000",
     "mayor": "pentlock",
     "pvp": false,
@@ -121088,7 +120734,6 @@
       "x": -8888,
       "z": -4904
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -121359,7 +121004,7 @@
   {
     "world": "earth",
     "name": "Doll_Eye_Forest",
-    "chunks": 0,
+    "chunks": 4.99609375,
     "color": "#90ee90",
     "mayor": "PatientPolar",
     "pvp": false,
@@ -121373,7 +121018,6 @@
       "x": -9320,
       "z": -5608
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -121480,7 +121124,7 @@
   {
     "world": "earth",
     "name": "FlowerVillage",
-    "chunks": 0,
+    "chunks": 43.40625,
     "color": "#9932cc",
     "mayor": "adxrecamii",
     "pvp": false,
@@ -121495,7 +121139,6 @@
       "x": -8840,
       "z": 5032
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -121826,7 +121469,7 @@
   {
     "world": "earth",
     "name": "Seryshevo",
-    "chunks": 0,
+    "chunks": 7.93359375,
     "color": "#00008b",
     "mayor": "Ereyto",
     "pvp": false,
@@ -121843,7 +121486,6 @@
       "x": 5576,
       "z": -7560
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -121986,7 +121628,6 @@
       "x": 3672,
       "z": -5624
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -122006,7 +121647,6 @@
       "x": -3080,
       "z": -4536
     },
-    "points": [],
     "polygon": []
   },
   {
@@ -122027,7 +121667,6 @@
       "x": 2984,
       "z": 1592
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -122070,7 +121709,7 @@
   {
     "world": "earth",
     "name": "ThePuzzleBox",
-    "chunks": 0,
+    "chunks": 11.6875,
     "color": "#f0e68c",
     "mayor": "Jigsaw_2828",
     "pvp": false,
@@ -122085,7 +121724,6 @@
       "x": 2792,
       "z": 1368
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -122224,7 +121862,7 @@
   {
     "world": "earth",
     "name": "Dynasty",
-    "chunks": 0,
+    "chunks": 72.05859375,
     "color": "#00ffff",
     "mayor": "Damejon",
     "pvp": false,
@@ -122238,7 +121876,6 @@
       "x": 17112,
       "z": 1288
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -122617,7 +122254,7 @@
   {
     "world": "earth",
     "name": "Dwarven_Exchange",
-    "chunks": 0,
+    "chunks": 14.62109375,
     "color": "#00ffff",
     "mayor": "SandSniper26",
     "pvp": false,
@@ -122632,7 +122269,6 @@
       "x": -10568,
       "z": -5592
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -122819,7 +122455,7 @@
   {
     "world": "earth",
     "name": "Greenville",
-    "chunks": 0,
+    "chunks": 71.65234375,
     "color": "#00ffff",
     "mayor": "MainTaylor",
     "pvp": false,
@@ -122840,7 +122476,6 @@
       "x": -4104,
       "z": -8536
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -123123,7 +122758,7 @@
   {
     "world": "earth",
     "name": "Vaduz",
-    "chunks": 0,
+    "chunks": 96.58203125,
     "color": "#ffd700",
     "mayor": "17Se7enteen",
     "pvp": false,
@@ -123137,7 +122772,6 @@
       "x": 1080,
       "z": -5768
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -123594,7 +123228,6 @@
       "x": -7496,
       "z": 2920
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -123621,7 +123254,7 @@
   {
     "world": "earth",
     "name": "Sailoria",
-    "chunks": 0,
+    "chunks": 212.640625,
     "color": "#8b008b",
     "mayor": "Pogeye",
     "pvp": false,
@@ -123638,7 +123271,6 @@
       "x": 3256,
       "z": 56
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -124603,13 +124235,12 @@
       "x": -13184,
       "z": -3233
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "Azabauhinia",
-    "chunks": 0,
+    "chunks": 19.83984375,
     "color": "#ff00ff",
     "mayor": "Saisakura",
     "pvp": false,
@@ -124626,7 +124257,6 @@
       "x": 8456,
       "z": -6472
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -124877,7 +124507,7 @@
   {
     "world": "earth",
     "name": "Gloucester",
-    "chunks": 0,
+    "chunks": 159.6953125,
     "color": "#ff0000",
     "mayor": "ItsBroj",
     "pvp": false,
@@ -124898,7 +124528,6 @@
       "x": 1864,
       "z": -6024
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -125999,7 +125628,7 @@
   {
     "world": "earth",
     "name": "Tondc",
-    "chunks": 0,
+    "chunks": 4.75,
     "color": "#000000",
     "mayor": "UngaBugado",
     "pvp": false,
@@ -126014,7 +125643,6 @@
       "x": 2152,
       "z": -7512
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126167,7 +125795,6 @@
       "x": -8472,
       "z": -2248
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126208,7 +125835,6 @@
       "x": 9656,
       "z": -8200
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126251,7 +125877,7 @@
   {
     "world": "earth",
     "name": "IdkCity",
-    "chunks": 0,
+    "chunks": 1.46875,
     "color": "#ffc0cb",
     "mayor": "Himise",
     "pvp": false,
@@ -126265,7 +125891,6 @@
       "x": -5688,
       "z": 2872
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126340,7 +125965,7 @@
   {
     "world": "earth",
     "name": "psycho",
-    "chunks": 0,
+    "chunks": 5.33984375,
     "color": "#f0ffff",
     "mayor": "Psychokuna",
     "pvp": false,
@@ -126354,7 +125979,6 @@
       "x": -5176,
       "z": -7512
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126477,7 +126101,7 @@
   {
     "world": "earth",
     "name": "Champourcin",
-    "chunks": 0,
+    "chunks": 54.90625,
     "color": "#00ff00",
     "mayor": "Melorah",
     "pvp": false,
@@ -126491,7 +126115,6 @@
       "x": 552,
       "z": -5272
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126742,7 +126365,7 @@
   {
     "world": "earth",
     "name": "Goobs_Ville",
-    "chunks": 0,
+    "chunks": 15.91015625,
     "color": "#bdb76b",
     "mayor": "Sparklingflowers",
     "pvp": false,
@@ -126757,7 +126380,6 @@
       "x": -9224,
       "z": -7192
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -126944,7 +126566,7 @@
   {
     "world": "earth",
     "name": "Sun",
-    "chunks": 0,
+    "chunks": 10.80859375,
     "color": "#008b8b",
     "mayor": "Bandit_none",
     "pvp": false,
@@ -126959,7 +126581,6 @@
       "x": 14440,
       "z": -3272
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -127098,7 +126719,7 @@
   {
     "world": "earth",
     "name": "Tritton",
-    "chunks": 0,
+    "chunks": 11.015625,
     "color": "#4b0082",
     "mayor": "MadCroft",
     "pvp": false,
@@ -127114,7 +126735,6 @@
       "x": 6488,
       "z": -5928
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -127355,13 +126975,12 @@
       "x": 14472,
       "z": -1896
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "TheHungarianTown",
-    "chunks": 0,
+    "chunks": 13.62109375,
     "color": "#000080",
     "mayor": "Udvozletem",
     "pvp": false,
@@ -127378,7 +126997,6 @@
       "x": 2376,
       "z": -5704
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -127533,7 +127151,7 @@
   {
     "world": "earth",
     "name": "Skyland",
-    "chunks": 0,
+    "chunks": 32.11328125,
     "color": "#006400",
     "mayor": "withercyborg",
     "pvp": false,
@@ -127551,7 +127169,6 @@
       "x": -12296,
       "z": -6264
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -127982,7 +127599,7 @@
   {
     "world": "earth",
     "name": "Dragonia",
-    "chunks": 0,
+    "chunks": 828.109375,
     "color": "#000080",
     "mayor": "Dergeh",
     "pvp": false,
@@ -127996,7 +127613,6 @@
       "x": -328,
       "z": -6840
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -129643,7 +129259,7 @@
   {
     "world": "earth",
     "name": "Kensho",
-    "chunks": 0,
+    "chunks": 125.83984375,
     "color": "#008000",
     "mayor": "dkcgen",
     "pvp": false,
@@ -129667,7 +129283,6 @@
       "x": -7656,
       "z": 2472
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -130340,7 +129955,7 @@
   {
     "world": "earth",
     "name": "Spruce_Village",
-    "chunks": 0,
+    "chunks": 35.5625,
     "color": "#00ffff",
     "mayor": "Jynxxxs",
     "pvp": false,
@@ -130354,7 +129969,6 @@
       "x": 7864,
       "z": -7816
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -130669,7 +130283,7 @@
   {
     "world": "earth",
     "name": "Jerusalem",
-    "chunks": 0,
+    "chunks": 2.875,
     "color": "#556b2f",
     "mayor": "decer",
     "pvp": false,
@@ -130684,7 +130298,6 @@
       "x": 4200,
       "z": -3896
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -130775,7 +130388,7 @@
   {
     "world": "earth",
     "name": "Einhasad",
-    "chunks": 0,
+    "chunks": 306.6796875,
     "color": "#00008b",
     "mayor": "Theo7u7",
     "pvp": false,
@@ -130792,7 +130405,6 @@
       "x": -8904,
       "z": -1272
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -132739,7 +132351,7 @@
   {
     "world": "earth",
     "name": "Guccigang",
-    "chunks": 0,
+    "chunks": 36.62109375,
     "color": "#8b0000",
     "mayor": "_ElChapo_Man",
     "pvp": false,
@@ -132753,7 +132365,6 @@
       "x": 4536,
       "z": -2904
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -133052,7 +132663,7 @@
   {
     "world": "earth",
     "name": "Bubbulsia",
-    "chunks": 0,
+    "chunks": 7.99609375,
     "color": "#9400d3",
     "mayor": "HelltakrCerberus",
     "pvp": false,
@@ -133069,7 +132680,6 @@
       "x": 16424,
       "z": 3448
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -133208,7 +132818,7 @@
   {
     "world": "earth",
     "name": "Spruce",
-    "chunks": 0,
+    "chunks": 30.96875,
     "color": "#ff00ff",
     "mayor": "Claridence",
     "pvp": false,
@@ -133224,7 +132834,6 @@
       "x": -9528,
       "z": -5384
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -133441,13 +133050,12 @@
       "x": 12040,
       "z": 24
     },
-    "points": [],
     "polygon": []
   },
   {
     "world": "earth",
     "name": "ChupapiMunyayo",
-    "chunks": 0,
+    "chunks": 108.91015625,
     "color": "#add8e6",
     "mayor": "eldni",
     "pvp": false,
@@ -133465,7 +133073,6 @@
       "x": 5976,
       "z": -5816
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -134318,7 +133925,7 @@
   {
     "world": "earth",
     "name": "CANADIA",
-    "chunks": 0,
+    "chunks": 30.375,
     "color": "#8b008b",
     "mayor": "Xxspecter007xX",
     "pvp": false,
@@ -134332,7 +133939,6 @@
       "x": 1352,
       "z": -7432
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -134567,7 +134173,7 @@
   {
     "world": "earth",
     "name": "NudeNunsBigGuns",
-    "chunks": 0,
+    "chunks": 1.46875,
     "color": "#f0e68c",
     "mayor": "Apydog",
     "pvp": false,
@@ -134582,7 +134188,6 @@
       "x": 5624,
       "z": -6280
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -134693,7 +134298,7 @@
   {
     "world": "earth",
     "name": "Union_of_Antarctica",
-    "chunks": 0,
+    "chunks": 8.21875,
     "color": "#a52a2a",
     "mayor": "Przeprazam",
     "pvp": false,
@@ -134709,7 +134314,6 @@
       "x": 4200,
       "z": 9528
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -134848,7 +134452,7 @@
   {
     "world": "earth",
     "name": "Lisboa",
-    "chunks": 0,
+    "chunks": 65.99609375,
     "color": "#90ee90",
     "mayor": "GG_Rainbow",
     "pvp": false,
@@ -134864,7 +134468,6 @@
       "x": -1048,
       "z": -4648
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -135273,7 +134876,6 @@
       "x": -7880,
       "z": 2840
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -135316,7 +134918,7 @@
   {
     "world": "earth",
     "name": "kills",
-    "chunks": 0,
+    "chunks": 8.68359375,
     "color": "#800000",
     "mayor": "KillStreaks",
     "pvp": false,
@@ -135331,7 +134933,6 @@
       "x": 21240,
       "z": 4568
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -135550,7 +135151,7 @@
   {
     "world": "earth",
     "name": "Shadowmoure",
-    "chunks": 0,
+    "chunks": 24.0234375,
     "color": "#000000",
     "mayor": "xXhellsbells99Xx",
     "pvp": false,
@@ -135567,7 +135168,6 @@
       "x": -328,
       "z": -6344
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -135770,7 +135370,7 @@
   {
     "world": "earth",
     "name": "Stormheim",
-    "chunks": 0,
+    "chunks": 123.93359375,
     "color": "#000080",
     "mayor": "GalaxyGirl914",
     "pvp": false,
@@ -135786,7 +135386,6 @@
       "x": 9528,
       "z": 9672
     },
-    "points": [],
     "polygon": [
       [
         [
@@ -136149,7 +135748,7 @@
   {
     "world": "earth",
     "name": "As_Suqqayan",
-    "chunks": 0,
+    "chunks": 11.21875,
     "color": "#f0ffff",
     "mayor": "Plubis",
     "pvp": false,
@@ -136166,7 +135765,6 @@
       "x": 3928,
       "z": -3544
     },
-    "points": [],
     "polygon": [
       [
         [

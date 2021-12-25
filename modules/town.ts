@@ -12,7 +12,6 @@ export default class Town {
   public chunks: number;
   public world: World;
   public coords: Coords;
-  public points: Coords[][]
   public polygon: PolygonGroup;
 
   constructor(world: World) {
@@ -30,7 +29,6 @@ export default class Town {
       z: 0,
     };
 
-    this.points = [];
     this.polygon = [];
   }
 

@@ -13,7 +13,7 @@
     "scripts": {
         "build": "tsc",
         "run": "npm run build && node out/index.js",
-        "test": "npm run build && node out/test.js"
+        "test": "node out/test.js"
     },
     "repository": {
         "type": "git",

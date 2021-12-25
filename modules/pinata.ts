@@ -1,4 +1,4 @@
-import { CYT } from "..";
+import { CYT } from "../indexOld";
 import { sendPinataMessage } from "./infochannels";
 import staticData from "./staticData";
 import fs from "fs";

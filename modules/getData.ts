@@ -1,8 +1,10 @@
-import staticData from "./staticData";
 import fs from "fs";
+import fetch from "node-fetch";
+
+import staticData from "./staticData";
 
 export default class getData {
-  public static async getData(url: string): Promise<void> {
+  public static async getData(): Promise<void> {
     let endpoints = staticData.endpoints;
 
     for (let i = 0; i < endpoints.length; i++) {

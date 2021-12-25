@@ -53,27 +53,38 @@ const staticData = {
         {
             name: "world",
             url: "/tiles/world/markers.json",
-            saveLocation: "../data/worldMarkers.json"
+            saveLocation: "./data/worldMarkers.json"
         },
         {
             name: "world_nether",
             url: "/tiles/world_nether/markers.json",
-            saveLocation: "../data/world_netherMarkers.json"
+            saveLocation: "./data/world_netherMarkers.json"
         },
         {
             name: "world_the_end",
             url: "/tiles/world_the_end/markers.json",
-            saveLocation: "../data/world_the_endMarkers.json"
+            saveLocation: "./data/world_the_endMarkers.json"
         },
         {
             name: "earth",
             url: "/tiles/earth/markers.json",
-            saveLocation: "../data/earthMarkers.json"
+            saveLocation: "./data/earthMarkers.json"
         },
         {
             name: "players",
             url: "/tiles/players.json",
-            saveLocation: "../data/players.json"
+            saveLocation: "./data/players.json"
+        }
+    ],
+
+    fileLocations: [
+        {
+            world: "world",
+            location: "./data/worldMarkers.json"
+        },
+        {
+            world: "earth",
+            location: "./data/earthMarkers.json"
         }
     ],
 

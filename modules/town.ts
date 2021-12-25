@@ -1,5 +1,6 @@
 import { parse } from "node-html-parser";
-import { Polygon } from "./types";
+import PolygonUtil from "./polygon";
+import { Polygon, Coords, MarkerIconData, MarkerPolygonData, townPolygon, World, PolygonGroup, Marker } from "./types";
 
 export default class Town {
   public name: string;
@@ -9,12 +10,12 @@ export default class Town {
   public residents: string[];
   public pvp: boolean;
   public chunks: number;
-  public world: "earth" | "world";
+  public world: World;
   public coords: Coords;
   public points: Coords[][]
-  public polygon: Polygon[];
+  public polygon: PolygonGroup;
 
-  constructor(world: "earth" | "world") {
+  constructor(world: World) {
     this.world = world;
     this.name = "";
     this.chunks = 0;
@@ -30,16 +31,16 @@ export default class Town {
     };
 
     this.points = [];
-    this.polygon = [{points: []}];
+    this.polygon = [];
   }
 
   /**
    * Takes a HTML string and parses it into a Town object
    * @param data String of HTML data
    * @param world World of the icon
-   * @returns {Town} Town object
+   * @returns Town object
    */
-  fromIcon(data: MarkerIconData, world: World) {
+  public static fromIcon(data: MarkerIconData, world: World): Town {
     let town = new Town(world);
 
     town.coords = data.point;
@@ -63,10 +64,13 @@ export default class Town {
     return town;
   }
 
-  public static fromPolygon(town: Town, polygon: MarkerPolygonData) {
-    town.chunks += polygon.points.length
+  public static addPolygonData(town: Town, polygon: Marker) {
+    if (polygon.type == "polygon") {
+    town.chunks += PolygonUtil.getChunkCount(polygon);
     town.color = polygon.color;
+    town.polygon = polygon.points;
     return town;
+    }
   }
 
   public static markerToTownPolygon(marker: MarkerPolygonData) {
@@ -84,66 +88,12 @@ export default class Town {
 
   }
 
+  public static parsePolygonTooltip(tooltip: string) {
+
+    let parsed = parse(tooltip).rawText.trim().split(" ")[0].trim();
+
+    return parsed
+  }
+
 }
 
-export type townPolygon = {
-  popup: string;
-  color: string;
-  name: string;
-  type: "polygon";
-  points: [
-    [
-      {
-        x: number;
-        z: number;
-      }
-    ]
-  ];
-};
-
-
-export type MarkerPolygonData = {
-  fillColor: string;
-  popup: string;
-  color: string;
-  tooltip: string;
-  type: "polygon";
-  points: [
-    [
-      {
-        x: number;
-        z: number;
-      }
-    ]
-  ];
-};
-
-export type MarkerIconData = {
-  tooltip_anchor: {
-    z: number;
-    x: number;
-  };
-  popup: string;
-  size: {
-    z: number;
-    x: number;
-  };
-  anchor: {
-    z: number;
-    x: number;
-  };
-  tooltip: string;
-  icon: string;
-  type: "icon";
-  point: {
-    z: number;
-    x: number;
-  };
-};
-
-type World = "world" | "earth";
-
-type Coords = {
-  x: number;
-  z: number;
-};

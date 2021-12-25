@@ -1,37 +1,10 @@
-import PolygonUtil from "./modules/polygon";
+import Town from "./modules/town";
+import { commandHandler } from "./modules/commandHandler";
+import ProcessTown from "./modules/processTown";
 
-const polygon = {
-    points: [
-        {
-            x: 0,
-            z: 0,
-        },
-        {
-            x: 100,
-            z: 100,
-        },
-        {
-            x: 100,
-            z: 0,
-        },
-        {
-            x: 0,
-            z: 100,
-        },
-    ],
-};
 
-for (var i = 0; i < 1000; i++) {
+ProcessTown.Run()
 
-    const point = {
-        x: Math.round(Math.random() * 200 - 100),
-        z: Math.round(Math.random() * 200 - 100),
-    };
+const town = ProcessTown.getTown("Hillwood");
 
-    if (PolygonUtil.isPointInPolygon(point, polygon)) {
-        console.log(`${point.x}, ${point.z} is inside the polygon`);
-    } else {
-        console.log(`${point.x}, ${point.z} is outside the polygon`);
-    }
-
-}
+console.log(town);

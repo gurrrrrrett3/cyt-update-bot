@@ -4,9 +4,9 @@ import fs from "fs";
 const fuzzyset = require("fuzzyset");
 
 import Player from "./cytplayer";
-import Town from "./cytmarker";
-import { MarkerIconData, MarkerPolygonData } from "./cytmarker";
-import { Client } from "..";
+import Town from "./town";
+import { MarkerIconData, MarkerPolygonData } from "./types";
+import { Client } from "../indexOld";
 import { MessageEmbed } from "discord.js";
 import { startTime, townUpdate } from "./infochannels";
 import dailyUpdate from "./dailyupdate";
@@ -328,7 +328,7 @@ export default class cyt {
         (marker: MarkerIconData | MarkerPolygonData) => {
           let t = new Town("world");
           if (marker.type == "icon") {
-            t = t.fromIcon(marker, "world");
+            t = new Town("world");
             newTowns.push(t);
             //console.log(`Processing Overworld towns... ${count} towns processed`)
             count++;
@@ -344,7 +344,7 @@ export default class cyt {
         (marker: MarkerIconData | MarkerPolygonData) => {
           let t = new Town("earth");
           if (marker.type == "icon") {
-            t = t.fromIcon(marker, "earth");
+            t = new Town("world");
             newTowns.push(t);
             //console.log(`Processing Earth towns... ${count} towns processed`)
             count++;
@@ -368,7 +368,7 @@ export default class cyt {
         const town = newTowns.find(t => t.name == townPolygon.name);
         if (town) {
           town.points = townPolygon.points;
-          town.chunks = PolygonUtil.getChunkCount(town);
+         // town.chunks = PolygonUtil.getChunkCount();
           town.color = townPolygon.color;
         }
 

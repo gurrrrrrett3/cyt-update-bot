@@ -1,12 +1,12 @@
-import Town from "./cytmarker";
-import { Bounds, Coords, Polygon } from "./types";
+import Town from "./town";
+import { Bounds, Coords, Marker, Polygon, PolygonGroup } from "./types";
 
 export default class PolygonUtil {
   public static getPolygonBounds(polygon: Polygon): Bounds {
-    const minX = Math.min(...polygon.points.map((point) => point.x));
-    const minZ = Math.min(...polygon.points.map((point) => point.z));
-    const maxX = Math.max(...polygon.points.map((point) => point.x));
-    const maxZ = Math.max(...polygon.points.map((point) => point.z));
+    const minX = Math.min(...polygon.map((point) => point.x));
+    const minZ = Math.min(...polygon.map((point) => point.z));
+    const maxX = Math.max(...polygon.map((point) => point.x));
+    const maxZ = Math.max(...polygon.map((point) => point.z));
 
     return {
       min: {
@@ -21,22 +21,18 @@ export default class PolygonUtil {
   }
 
   public static isPointInPolygon(point: Coords, polygon: Polygon): boolean {
-
     const x = point.x;
     const z = point.z;
 
     let inside = false;
     let i = 0;
-    let j = polygon.points.length - 1;
+    let j = polygon.length - 1;
 
-    for (i; i < polygon.points.length; i++) {
-      const p1 = polygon.points[i];
-      const p2 = polygon.points[j];
+    for (i; i < polygon.length; i++) {
+      const p1 = polygon[i];
+      const p2 = polygon[j];
 
-      if (
-        p1.z > z != p2.z > z &&
-        x < ((p2.x - p1.x) * (z - p1.z)) / (p2.z - p1.z) + p1.x
-      ) {
+      if (p1.z > z != p2.z > z && x < ((p2.x - p1.x) * (z - p1.z)) / (p2.z - p1.z) + p1.x) {
         inside = !inside;
       }
 
@@ -67,35 +63,31 @@ export default class PolygonUtil {
     return area;
   }
 
-  public static fromTown(town: Town): Polygon[] {
-    
+  public static fromTown(town: Town): PolygonGroup {
     let out: Polygon[] = [];
-    
+
     town.points.forEach((group) => {
-    
-      out.push({points: group});
-
+      out.push(group);
     });
 
-    return out
+    return out;
   }
 
-  public static getChunkCount(town: Town) {
+  public static getChunkCount(polygon: Marker) {
+    if (polygon.type === "polygon") {
+      let total = 0;
 
-    const polygon = PolygonUtil.fromTown(town);
+      polygon.points.forEach((poly) => {
+        total += PolygonUtil.getAreaOfPolygon(poly);
+      });
 
-    let total = 0;
-
-    polygon.forEach((poly) => {
-      total += PolygonUtil.getAreaOfPolygon(poly);
-    });
-
-    return total / (16 * 16);
-
+      return total / (16 * 16);
+    } else {
+      return 0;
+    }
   }
 
-  public static markerPointsToCoords(markerPoints: [[{x: number, z: number}]]): Coords[][] { 
+  public static markerPointsToCoords(markerPoints: [[{ x: number; z: number }]]): Coords[][] {
     return markerPoints as Coords[][];
   }
 }
-

@@ -93,5 +93,14 @@ export default class Town {
     return parsed
   }
 
+  public distanceFrom(point: Coords) {
+
+    const x = this.coords.x - point.x;
+    const z = this.coords.z - point.z;
+
+    return Math.sqrt(x * x + z * z);
+
+  }
+
 }
 

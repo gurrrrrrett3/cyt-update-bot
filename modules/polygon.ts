@@ -1,3 +1,4 @@
+import Player from "./cytplayer";
 import Town from "./town";
 import { Bounds, Coords, Marker, Polygon, PolygonGroup } from "./types";
 
@@ -108,5 +109,11 @@ if (polygon.type === "polygon") {
 
   public static markerPointsToCoords(markerPoints: [[{ x: number; z: number }]]): Coords[][] {
     return markerPoints as Coords[][];
+  }
+
+  public static findPlayerCurrnentTown(player: Player): Town {
+
+
+
   }
 }

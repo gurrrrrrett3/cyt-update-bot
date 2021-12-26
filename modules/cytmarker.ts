@@ -1,5 +1,4 @@
 import { parse } from "node-html-parser";
-import { Polygon } from "./types";
 
 export default class Town {
   public name: string;
@@ -11,8 +10,7 @@ export default class Town {
   public chunks: number;
   public world: "earth" | "world";
   public coords: Coords;
-  public points: Coords[][]
-  public polygon: Polygon[];
+  public points: Coords[]
 
   constructor(world: "earth" | "world") {
     this.world = world;
@@ -29,8 +27,7 @@ export default class Town {
       z: 0,
     };
 
-    this.points = [];
-    this.polygon = [{points: []}];
+    this.points = [ this.coords ];
   }
 
   /**
@@ -79,9 +76,6 @@ export default class Town {
       popup: marker.popup,
       name: parse(marker.tooltip).rawText.trim(),
     };
-
-    return out;
-
   }
 
 }

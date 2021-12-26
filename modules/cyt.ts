@@ -11,7 +11,6 @@ import { MessageEmbed } from "discord.js";
 import { startTime, townUpdate } from "./infochannels";
 import dailyUpdate from "./dailyupdate";
 import Pinata from "./pinata";
-import PolygonUtil from "./polygon";
 
 const playerDataFile = "./data/fetchPlayers.json";
 const worldMarkerDataFile = "./data/fetchWorldMarkers.json";
@@ -28,12 +27,6 @@ const worldMarkerEndpoint: string = "/tiles/world/markers.json";
 const earthMarkerEndpoint: string = "/tiles/earth/markers.json";
 
 let ready = false;
-
-let dlFails = {
-  players: false,
-  worldMarkers: false,
-  earthMarkers: false
-}
 
 export default class cyt {
   private lastFetch: number;
@@ -227,13 +220,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let json: any = undefined
-
-      json = await playerRes.json().catch((e) => {
-        dlFails.players = true;
-        console.log("Failed to download players, grabbing locally");
-        json = JSON.parse(fs.readFileSync(playerDataFile).toString());
-      });
+      const json: any = await playerRes.json();
 
       this.players = json;
 
@@ -264,13 +251,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let worldMarkerJSON: any = undefined;
-
-      worldMarkerJSON = await worldRes.json().catch((e) => {
-      dlFails.worldMarkers = true;
-      console.log("Failed to fetch world towns, grabbing locally");
-      worldMarkerJSON = JSON.parse(fs.readFileSync(worldMarkerDataFile).toString());
-      });
+      const worldMarkerJSON: any = await worldRes.json();
 
       fs.writeFileSync(
         worldMarkerDataFile,
@@ -298,13 +279,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let earthMarkerJSON: any = undefined;
-
-      earthMarkerJSON = await earthRes.json().catch((e) => {
-      dlFails.earthMarkers = true;
-      console.log("Failed to fetch earth towns, grabbing locally");
-      earthMarkerJSON = JSON.parse(fs.readFileSync(earthMarkerDataFile).toString());
-      });
+      const earthMarkerJSON: any = await earthRes.json();
 
       fs.writeFileSync(
         earthMarkerDataFile,
@@ -363,13 +338,9 @@ export default class cyt {
 
       this.polygons.forEach((polygon: MarkerPolygonData) => {
 
-        let townPolygon = Town.markerToTownPolygon(polygon);
-
-        const town = newTowns.find(t => t.name == townPolygon.name);
+        const town = newTowns.find(t => t.name == polygon.);
         if (town) {
-          town.points = townPolygon.points;
-          town.chunks = PolygonUtil.getChunkCount(town);
-          town.color = townPolygon.color;
+          town.polygon = polygon;
         }
 
       })

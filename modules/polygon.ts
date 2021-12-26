@@ -67,35 +67,15 @@ export default class PolygonUtil {
     return area;
   }
 
-  public static fromTown(town: Town): Polygon[] {
-    
-    let out: Polygon[] = [];
-    
-    town.points.forEach((group) => {
-    
-      out.push({points: group});
-
-    });
-
-    return out
+  public static fromTown(town: Town): Polygon {
+    return { points: town.points };
   }
 
   public static getChunkCount(town: Town) {
 
     const polygon = PolygonUtil.fromTown(town);
+    return PolygonUtil.getAreaOfPolygon(polygon) / 16;
 
-    let total = 0;
-
-    polygon.forEach((poly) => {
-      total += PolygonUtil.getAreaOfPolygon(poly);
-    });
-
-    return total / (16 * 16);
-
-  }
-
-  public static markerPointsToCoords(markerPoints: [[{x: number, z: number}]]): Coords[][] { 
-    return markerPoints as Coords[][];
   }
 }
 

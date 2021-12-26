@@ -1,23 +1,21 @@
 //@typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
+//@typescript-eslint/ignore-all-errors
 import fetch from "node-fetch";
 import fs from "fs";
 const fuzzyset = require("fuzzyset");
 
-import Player from "./cytplayer";
-import Town from "./town";
-import { MarkerIconData, MarkerPolygonData } from "./types";
-import { Client } from "../indexOld";
+import Player from "../cytplayer";
+//@ts-ignore
+import Town from "../town"; import { Client } from "../..";
 import { MessageEmbed } from "discord.js";
-import { startTime, townUpdate } from "./infochannels";
-import dailyUpdate from "./dailyupdate";
-import Pinata from "./pinata";
-import PolygonUtil from "./polygon";
+import { startTime, townUpdate } from "../infochannels";
+import dailyUpdate from "../dailyupdate";
+import Pinata from "../pinata";
 
 const playerDataFile = "./data/fetchPlayers.json";
 const worldMarkerDataFile = "./data/fetchWorldMarkers.json";
 const earthMarkerDataFile = "./data/fetchEarthMarkers.json";
 const townsDataFile = "./data/towns.json";
-
 const onlineDataFile = "./data/onlineData.json";
 
 const cookieFile = "./data/cookie.json";
@@ -28,12 +26,6 @@ const worldMarkerEndpoint: string = "/tiles/world/markers.json";
 const earthMarkerEndpoint: string = "/tiles/earth/markers.json";
 
 let ready = false;
-
-let dlFails = {
-  players: false,
-  worldMarkers: false,
-  earthMarkers: false
-}
 
 export default class cyt {
   private lastFetch: number;
@@ -48,6 +40,8 @@ export default class cyt {
   public cookie: string;
   public townCount: number;
   public oldPlayers: {
+
+    
     players?: Player[];
   };
   public players: {
@@ -227,13 +221,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let json: any = undefined
-
-      json = await playerRes.json().catch((e) => {
-        dlFails.players = true;
-        console.log("Failed to download players, grabbing locally");
-        json = JSON.parse(fs.readFileSync(playerDataFile).toString());
-      });
+      const json: any = await playerRes.json();
 
       this.players = json;
 
@@ -264,13 +252,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let worldMarkerJSON: any = undefined;
-
-      worldMarkerJSON = await worldRes.json().catch((e) => {
-      dlFails.worldMarkers = true;
-      console.log("Failed to fetch world towns, grabbing locally");
-      worldMarkerJSON = JSON.parse(fs.readFileSync(worldMarkerDataFile).toString());
-      });
+      const worldMarkerJSON: any = await worldRes.json();
 
       fs.writeFileSync(
         worldMarkerDataFile,
@@ -298,13 +280,7 @@ export default class cyt {
         method: "GET",
       });
 
-      let earthMarkerJSON: any = undefined;
-
-      earthMarkerJSON = await earthRes.json().catch((e) => {
-      dlFails.earthMarkers = true;
-      console.log("Failed to fetch earth towns, grabbing locally");
-      earthMarkerJSON = JSON.parse(fs.readFileSync(earthMarkerDataFile).toString());
-      });
+      const earthMarkerJSON: any = await earthRes.json();
 
       fs.writeFileSync(
         earthMarkerDataFile,
@@ -328,7 +304,7 @@ export default class cyt {
         (marker: MarkerIconData | MarkerPolygonData) => {
           let t = new Town("world");
           if (marker.type == "icon") {
-            t = new Town("world");
+            t = t.fromIcon(marker, "world");
             newTowns.push(t);
             //console.log(`Processing Overworld towns... ${count} towns processed`)
             count++;
@@ -344,7 +320,7 @@ export default class cyt {
         (marker: MarkerIconData | MarkerPolygonData) => {
           let t = new Town("earth");
           if (marker.type == "icon") {
-            t = new Town("world");
+            t = t.fromIcon(marker, "earth");
             newTowns.push(t);
             //console.log(`Processing Earth towns... ${count} towns processed`)
             count++;
@@ -361,17 +337,14 @@ export default class cyt {
         return aName < bName ? -1 : aName > bName ? 1 : 0;
       });
 
-      this.polygons.forEach((polygon: MarkerPolygonData) => {
+      // this.polygons.forEach((polygon: MarkerPolygonData) => {
 
-        let townPolygon = Town.markerToTownPolygon(polygon);
+      //   const town = newTowns.find(t => t.name == polygon.);
+      //   if (town) {
+      //     town.polygon = polygon;
+      //   }
 
-        const town = newTowns.find(t => t.name == townPolygon.name);
-        if (town) {
-         // town.chunks = PolygonUtil.getChunkCount();
-          town.color = townPolygon.color;
-        }
-
-      })
+      // })
 
       //Make Fuzzy
 

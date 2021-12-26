@@ -1,10 +1,8 @@
 import Player from "./cytplayer";
-import Town from "./town";
 import { Bounds, Coords, Marker, Polygon, PolygonGroup } from "./types";
 
 export default class PolygonUtil {
   public static getPolygonBounds(polygon: Polygon): Bounds {
-
     let minX = Infinity;
     let minZ = Infinity;
     let maxX = -Infinity;
@@ -35,7 +33,6 @@ export default class PolygonUtil {
         z: maxZ,
       },
     };
-
   }
 
   public static isPointInPolygon(point: Coords, polygon: Polygon): boolean {
@@ -46,7 +43,7 @@ export default class PolygonUtil {
     let i = 0;
     let j = polygon.length - 1;
 
-    for (i; i < polygon.length; i+=8){
+    for (i; i < polygon.length; i += 8) {
       const p1 = polygon[i];
       const p2 = polygon[j];
 
@@ -80,18 +77,18 @@ export default class PolygonUtil {
     return area;
   }
 
-  public static fromTown(town: Town): PolygonGroup {
-    let out: Polygon[] = [];
+  // public static fromTown(town: Town): PolygonGroup {
+  //   let out: Polygon[] = [];
 
-    town.polygon.forEach((group) => {
-      out.push(group);
-    });
+  //   town.polygon.forEach((group) => {
+  //     out.push(group);
+  //   });
 
-    return out;
-  }
+  //   return out;
+  // }
 
   public static getChunkCount(polygon: Marker) {
-if (polygon.type === "polygon") {
+    if (polygon.type === "polygon") {
       let total = 0;
 
       polygon.points.forEach((polygonGroup) => {
@@ -109,11 +106,5 @@ if (polygon.type === "polygon") {
 
   public static markerPointsToCoords(markerPoints: [[{ x: number; z: number }]]): Coords[][] {
     return markerPoints as Coords[][];
-  }
-
-  public static findPlayerCurrnentTown(player: Player): Town {
-
-
-
   }
 }

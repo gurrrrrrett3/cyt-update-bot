@@ -1,7 +1,7 @@
 //@typescript-eslint/no-var-requires, @typescript-eslint/no-require-imports
 import Discord, { MessageEmbed } from "discord.js";
-import cyt from "./modules/cyt";
-import { makeMapLink, update } from "./modules/infochannels";
+import cyt from "./modules/oldModules/cyt"
+import { makeMapLink, update } from "../infochannels";
 import dotenv from "dotenv";
 
 dotenv.config();

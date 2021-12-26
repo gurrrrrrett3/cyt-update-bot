@@ -11,8 +11,8 @@ const events: Event[] = [
     execute: (Client: Discord.Client) => {
       console.log(`Ready, logged in as ${Client.user?.tag}`);
       Client.user?.setActivity({
-        type: "PLAYING",
-        name: `On CYT | craftyour.town | Waiting for first ping...`,
+        type: "STREAMING",
+        name: `data from zion.craftyourtown.com | Waiting for first ping...`,
       });
     },
   },

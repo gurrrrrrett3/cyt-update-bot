@@ -2114,8 +2114,37 @@
         }
       },
       {
+        "fillColor": "#ffa500",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Norwania </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Geradod</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Geradod</span>\r\n</div>",
+        "color": "#ffa500",
+        "tooltip": "\r\n<div>\r\n    <bold>Norwania </bold>\r\n</div>\r\n",
+        "type": "polygon",
+        "points": [
+          [
+            [
+              {
+                "x": 1136,
+                "z": -3681
+              },
+              {
+                "x": 1151,
+                "z": -3681
+              },
+              {
+                "x": 1151,
+                "z": -3696
+              },
+              {
+                "x": 1136,
+                "z": -3696
+              }
+            ]
+          ]
+        ]
+      },
+      {
         "fillColor": "#f5f5dc",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, NightHawkDB, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
         "color": "#f5f5dc",
         "tooltip": "\r\n<div>\r\n    <bold>Alabasta </bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -4604,6 +4633,67 @@
           "x": -9106,
           "z": 6286
         }
+      },
+      {
+        "fillColor": "#ffffe0",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alexandria </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">pigholex98</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>pigholex98</span>\r\n</div>",
+        "color": "#ffffe0",
+        "tooltip": "\r\n<div>\r\n    <bold>Alexandria </bold>\r\n</div>\r\n",
+        "type": "polygon",
+        "points": [
+          [
+            [
+              {
+                "x": 8848,
+                "z": 9183
+              },
+              {
+                "x": 8863,
+                "z": 9183
+              },
+              {
+                "x": 8863,
+                "z": 9168
+              },
+              {
+                "x": 8848,
+                "z": 9168
+              },
+              {
+                "x": 8847,
+                "z": 9168
+              },
+              {
+                "x": 8832,
+                "z": 9168
+              },
+              {
+                "x": 8832,
+                "z": 9183
+              },
+              {
+                "x": 8832,
+                "z": 9184
+              },
+              {
+                "x": 8832,
+                "z": 9199
+              },
+              {
+                "x": 8847,
+                "z": 9199
+              },
+              {
+                "x": 8847,
+                "z": 9184
+              },
+              {
+                "x": 8847,
+                "z": 9183
+              }
+            ]
+          ]
+        ]
       },
       {
         "tooltip_anchor": {
@@ -7741,7 +7831,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Farland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">adventure12255</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>adventure12255, JadeTempest, TripleFrosty3, NewDarks, miashap1129, Sageii</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Farland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">adventure12255</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>adventure12255, JadeTempest, TripleFrosty3, NewDarks, miashap1129, Sageii, Ehpik</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -10452,6 +10542,28 @@
             ]
           ]
         ]
+      },
+      {
+        "tooltip_anchor": {
+          "x": 0,
+          "z": -17
+        },
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Corals </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Wimpbean</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Wimpbean</span>\r\n</div>",
+        "size": {
+          "x": 35,
+          "z": 35
+        },
+        "anchor": {
+          "x": 17,
+          "z": 17
+        },
+        "tooltip": "\r\n<div>\r\n    <bold>The_Corals </bold>\r\n</div>\r\n",
+        "icon": "towny_town_icon",
+        "type": "icon",
+        "point": {
+          "x": -7272,
+          "z": -2008
+        }
       },
       {
         "fillColor": "#c0c0c0",
@@ -13829,7 +13941,7 @@
       },
       {
         "fillColor": "#f0e68c",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Whiterun (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LIONsaysROAR</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">xyzDani</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LIONsaysROAR, Ocean_Panther, Crasoum, Cowichanninja, tempyyyy, SwagPig01, ArloYT, Diamond_King78, BR__redmushroom3, Grievous52, CoffeeGhost55, SpiritPoppy, __paroxysm, xyzDani, theoctoguy, CptRedfish, Pupchamp, TommyFan69, AR_SV504, DpXammo, IoninPeach, Baked_Strawberry</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Whiterun (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LIONsaysROAR</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">xyzDani</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LIONsaysROAR, Ocean_Panther, Crasoum, Cowichanninja, tempyyyy, SwagPig01, ArloYT, Diamond_King78, BR__redmushroom3, Grievous52, CoffeeGhost55, SpiritPoppy, __paroxysm, xyzDani, theoctoguy, CptRedfish, Pupchamp, TommyFan69, AR_SV504, DpXammo, IoninPeach, Baked_Strawberry, Themastabutcher, vanessa204, tabbycat4632</span>\r\n</div>",
         "color": "#f0e68c",
         "tooltip": "\r\n<div>\r\n    <bold>Whiterun (Skyrim)</bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -15009,7 +15121,7 @@
       },
       {
         "fillColor": "#006400",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan, Adore_Kay, ExplodinMaster, j070, tyleristheboss12, BalmierBear6628</span>\r\n</div>",
         "color": "#006400",
         "tooltip": "\r\n<div>\r\n    <bold>AppleGroves (Harmonia)</bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -22303,7 +22415,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Waterdeep </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Punished_Venom</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Punished_Venom, Cosmaut, BR__FlamePlay204, Brikenban, Kevje2002, GodlySeal, Rxdar, ThrillzCOF, Death_Skull608, blondiesbrownie, TheUnicornian1, BluntSweater, Mikey3887, RandomMandum, SGT_McGriddle, Abraca_Daniel, Reclusiveness, AnotherMichelle, Byron4163, Rivers_3dge, KingOli617, Itik_Hijau, Eatatoe, Lemar_Sullivan, _Andromeda, oo00OO00oo</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Waterdeep </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Punished_Venom</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">RandomMandum</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Punished_Venom, Cosmaut, Brikenban, GodlySeal, Rxdar, Death_Skull608, blondiesbrownie, TheUnicornian1, BluntSweater, Mikey3887, RandomMandum, SGT_McGriddle, Abraca_Daniel, Reclusiveness, AnotherMichelle, Byron4163, Rivers_3dge, KingOli617, _Andromeda, oo00OO00oo, rennymcmuffin, BR__Immortal_Aph, KuronoKira, GeorgeDiscoPanda, shrekinat, SeaWaterOtter</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -41237,7 +41349,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, NightHawkDB, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alabasta </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">MrMcFluffy23</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>MrMcFluffy23, SnuggieNuggie, ShuShuShoeShop</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -41707,7 +41819,7 @@
       },
       {
         "fillColor": "#0000ff",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, hyperdyne, NighttimeHorror</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, NighttimeHorror</span>\r\n</div>",
         "tooltip": "\r\n<div>\r\n    <bold>TheFree (Hot_Boy_Nation)</bold>\r\n</div>\r\n",
         "type": "polygon",
         "points": [
@@ -49425,6 +49537,35 @@
         ]
       },
       {
+        "fillColor": "#4b0082",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">The_Corals </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Wimpbean</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Wimpbean</span>\r\n</div>",
+        "color": "#4b0082",
+        "tooltip": "\r\n<div>\r\n    <bold>The_Corals </bold>\r\n</div>\r\n",
+        "type": "polygon",
+        "points": [
+          [
+            [
+              {
+                "x": -7280,
+                "z": -2001
+              },
+              {
+                "x": -7265,
+                "z": -2001
+              },
+              {
+                "x": -7265,
+                "z": -2016
+              },
+              {
+                "x": -7280,
+                "z": -2016
+              }
+            ]
+          ]
+        ]
+      },
+      {
         "fillColor": "#ff8c00",
         "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">SpringVille </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">springtyme</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>springtyme, Vladislav2002, Saikio</span>\r\n</div>",
         "color": "#ff8c00",
@@ -49662,7 +49803,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">GamerGods </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">R0MANSREVENGE</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BlocksDontLie, R0MANSREVENGE, twistedbabes</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">GamerGods </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">R0MANSREVENGE</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>R0MANSREVENGE, twistedbabes</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -49678,99 +49819,6 @@
           "x": -2760,
           "z": -11000
         }
-      },
-      {
-        "fillColor": "#ff8c00",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">KnappyVille </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TypicalKnapp</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TypicalKnapp</span>\r\n</div>",
-        "color": "#ff8c00",
-        "tooltip": "\r\n<div>\r\n    <bold>KnappyVille </bold>\r\n</div>\r\n",
-        "type": "polygon",
-        "points": [
-          [
-            [
-              {
-                "x": -8704,
-                "z": -9585
-              },
-              {
-                "x": -8689,
-                "z": -9585
-              },
-              {
-                "x": -8689,
-                "z": -9600
-              },
-              {
-                "x": -8689,
-                "z": -9601
-              },
-              {
-                "x": -8689,
-                "z": -9616
-              },
-              {
-                "x": -8689,
-                "z": -9617
-              },
-              {
-                "x": -8689,
-                "z": -9632
-              },
-              {
-                "x": -8689,
-                "z": -9633
-              },
-              {
-                "x": -8689,
-                "z": -9648
-              },
-              {
-                "x": -8704,
-                "z": -9648
-              },
-              {
-                "x": -8705,
-                "z": -9648
-              },
-              {
-                "x": -8720,
-                "z": -9648
-              },
-              {
-                "x": -8720,
-                "z": -9633
-              },
-              {
-                "x": -8720,
-                "z": -9632
-              },
-              {
-                "x": -8720,
-                "z": -9617
-              },
-              {
-                "x": -8720,
-                "z": -9616
-              },
-              {
-                "x": -8720,
-                "z": -9601
-              },
-              {
-                "x": -8720,
-                "z": -9600
-              },
-              {
-                "x": -8720,
-                "z": -9585
-              },
-              {
-                "x": -8705,
-                "z": -9585
-              }
-            ]
-          ]
-        ]
       },
       {
         "tooltip_anchor": {
@@ -49825,7 +49873,7 @@
       },
       {
         "fillColor": "#add8e6",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Farland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">adventure12255</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>adventure12255, JadeTempest, TripleFrosty3, NewDarks, miashap1129, Sageii</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Farland </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">adventure12255</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>adventure12255, JadeTempest, TripleFrosty3, NewDarks, miashap1129, Sageii, Ehpik</span>\r\n</div>",
         "color": "#add8e6",
         "tooltip": "\r\n<div>\r\n    <bold>Farland </bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -51711,7 +51759,29 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Kilead (Republic)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">ilefranc</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>ilefranc, itsRas, Misterwalrus, Exterioz, SaintKetchup, RoloOite, ITz_SkuLLy</span>\r\n</div>",
+        "size": {
+          "x": 35,
+          "z": 35
+        },
+        "anchor": {
+          "x": 17,
+          "z": 17
+        },
+        "tooltip": "\r\n<div>\r\n    <bold>Kilead (Republic)</bold>\r\n</div>\r\n",
+        "icon": "towny_outpost_icon",
+        "type": "icon",
+        "point": {
+          "x": -10420,
+          "z": 2014
+        }
+      },
+      {
+        "tooltip_anchor": {
+          "x": 0,
+          "z": -17
+        },
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan, Adore_Kay, ExplodinMaster, j070, tyleristheboss12, BalmierBear6628</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -52077,120 +52147,120 @@
                 "z": -12944
               },
               {
+                "x": -12465,
+                "z": -12945
+              },
+              {
+                "x": -12465,
+                "z": -12960
+              },
+              {
                 "x": -12480,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12481,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12496,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12497,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12512,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12513,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12528,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12529,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12544,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12545,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12560,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12561,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12576,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12577,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12592,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12593,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12608,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12609,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12624,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12625,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12640,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12641,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12656,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12657,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12672,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12673,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12688,
-                "z": -12944
-              },
-              {
-                "x": -12689,
-                "z": -12944
-              },
-              {
-                "x": -12689,
-                "z": -12945
+                "z": -12960
               },
               {
                 "x": -12689,
@@ -52217,128 +52287,128 @@
                 "z": -12976
               },
               {
-                "x": -12720,
+                "x": -12721,
+                "z": -12976
+              },
+              {
+                "x": -12736,
+                "z": -12976
+              },
+              {
+                "x": -12736,
                 "z": -12961
               },
               {
-                "x": -12720,
-                "z": -12960
-              },
-              {
-                "x": -12721,
-                "z": -12960
-              },
-              {
                 "x": -12736,
                 "z": -12960
-              },
-              {
-                "x": -12736,
-                "z": -12945
-              },
-              {
-                "x": -12736,
-                "z": -12944
               },
               {
                 "x": -12737,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12752,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12753,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12768,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12769,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12784,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12785,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12800,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12801,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12816,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12817,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12832,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12833,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12848,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12849,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12864,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12865,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12880,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12881,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12896,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12897,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12912,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12913,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12928,
-                "z": -12944
+                "z": -12960
               },
               {
                 "x": -12929,
-                "z": -12944
+                "z": -12960
+              },
+              {
+                "x": -12944,
+                "z": -12960
+              },
+              {
+                "x": -12944,
+                "z": -12945
               },
               {
                 "x": -12944,
@@ -53098,7 +53168,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Whiterun (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LIONsaysROAR</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">xyzDani</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LIONsaysROAR, Ocean_Panther, Crasoum, Cowichanninja, tempyyyy, SwagPig01, ArloYT, Diamond_King78, BR__redmushroom3, Grievous52, CoffeeGhost55, SpiritPoppy, __paroxysm, xyzDani, theoctoguy, CptRedfish, Pupchamp, TommyFan69, AR_SV504, DpXammo, IoninPeach, Baked_Strawberry</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Whiterun (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LIONsaysROAR</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">xyzDani</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LIONsaysROAR, Ocean_Panther, Crasoum, Cowichanninja, tempyyyy, SwagPig01, ArloYT, Diamond_King78, BR__redmushroom3, Grievous52, CoffeeGhost55, SpiritPoppy, __paroxysm, xyzDani, theoctoguy, CptRedfish, Pupchamp, TommyFan69, AR_SV504, DpXammo, IoninPeach, Baked_Strawberry, Themastabutcher, vanessa204, tabbycat4632</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -60263,7 +60333,7 @@
       },
       {
         "fillColor": "#ffff00",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r, SamTheSamosa, dinotamer05</span>\r\n</div>",
         "color": "#ffff00",
         "tooltip": "\r\n<div>\r\n    <bold>Riverwood (Skyrim)</bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -65055,7 +65125,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Themastabutcher, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, Lewizzalot, UCampUDie2024, AntiPizza</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, UCampUDie2024, AntiPizza</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -65890,7 +65960,7 @@
       },
       {
         "fillColor": "#8b008b",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">GamerGods </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">R0MANSREVENGE</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>BlocksDontLie, R0MANSREVENGE, twistedbabes</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">GamerGods </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">R0MANSREVENGE</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>R0MANSREVENGE, twistedbabes</span>\r\n</div>",
         "color": "#8b008b",
         "tooltip": "\r\n<div>\r\n    <bold>GamerGods </bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -66130,28 +66200,6 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">KnappyVille </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">TypicalKnapp</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>TypicalKnapp</span>\r\n</div>",
-        "size": {
-          "x": 35,
-          "z": 35
-        },
-        "anchor": {
-          "x": 17,
-          "z": 17
-        },
-        "tooltip": "\r\n<div>\r\n    <bold>KnappyVille </bold>\r\n</div>\r\n",
-        "icon": "towny_town_icon",
-        "type": "icon",
-        "point": {
-          "x": -8696,
-          "z": -9608
-        }
-      },
-      {
-        "tooltip_anchor": {
-          "x": 0,
-          "z": -17
-        },
         "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Vinocaye </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">ChromeGoggles</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>ChromeGoggles</span>\r\n</div>",
         "size": {
           "x": 35,
@@ -66174,7 +66222,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Themastabutcher, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, Lewizzalot, UCampUDie2024, AntiPizza</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, UCampUDie2024, AntiPizza</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -68443,7 +68491,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, hyperdyne, NighttimeHorror</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, NighttimeHorror</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -68552,28 +68600,6 @@
             ]
           ]
         ]
-      },
-      {
-        "tooltip_anchor": {
-          "x": 0,
-          "z": -17
-        },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Bork </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LightGuardian32</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LightGuardian32</span>\r\n</div>",
-        "size": {
-          "x": 35,
-          "z": 35
-        },
-        "anchor": {
-          "x": 17,
-          "z": 17
-        },
-        "tooltip": "\r\n<div>\r\n    <bold>Bork </bold>\r\n</div>\r\n",
-        "icon": "towny_town_icon",
-        "type": "icon",
-        "point": {
-          "x": 9656,
-          "z": -7128
-        }
       },
       {
         "fillColor": "#e9967a",
@@ -69569,7 +69595,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, hyperdyne, NighttimeHorror</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">TheFree (Hot_Boy_Nation)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">SimonLA_</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">SmilingChicken2, prezm</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>SmilingChicken2, McMargerita, SimonLA_, prezm, pauchau1029, tilcica, NinoBino, Danthestonerman, FanaticMaple979, BUNNYPAWPOM, PhoenixGamez_, NighttimeHorror</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -75760,115 +75786,6 @@
         ]
       },
       {
-        "fillColor": "#ffff00",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">KO </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Kn0ck0uT_101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Kn0ck0uT_101</span>\r\n</div>",
-        "color": "#ffff00",
-        "tooltip": "\r\n<div>\r\n    <bold>KO </bold>\r\n</div>\r\n",
-        "type": "polygon",
-        "points": [
-          [
-            [
-              {
-                "x": -3024,
-                "z": 1999
-              },
-              {
-                "x": -3009,
-                "z": 1999
-              },
-              {
-                "x": -3009,
-                "z": 1984
-              },
-              {
-                "x": -3024,
-                "z": 1984
-              },
-              {
-                "x": -3025,
-                "z": 1984
-              },
-              {
-                "x": -3040,
-                "z": 1984
-              },
-              {
-                "x": -3041,
-                "z": 1984
-              },
-              {
-                "x": -3041,
-                "z": 1983
-              },
-              {
-                "x": -3041,
-                "z": 1968
-              },
-              {
-                "x": -3056,
-                "z": 1968
-              },
-              {
-                "x": -3056,
-                "z": 1983
-              },
-              {
-                "x": -3056,
-                "z": 1984
-              },
-              {
-                "x": -3057,
-                "z": 1984
-              },
-              {
-                "x": -3072,
-                "z": 1984
-              },
-              {
-                "x": -3072,
-                "z": 1999
-              },
-              {
-                "x": -3057,
-                "z": 1999
-              },
-              {
-                "x": -3056,
-                "z": 1999
-              },
-              {
-                "x": -3056,
-                "z": 2000
-              },
-              {
-                "x": -3056,
-                "z": 2015
-              },
-              {
-                "x": -3041,
-                "z": 2015
-              },
-              {
-                "x": -3040,
-                "z": 2015
-              },
-              {
-                "x": -3025,
-                "z": 2015
-              },
-              {
-                "x": -3025,
-                "z": 2000
-              },
-              {
-                "x": -3025,
-                "z": 1999
-              }
-            ]
-          ]
-        ]
-      },
-      {
         "tooltip_anchor": {
           "x": 0,
           "z": -17
@@ -80568,7 +80485,7 @@
         "icon": "towny_town_icon",
         "type": "icon",
         "point": {
-          "x": -2584,
+          "x": -2616,
           "z": -4536
         }
       },
@@ -82642,16 +82559,16 @@
                 "z": 8112
               },
               {
-                "x": -6000,
-                "z": 8112
-              },
-              {
-                "x": -6001,
-                "z": 8112
-              },
-              {
-                "x": -6001,
+                "x": -5985,
                 "z": 8111
+              },
+              {
+                "x": -5985,
+                "z": 8096
+              },
+              {
+                "x": -6000,
+                "z": 8096
               },
               {
                 "x": -6001,
@@ -82845,24 +82762,6 @@
                 "x": -6001,
                 "z": 8143
               }
-            ],
-            [
-              {
-                "x": -6032,
-                "z": 8127
-              },
-              {
-                "x": -6017,
-                "z": 8127
-              },
-              {
-                "x": -6017,
-                "z": 8112
-              },
-              {
-                "x": -6032,
-                "z": 8112
-              }
             ]
           ]
         ]
@@ -82872,7 +82771,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r, SamTheSamosa, dinotamer05</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -84450,88 +84349,88 @@
                 "z": -304
               },
               {
-                "x": -160,
-                "z": -304
-              },
-              {
-                "x": -161,
-                "z": -304
-              },
-              {
-                "x": -176,
-                "z": -304
-              },
-              {
-                "x": -177,
-                "z": -304
-              },
-              {
-                "x": -192,
-                "z": -304
-              },
-              {
-                "x": -193,
-                "z": -304
-              },
-              {
-                "x": -208,
-                "z": -304
-              },
-              {
-                "x": -209,
-                "z": -304
-              },
-              {
-                "x": -209,
+                "x": -145,
                 "z": -305
               },
               {
-                "x": -209,
+                "x": -145,
                 "z": -320
               },
               {
-                "x": -209,
+                "x": -145,
                 "z": -321
               },
               {
-                "x": -209,
+                "x": -145,
                 "z": -336
               },
               {
-                "x": -224,
-                "z": -336
-              },
-              {
-                "x": -225,
-                "z": -336
-              },
-              {
-                "x": -240,
-                "z": -336
-              },
-              {
-                "x": -241,
-                "z": -336
-              },
-              {
-                "x": -241,
+                "x": -145,
                 "z": -337
               },
               {
-                "x": -241,
+                "x": -145,
                 "z": -352
               },
               {
-                "x": -241,
+                "x": -160,
+                "z": -352
+              },
+              {
+                "x": -161,
+                "z": -352
+              },
+              {
+                "x": -176,
+                "z": -352
+              },
+              {
+                "x": -177,
+                "z": -352
+              },
+              {
+                "x": -192,
+                "z": -352
+              },
+              {
+                "x": -193,
+                "z": -352
+              },
+              {
+                "x": -193,
                 "z": -353
               },
               {
-                "x": -241,
+                "x": -193,
                 "z": -368
               },
               {
-                "x": -241,
+                "x": -193,
                 "z": -369
+              },
+              {
+                "x": -193,
+                "z": -384
+              },
+              {
+                "x": -208,
+                "z": -384
+              },
+              {
+                "x": -209,
+                "z": -384
+              },
+              {
+                "x": -224,
+                "z": -384
+              },
+              {
+                "x": -225,
+                "z": -384
+              },
+              {
+                "x": -240,
+                "z": -384
               },
               {
                 "x": -241,
@@ -90009,7 +89908,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, iMafer_, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">AppleGroves (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">AppleCider9283</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>territhian, AppleCider9283, aymaw, IxR0x, KrisW, HSperer, Professor_Drake, TheBlitzo, AceTongkat, lostsnus, Headless_M8, firedragonlady57, Solzsiccia, 94thJurk, Chizmaro, MrGravy1110, Ekimmmm, SeaBIaze, TriniumJP, PaganAthiest, BigCheesy, XP_PD, Storm_Singer, Exile_Live, BenevolentTrash, LordSparda13, JustMochi, Van__, TPrincess101, democraz, Kayelixir, Pioos07, VillagersedgeYT, NaNVierAnata, Commander_Cumrad, Combified, DrMarkoYT, luggi9260, Hermione_Leviosa, AlphaLibraek, GabrielCait, ArmoredPlate2, NoobyDud1234, CamTheMan4714, Liz_Loz_Luv, Jxm_18, mettyuz, Switch0r, zGlqx, Joemrulz, MrStauf, Shymuy, BR__CAPTIANRISKY, Philipsi08, Acidicpotato452, legojonas, Justin_CBF, EliteVR1, Aidatic, Master2021, soccerboyAT, BLTRover, williamh1234, Dromayr, Buikje, galacticlunairy, ShadowSlayer6437, Zephocri, PricedMender935, BarrackObamaReal, OwenMckiernan, Adore_Kay, ExplodinMaster, j070, tyleristheboss12, BalmierBear6628</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -91846,6 +91745,28 @@
             ]
           ]
         ]
+      },
+      {
+        "tooltip_anchor": {
+          "x": 0,
+          "z": -17
+        },
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Norwania </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Geradod</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Geradod</span>\r\n</div>",
+        "size": {
+          "x": 35,
+          "z": 35
+        },
+        "anchor": {
+          "x": 17,
+          "z": 17
+        },
+        "tooltip": "\r\n<div>\r\n    <bold>Norwania </bold>\r\n</div>\r\n",
+        "icon": "towny_town_icon",
+        "type": "icon",
+        "point": {
+          "x": 1144,
+          "z": -3688
+        }
       },
       {
         "tooltip_anchor": {
@@ -101349,6 +101270,218 @@
           [
             [
               {
+                "x": -10416,
+                "z": 2047
+              },
+              {
+                "x": -10401,
+                "z": 2047
+              },
+              {
+                "x": -10401,
+                "z": 2032
+              },
+              {
+                "x": -10401,
+                "z": 2031
+              },
+              {
+                "x": -10401,
+                "z": 2016
+              },
+              {
+                "x": -10401,
+                "z": 2015
+              },
+              {
+                "x": -10401,
+                "z": 2000
+              },
+              {
+                "x": -10401,
+                "z": 1999
+              },
+              {
+                "x": -10401,
+                "z": 1984
+              },
+              {
+                "x": -10416,
+                "z": 1984
+              },
+              {
+                "x": -10417,
+                "z": 1984
+              },
+              {
+                "x": -10432,
+                "z": 1984
+              },
+              {
+                "x": -10433,
+                "z": 1984
+              },
+              {
+                "x": -10448,
+                "z": 1984
+              },
+              {
+                "x": -10449,
+                "z": 1984
+              },
+              {
+                "x": -10464,
+                "z": 1984
+              },
+              {
+                "x": -10465,
+                "z": 1984
+              },
+              {
+                "x": -10480,
+                "z": 1984
+              },
+              {
+                "x": -10481,
+                "z": 1984
+              },
+              {
+                "x": -10496,
+                "z": 1984
+              },
+              {
+                "x": -10497,
+                "z": 1984
+              },
+              {
+                "x": -10512,
+                "z": 1984
+              },
+              {
+                "x": -10512,
+                "z": 1999
+              },
+              {
+                "x": -10512,
+                "z": 2000
+              },
+              {
+                "x": -10513,
+                "z": 2000
+              },
+              {
+                "x": -10528,
+                "z": 2000
+              },
+              {
+                "x": -10529,
+                "z": 2000
+              },
+              {
+                "x": -10544,
+                "z": 2000
+              },
+              {
+                "x": -10544,
+                "z": 2015
+              },
+              {
+                "x": -10544,
+                "z": 2016
+              },
+              {
+                "x": -10544,
+                "z": 2031
+              },
+              {
+                "x": -10529,
+                "z": 2031
+              },
+              {
+                "x": -10528,
+                "z": 2031
+              },
+              {
+                "x": -10528,
+                "z": 2032
+              },
+              {
+                "x": -10528,
+                "z": 2047
+              },
+              {
+                "x": -10528,
+                "z": 2048
+              },
+              {
+                "x": -10528,
+                "z": 2063
+              },
+              {
+                "x": -10513,
+                "z": 2063
+              },
+              {
+                "x": -10512,
+                "z": 2063
+              },
+              {
+                "x": -10497,
+                "z": 2063
+              },
+              {
+                "x": -10496,
+                "z": 2063
+              },
+              {
+                "x": -10481,
+                "z": 2063
+              },
+              {
+                "x": -10480,
+                "z": 2063
+              },
+              {
+                "x": -10465,
+                "z": 2063
+              },
+              {
+                "x": -10465,
+                "z": 2048
+              },
+              {
+                "x": -10465,
+                "z": 2047
+              },
+              {
+                "x": -10464,
+                "z": 2047
+              },
+              {
+                "x": -10449,
+                "z": 2047
+              },
+              {
+                "x": -10448,
+                "z": 2047
+              },
+              {
+                "x": -10433,
+                "z": 2047
+              },
+              {
+                "x": -10432,
+                "z": 2047
+              },
+              {
+                "x": -10417,
+                "z": 2047
+              }
+            ]
+          ],
+          [
+            [
+              {
                 "x": -10640,
                 "z": -3857
               },
@@ -102695,7 +102828,7 @@
       },
       {
         "fillColor": "#a52a2a",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Themastabutcher, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, Lewizzalot, UCampUDie2024, AntiPizza</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Eytown (Harmonia)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Eystreem21</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">Fallloutgibi</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Eystreem21, Fallloutgibi, Lukechowdhary1, n0tdana, Elmanzana, UCampUDie2024, AntiPizza</span>\r\n</div>",
         "color": "#a52a2a",
         "tooltip": "\r\n<div>\r\n    <bold>Eytown (Harmonia)</bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -104003,35 +104136,6 @@
           "x": -3976,
           "z": 8696
         }
-      },
-      {
-        "fillColor": "#f0e68c",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Bork </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">LightGuardian32</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">true</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>LightGuardian32</span>\r\n</div>",
-        "color": "#f0e68c",
-        "tooltip": "\r\n<div>\r\n    <bold>Bork </bold>\r\n</div>\r\n",
-        "type": "polygon",
-        "points": [
-          [
-            [
-              {
-                "x": 9648,
-                "z": -7121
-              },
-              {
-                "x": 9663,
-                "z": -7121
-              },
-              {
-                "x": 9663,
-                "z": -7136
-              },
-              {
-                "x": 9648,
-                "z": -7136
-              }
-            ]
-          ]
-        ]
       },
       {
         "fillColor": "#008000",
@@ -108007,28 +108111,6 @@
             ]
           ]
         ]
-      },
-      {
-        "tooltip_anchor": {
-          "x": 0,
-          "z": -17
-        },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">KO </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Kn0ck0uT_101</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Kn0ck0uT_101</span>\r\n</div>",
-        "size": {
-          "x": 35,
-          "z": 35
-        },
-        "anchor": {
-          "x": 17,
-          "z": 17
-        },
-        "tooltip": "\r\n<div>\r\n    <bold>KO </bold>\r\n</div>\r\n",
-        "icon": "towny_town_icon",
-        "type": "icon",
-        "point": {
-          "x": -3032,
-          "z": 1992
-        }
       },
       {
         "fillColor": "#808000",
@@ -112925,6 +113007,28 @@
         }
       },
       {
+        "tooltip_anchor": {
+          "x": 0,
+          "z": -17
+        },
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Alexandria </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">pigholex98</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>pigholex98</span>\r\n</div>",
+        "size": {
+          "x": 35,
+          "z": 35
+        },
+        "anchor": {
+          "x": 17,
+          "z": 17
+        },
+        "tooltip": "\r\n<div>\r\n    <bold>Alexandria </bold>\r\n</div>\r\n",
+        "icon": "towny_town_icon",
+        "type": "icon",
+        "point": {
+          "x": 8840,
+          "z": 9192
+        }
+      },
+      {
         "fillColor": "#9932cc",
         "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Mansehra </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Danial_Arshad</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Danial_Arshad</span>\r\n</div>",
         "color": "#9932cc",
@@ -116285,7 +116389,7 @@
       },
       {
         "fillColor": "#a9a9a9",
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Waterdeep </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Punished_Venom</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">None</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Punished_Venom, Cosmaut, BR__FlamePlay204, Brikenban, Kevje2002, GodlySeal, Rxdar, ThrillzCOF, Death_Skull608, blondiesbrownie, TheUnicornian1, BluntSweater, Mikey3887, RandomMandum, SGT_McGriddle, Abraca_Daniel, Reclusiveness, AnotherMichelle, Byron4163, Rivers_3dge, KingOli617, Itik_Hijau, Eatatoe, Lemar_Sullivan, _Andromeda, oo00OO00oo</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Waterdeep </span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Punished_Venom</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">RandomMandum</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>Punished_Venom, Cosmaut, Brikenban, GodlySeal, Rxdar, Death_Skull608, blondiesbrownie, TheUnicornian1, BluntSweater, Mikey3887, RandomMandum, SGT_McGriddle, Abraca_Daniel, Reclusiveness, AnotherMichelle, Byron4163, Rivers_3dge, KingOli617, _Andromeda, oo00OO00oo, rennymcmuffin, BR__Immortal_Aph, KuronoKira, GeorgeDiscoPanda, shrekinat, SeaWaterOtter</span>\r\n</div>",
         "color": "#a9a9a9",
         "tooltip": "\r\n<div>\r\n    <bold>Waterdeep </bold>\r\n</div>\r\n",
         "type": "polygon",
@@ -116437,16 +116541,16 @@
                 "z": -8016
               },
               {
-                "x": 8080,
-                "z": -8001
-              },
-              {
-                "x": 8080,
-                "z": -8000
-              },
-              {
                 "x": 8079,
-                "z": -8000
+                "z": -8016
+              },
+              {
+                "x": 8064,
+                "z": -8016
+              },
+              {
+                "x": 8064,
+                "z": -8001
               },
               {
                 "x": 8064,
@@ -116461,20 +116565,36 @@
                 "z": -8000
               },
               {
-                "x": 8048,
+                "x": 8047,
+                "z": -8000
+              },
+              {
+                "x": 8032,
+                "z": -8000
+              },
+              {
+                "x": 8032,
                 "z": -7985
               },
               {
-                "x": 8048,
+                "x": 8032,
                 "z": -7984
               },
               {
-                "x": 8048,
+                "x": 8032,
                 "z": -7969
               },
               {
-                "x": 8048,
+                "x": 8032,
                 "z": -7968
+              },
+              {
+                "x": 8032,
+                "z": -7953
+              },
+              {
+                "x": 8047,
+                "z": -7953
               },
               {
                 "x": 8048,
@@ -116549,16 +116669,80 @@
                 "z": -7856
               },
               {
-                "x": 8080,
+                "x": 8079,
+                "z": -7856
+              },
+              {
+                "x": 8064,
+                "z": -7856
+              },
+              {
+                "x": 8064,
                 "z": -7841
+              },
+              {
+                "x": 8064,
+                "z": -7840
+              },
+              {
+                "x": 8064,
+                "z": -7825
+              },
+              {
+                "x": 8064,
+                "z": -7824
+              },
+              {
+                "x": 8064,
+                "z": -7809
+              },
+              {
+                "x": 8079,
+                "z": -7809
+              },
+              {
+                "x": 8080,
+                "z": -7809
               },
               {
                 "x": 8095,
-                "z": -7841
+                "z": -7809
               },
               {
                 "x": 8096,
-                "z": -7841
+                "z": -7809
+              },
+              {
+                "x": 8111,
+                "z": -7809
+              },
+              {
+                "x": 8112,
+                "z": -7809
+              },
+              {
+                "x": 8127,
+                "z": -7809
+              },
+              {
+                "x": 8127,
+                "z": -7824
+              },
+              {
+                "x": 8127,
+                "z": -7825
+              },
+              {
+                "x": 8127,
+                "z": -7840
+              },
+              {
+                "x": 8112,
+                "z": -7840
+              },
+              {
+                "x": 8111,
+                "z": -7840
               },
               {
                 "x": 8111,
@@ -116637,7 +116821,7 @@
           "x": 0,
           "z": -17
         },
-        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r</span>\r\n</div>",
+        "popup": "\r\n<div class=\"infowindow\">\r\n    <span style=\"font-size:120%;\">Riverwood (Skyrim)</span>\r\n    <br/>\r\n    Mayor:\r\n    <span style=\"font-weight:bold;\">Zex1mus</span>\r\n    <br/>\r\n    Assistants:\r\n    <span style=\"font-weight:bold;\">OverExtendedd, Kipology</span>\r\n    <br/>\r\n    PVP:\r\n    <span style=\"font-weight:bold;\">false</span>\r\n    <br>\r\n    <bold>Residents: </bold><span>athiestman, soxfan1998, Zex1mus, YifanPires, Sassy404, TheProdxJumper, Bobby_Boy_301, faboom, yumichai, OverExtendedd, Pacorox, Powerplayerplus, Fantsyboy, Abbythequeen245, auradiplo, KellyFloyd, ShadyDestroyer, MulPen, Milabear10, Ra1d3rr, Kipology, Keymop, DeadOrFame2000, RedEyedFox, awesomemanb3, Raito06, SmashX101, darcstar, BR__JoeyDude1231, kyopid, BaphometSA, Waroxic, GoddzOfDarkness, Mitis_G4m3r, SamTheSamosa, dinotamer05</span>\r\n</div>",
         "size": {
           "x": 35,
           "z": 35
@@ -117903,7 +118087,7 @@
       }
     ],
     "order": 5,
-    "timestamp": 1640446739131
+    "timestamp": 1640483244379
   },
   {
     "hide": false,

@@ -1,6 +1,6 @@
 import { MessageEmbed } from "discord.js";
-import { Client, CYT } from "../indexOld";
-import Town from "./town";
+import { Client, CYT } from "./oldModules/indexOld";
+import Town from "../town";
 import Discord from "discord.js";
 
 export const roles = {

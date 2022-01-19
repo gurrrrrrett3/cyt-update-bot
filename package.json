@@ -4,16 +4,15 @@
         "dotenv": "^10.0.0",
         "fuzzyset": "^1.0.6",
         "node-canvas": "^2.7.0",
-        "node-fetch": "2",
-        "node-html-parser": "^5.1.0"
+        "node-fetch": "2"
     },
     "name": "cyt-update-bot",
     "version": "1.0.0",
-    "main": "./out/index.js",
+    "main": "./dist/index.js",
     "scripts": {
         "build": "tsc",
-        "run": "npm run build && node out/index.js",
-        "test": "npm run build && node out/test.js"
+        "run": "npm run build && node dist/index.js",
+        "test": "node dist/test.js"
     },
     "repository": {
         "type": "git",

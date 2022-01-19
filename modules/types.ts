@@ -1,64 +1,35 @@
-export type World = "world" | "earth" | "world_nether" | "world_the_end"
-export type mapWorld = "world" | "earth" | "world_nether" | "world_the_end" | "extras" | "parkour"
+import { Client, Message } from "discord.js";
 
-export type Coords = {
-    x: number
-    z: number
-}
+export type Command = {
+  name: string;
+  description: string;
+  category: string;
+  aliases: string[];
+  execute: (Client: Client, message: Message, args: string[]) => void;
+};
 
-export type Zoom = "1" | "2" | "3" | "4" | "5"
-export type MapZoom = "0" | "1" | "2" | "3"
-
-export type MarkerPolygonData = {
-
-    "fillColor": string,
-    "popup": string,
-    "color": string,
-    "tooltip": string,
-    "type": "polygon",
-    "points": [[{
-        "x": number,
-        "z": number
-    }]]
-
-
-}
-
-export type MarkerIconData = {
-
-    "tooltip_anchor": {
-        "z": number,
-        "x": number
-    },
-    "popup": string,
-    "size": {
-        "z": number,
-        "x": number
-    },
-    "anchor": {
-        "z": number,
-        "x": number
-    },
-    "tooltip": string,
-    "icon": string,
-    "type": "icon",
-    "point": {
-        "z": number,
-        "x": number
-    }
-}
-
-export type Bounds = {
-   min: {
-         x: number
-         z: number
-    },
-    max: {
-        x: number
-        z: number
-    }
-}
-
-export type Polygon = {
-    points: Array<Coords>
-}
+export type Player = {
+    world: string;
+    armor: number;
+    name: string;
+    x: number;
+    health: number;
+    z: number;
+    uuid: string;
+    yaw: number;
+  };
+  
+  export type Town = {
+    name: string;
+    mayor: string;
+    assistants: string[];
+    residents: string[];
+    pvp: boolean;
+    world: string;
+    coords: Coords;
+  };
+  
+  export type Coords = {
+    x: number;
+    z: number;
+  };

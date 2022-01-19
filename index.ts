@@ -1,5 +1,6 @@
 import Discord from 'discord.js';
 import dotenv from 'dotenv';
+import { commandHandler } from './modules/commandHandler';
 
 import events, {handleEvent} from './modules/eventHandler';
 
@@ -9,6 +10,10 @@ const Client = new Discord.Client({intents: ['GUILDS', 'GUILD_MESSAGE_REACTIONS'
 
 Client.login(process.env.TOKEN);
 
-events.forEach(event => {
-    Client.on(event.name, handleEvent.bind(null, event.name, Client));
-});
+Client.on('ready', () => {
+    handleEvent('ready', Client);
+    });
+
+    Client.on('messageCreate', (message) => {
+        commandHandler(Client, message);
+    });

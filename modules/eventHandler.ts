@@ -1,8 +1,9 @@
 import Discord from "discord.js";
+import { commandHandler } from "./commandHandler";
 
 type Event = {
   name: string;
-  execute: (Client: Discord.Client) => void;
+  execute: (Client: Discord.Client, args?: any) => void;
 };
 
 const events: Event[] = [
@@ -18,16 +19,20 @@ const events: Event[] = [
   },
   {
     name: "messageCreate",
-    execute: (Client: Discord.Client) => {},
+    execute: (Client: Discord.Client, message: Discord.Message) => {
+
+      commandHandler(Client, message);
+
+    },
   },
 ];
 
 export default events;
 
-export function handleEvent(Event: string, Client: Discord.Client) {
+export function handleEvent(Event: string, Client: Discord.Client, ...[]) {
   const event = events.find((e) => e.name === Event);
 
   if (event) {
-    return event.execute(Client);
+    return event.execute(Client, ...[]);
   }
 }

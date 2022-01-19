@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+import config from "../config.json";
 export default class Util {
 
     /**
@@ -18,6 +20,16 @@ public static formatTime(time: string | number) {
   
   private static parseNumber(s: number) {
     return s.toString().length == 1 ? `0${s}` : s;
+  }
+
+  public static sendRequest(endpoint: string): Promise<any> {
+    
+    return new Promise((resolve, reject) => {
+        fetch(config.host +  endpoint)
+        .then(res => res.json())
+        .then(json => resolve(json))
+        .catch(err => reject(err));
+    });
   }
 
 

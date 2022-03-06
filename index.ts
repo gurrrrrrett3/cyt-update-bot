@@ -1,23 +1,15 @@
-import Discord from 'discord.js';
 import dotenv from 'dotenv';
-import { commandHandler } from './modules/commandHandler';
+import CommandClient from './modules/commandClient';
 import EmbedHandler from './modules/embedHandler';
-
-import events, {handleEvent} from './modules/eventHandler';
 
 dotenv.config();
 
-const Client = new Discord.Client({intents: ['GUILDS', 'GUILD_MESSAGE_REACTIONS', 'GUILD_WEBHOOKS', 'GUILD_MESSAGES']});
+const Client = new CommandClient(process.env.TOKEN as string, process.env.APPLICATION_ID as string);
 
 Client.login(process.env.TOKEN);
 
-Client.on('ready', () => {
-    handleEvent('ready', Client);
+Client.once('ready', () => {
     new EmbedHandler(Client);
 
     Client.user?.setActivity('on craftyour.town', {type: 'PLAYING'});
-    });
-
-    Client.on('messageCreate', (message) => {
-        commandHandler(Client, message);
     });

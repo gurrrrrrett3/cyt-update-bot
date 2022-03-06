@@ -1,6 +1,7 @@
 import Discord from 'discord.js';
 import dotenv from 'dotenv';
 import { commandHandler } from './modules/commandHandler';
+import EmbedHandler from './modules/embedHandler';
 
 import events, {handleEvent} from './modules/eventHandler';
 
@@ -12,6 +13,9 @@ Client.login(process.env.TOKEN);
 
 Client.on('ready', () => {
     handleEvent('ready', Client);
+    new EmbedHandler(Client);
+
+    Client.user?.setActivity('on craftyour.town', {type: 'PLAYING'});
     });
 
     Client.on('messageCreate', (message) => {

@@ -1,3 +1,7 @@
 {
-    "host": "http://localhost:8080/api/cyt"
+    "host": "http://localhost:8080/api/cyt",
+    "embeds": {
+        "info": "909839378086506497",
+        "updateInterval": 1e4
+    }
 }

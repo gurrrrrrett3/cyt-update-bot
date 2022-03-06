@@ -56,7 +56,7 @@ export default class EmbedHandler {
   }
 
   public async sendOnlineListEmbed(channel: Discord.TextChannel, message?: Discord.Message) {
-        Util.sendRequest("/players").then((res: Players) => {
+        Util.getPlayers().then((res: Players) => {
             const embed = new Discord.MessageEmbed()
                 .setTitle("Online List")
                 .setDescription(Util.formatPlayerList(res))

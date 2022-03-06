@@ -34,6 +34,15 @@ public static formatTime(time: string | number) {
     });
   }
 
+  public static async getPlayers(): Promise<Players> {
+    return new Promise((resolve, reject) => {
+       fetch(config.players)
+        .then(res => res.json())
+        .then(json => resolve(json))
+        .catch(err => reject(err));
+    });
+}
+
 public static formatEmbedDescription(data: Online, uptime: number): string {
     const d: String[] = [];
     d.push(`**Players Online:**`);

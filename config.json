@@ -1,5 +1,6 @@
 {
     "host": "http://localhost:8080/api/cyt",
+    "players": "https://map.craftyourtown.com/tiles/players.json",
     "embeds": {
         "info": "909839378086506497",
         "updateInterval": 1e4

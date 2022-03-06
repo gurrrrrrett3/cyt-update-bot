@@ -38,7 +38,7 @@ public static formatTime(time: string | number) {
     return new Promise((resolve, reject) => {
        fetch(config.players)
         .then(res => res.json())
-        .then(json => resolve(json))
+        .then(json => resolve(json.players))
         .catch(err => reject(err));
     });
 }
@@ -74,7 +74,7 @@ public static formatPlayerList(data: Players): string {
 
 
   data.forEach((player) => {
-    this.isPlayerAfk(player) ? d.push(`[**afk**] ${this.sanitize(player.name)}`) : d.push(`[**${player.world}**] [${this.sanitize(player.name)}](${this.generateMapLink(player.world, player.x, player.z)})`);
+    this.isPlayerAfk(player) ? d.push(`[**afk**] ${this.sanitize(player.name)}`) : d.push(`[**${player.world}**] ${this.sanitize(player.name)}`);
   })
 
   let tooBig = d.join("\n").length > 4080

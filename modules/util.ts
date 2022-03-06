@@ -58,23 +58,14 @@ public static formatEmbedDescription(data: Online, uptime: number): string {
 public static formatPlayerList(data: Players): string {
   const d: string[] = [];
 
-  const worldIndex = [
-    "parkour",
-    "world_the_end",
-    "world_nether",
-    "earth",
-    "world"
-  ]
 
   data.sort((a, b) => {
-    if (this.isPlayerAfk(a)) return -1
-    if (this.isPlayerAfk(b)) return 1
-    return worldIndex.indexOf(a.world) - worldIndex.indexOf(b.world); 
+    return this.isPlayerAfk(a) ? 1 : -1;
   });
 
 
   data.forEach((player) => {
-    this.isPlayerAfk(player) ? d.push(`[**${player.world}**] ${player.name}`) : d.push(`[**afk**] *${player.name}*`);
+    this.isPlayerAfk(player) ? d.push(`[**afk**] ${this.sanitize(player.name)}`) : d.push(`[**${player.world}**] ${this.sanitize(player.name)}`);
   })
 
   let tooBig = d.join("\n").length > 2000
@@ -92,6 +83,11 @@ public static formatPlayerList(data: Players): string {
 
 public static isPlayerAfk(player: Player): boolean {
     return player.x == 25 && player.z == 42;
+}
+
+public static sanitize(str: string): string {
+  //escape underscores
+  return str.replace(/_/g, "\\_");
 }
 
 }

@@ -65,29 +65,32 @@ public static formatPlayerList(data: Players): string {
 
 
   data.forEach((player) => {
-    this.isPlayerAfk(player) ? d.push(`[**afk**] ${this.sanitize(player.name)}`) : d.push(`[**${player.world}**] ${this.sanitize(player.name)}`);
+    this.isPlayerAfk(player) ? d.push(`[**afk**] ${this.sanitize(player.name)}`) : d.push(`[**${player.world}**] [${this.sanitize(player.name)}](${this.generateMapLink(player.world, player.x, player.z)})`);
   })
 
-  let tooBig = d.join("\n").length > 2000
+  let tooBig = d.join("\n").length > 4080
 
-  while (d.join("\n").length > 1980) {
+  while (d.join("\n").length > 4080) {
     d.pop();
   } 
 
   tooBig !&& d.push(`...and ${data.length - d.length} more`);
 
   //Sort
-
   return d.join("\n");
 }
 
 public static isPlayerAfk(player: Player): boolean {
-    return player.x == 25 && player.z == 42;
+    return (player.x == 25 && player.z == 42) || (player.x == 0 && player.z == 0);
 }
 
 public static sanitize(str: string): string {
   //escape underscores
   return str.replace(/_/g, "\\_");
+}
+
+public static generateMapLink(world: string, x: number, z: number): string {
+    return `https://map.craftyourtown.com#${world};flat;${x},64,${z};5`;
 }
 
 }

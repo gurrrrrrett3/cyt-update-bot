@@ -1,8 +1,14 @@
 {
-    "host": "http://localhost:8080/api/cyt",
-    "players": "https://map.craftyourtown.com/tiles/players.json",
-    "embeds": {
-        "info": "909839378086506497",
-        "updateInterval": 1e4
+    "GUILD": "909808939045113887",
+
+    "PROX": {
+        "RADIUS": 25
+    },
+    "ROLES": {
+        "SERVER_STAFF": "953524666994143272"
+    },
+    "TELEPORT": {
+        "DISTANCE": 250
     }
+    
 }

@@ -1,30 +1,44 @@
 {
-    "dependencies": {
-        "@discordjs/rest": "^0.3.0",
-        "discord.js": "^13.3.1",
-        "dotenv": "^10.0.0",
-        "fuzzyset": "^1.0.6",
-        "node-canvas": "^2.7.0",
-        "node-fetch": "2"
-    },
     "name": "cyt-update-bot",
-    "version": "1.0.0",
-    "main": "./dist/index.js",
+    "version": "5.0.1",
+    "description": "",
+    "main": "dist/index.js",
     "scripts": {
-        "build": "tsc",
-        "run": "npm run build && node dist/index.js",
-        "test": "node dist/test.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/gurrrrrrett3/cyt-update-bot.git"
+      "type": "git",
+      "url": "git+https://github.com/gurrrrrrett3/cyt-update-bot.git"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
-        "url": "https://github.com/gurrrrrrett3/cyt-update-bot/issues"
+      "url": "https://github.com/gurrrrrrett3/cyt-update-bot/issues"
     },
     "homepage": "https://github.com/gurrrrrrett3/cyt-update-bot#readme",
-    "description": ""
-}
+    "dependencies": {
+      "@discordjs/builders": "^0.12.0",
+      "@discordjs/opus": "^0.5.3",
+      "@discordjs/rest": "^0.3.0",
+      "@discordjs/voice": "^0.9.0",
+      "canvas": "^2.9.1",
+      "discord.js": "^13.7.0",
+      "express": "^4.17.3",
+      "ffmpeg-static": "^4.4.1",
+      "libsodium-wrappers": "^0.7.10",
+      "node-html-parser": "^5.3.3",
+      "point-in-polygon": "^1.1.0",
+      "snoowrap": "^1.23.0",
+      "ws": "^8.6.0",
+      "youtube-dl-exec": "^2.0.11",
+      "ytdl-core": "^4.11.0",
+      "ytsr": "^3.8.0"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/express-ws": "^3.0.1",
+      "@types/point-in-polygon": "^1.1.1"
+    }
+  }
+  
